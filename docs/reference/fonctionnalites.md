@@ -1,0 +1,56 @@
+# Index des fonctionnalités et captures
+
+Ce catalogue couvre les commandes exposées par le Studio 0.2.0 et les outils
+complémentaires. Chaque lien ouvre une procédure ; la capture montre le panneau
+réel de la famille concernée. Les capacités uniquement CLI sont documentées
+par leur commande reproductible, sans inventer un écran qui n’existe pas.
+
+| Famille | Fonctions documentées | Capture |
+|---|---|---|
+| [Fichiers](../guide/fichiers.md) | Nouveau, ouvrir, récents, enregistrer, enregistrer sous, import DXF/SVG, export CB/DXF/SVG, glisser-déposer, saisie par chemin | [Voir](../assets/screenshots/02-fichiers.png) |
+| [Interface](../guide/interface.md) | Calques, visibilité, calque courant, sélection, propriétés, console, unités, magnétisme, cadrage et navigation | [Voir](../assets/screenshots/01-interface.png) |
+| [Dessin](../guide/dessin.md) | Ligne, polyligne, rectangle, cercle, arc, sélection, copier/couper/coller et menu contextuel | [Voir](../assets/screenshots/03-dessin.png) |
+| [Propriétés géométriques](../guide/objets.md) | Dimensions, coordonnées, rotation, rayon de coin, cercle, arc et conversion de rectangle | [Voir](../assets/screenshots/04-proprietes-rectangle.png) |
+| [Sommets](../guide/objets.md) | Coordonnées, courbures, insertion, suppression, point de départ, ouvrir/fermer, inverser, nettoyer et poignées | [Voir](../assets/screenshots/21-sommets.png) |
+| [Texte](../guide/texte.md) | Texte, hauteur, espacement, police système ou fichier, placement et vectorisation | [Voir](../assets/screenshots/06-texte.png) |
+| [Transformations](../guide/transformations.md) | Déplacement, copie, rotation, échelle, miroirs, réseau rectangulaire/circulaire, décalages, rainure, division, arrondis, joindre/éclater, booléens | [Voir](../assets/screenshots/05-transformations.png) |
+| [Table d’outils](../guide/outils.md) | Créer, renommer, numéroter, types, diamètre, dents, avances, broche, import de style XML | [Voir](../assets/screenshots/07-outils.png) |
+| [Outils avancés et bibliothèque](../guide/outils.md) | Géométrie, limites, matière, revêtement, notes, changement G-code, suppression/remplacement et bibliothèque locale | [Voir](../assets/screenshots/09-outil-avance.png) |
+| [Calculateur](../guide/calculateur.md) | Matière, Vc, fz, limite de broche, application des résultats à l’outil | [Voir](../assets/screenshots/08-calculateur.png) |
+| [Opérations](../guide/operations.md) | Créer, activer, organiser par pièce, réordonner, dupliquer, supprimer et rattacher les formes | [Voir](../assets/screenshots/10-poche.png) |
+| [Profil](../guide/profil.md) | Extérieur, intérieur, sur le trait et surépaisseur | [Voir](../assets/screenshots/13-profil.png) |
+| [Ponts](../guide/profil.md) | Automatiques, extérieurs/intérieurs, manuels, dimensions, formes, nombres, distance et seuil | [Voir](../assets/screenshots/14-ponts.png) |
+| [Poche](../guide/poche.md) | Contours, îlots, profondeur, incrément, pas latéral et matière laissée | [Voir](../assets/screenshots/10-poche.png) |
+| [Perçage](../guide/percage.md) | Centres, outil, profondeur, temporisation ; picage et cycles via CLI | [Voir](../assets/screenshots/11-percage.png) |
+| [Gravure](../guide/gravure.md) | Tracés ouverts/fermés, contours de texte et profondeur | [Voir](../assets/screenshots/12-gravure.png) |
+| [Paramètres avancés](../guide/parametres.md) | Hauteurs, entrées, ordre des passes, finition, surcoupe, transitions, sens de broche, avances locales et G-code avant/après | [Voir](../assets/screenshots/15-passes-avances.png) |
+| [Brut](../guide/simulation.md) | Automatique, limites manuelles et ajustement au trajet | [Voir](../assets/screenshots/18-brut.png) |
+| [Vue 3D](../guide/simulation.md) | Matière usinée, trajectoires, rotation, zoom et cadrage | [Voir](../assets/screenshots/16-vue-3d.png) |
+| [Simulation](../guide/simulation.md) | Lecture, pause, début, fin, curseur, maillage, volume et gouges | [Voir](../assets/screenshots/17-simulation.png) |
+| [G-code et post-traitement](../guide/gcode.md) | Export NC, post-processeur intégré ou CBPP, contrôle et backplot | [Voir](../assets/screenshots/18-brut.png) |
+| [Scripts](../reference/rhai.md) | Éditeur, ouverture, exécution, journal et API de projet | [Voir](../assets/screenshots/19-script.png) |
+| [Préférences](../reference/raccourcis.md) | Magnétisme, pas, résolution, post-processeur et fichiers récents | [Voir](../assets/screenshots/20-preferences.png) |
+| [Aide et raccourcis](../reference/raccourcis.md) | Aide intégrée, commandes clavier et console | [Voir](../assets/screenshots/22-aide.png) |
+
+## Outils complémentaires
+
+| Outil | Fonctions | Référence |
+|---|---|---|
+| CLI | Inventaire, styles, conversion, parcours directs, construction du projet, scripts, simulation, web et plot | [Commandes complètes](cli.md) |
+| Rhai | Création de formes, transformations, outils, opérations et journal | [API complète](rhai.md) |
+| Post-processeur | Gabarits XML, macros, arcs, numérotation, modalités et changement d’outil | [Propriétés prises en charge](postprocesseurs.md) |
+| Backplot HTML | Zoom, déplacements, animation, filtrage et inspection des trajectoires | [Exemple interactif](../examples/trajectoires.html), [capture](../assets/screenshots/23-backplot.png) |
+| Viewer natif | Lecture G-code, zoom, profondeur et animation | [Utilisation](cli.md#viewer-natif) |
+
+## Provenance et reproduction
+
+Les captures du Studio sont réalisées sur macOS Apple Silicon avec la version
+0.2.0. Le projet de base, son script et ses exports sont disponibles dans le
+[tutoriel](../guide/premier-projet.md). Les vues de ponts, de brut et de simulation
+illustrent des modifications décrites dans le tutoriel. Les images sont des
+captures de l’application ; elles ne sont pas des maquettes d’interface.
+
+Après une modification du produit, mettez à jour la procédure et sa capture
+ensemble. Une case disponible dans un panneau commun ne garantit pas un effet
+sur toutes les stratégies : le guide distingue les réglages actifs des métadonnées
+et des [limites de version](depannage.md).

@@ -1,0 +1,52 @@
+# Dépannage et limites connues
+
+## Résoudre les problèmes courants
+
+| Symptôme | Vérification et solution |
+|---|---|
+| Mauvaise architecture | Télécharger ARM64 ou x64 selon le processeur et l’OS |
+| Linux refuse un binaire avec une erreur GLIBC | Utiliser glibc 2.35+ ou compiler depuis les sources sur le système cible |
+| Fenêtre graphique absente sous Linux | Vérifier session graphique, OpenGL/EGL, pilotes et bibliothèques X11/Wayland |
+| Dialogue de fichier absent | Installer Zenity sous Linux ; utiliser le panneau de saisie par chemin ou la CLI |
+| Texte absent | Installer une police compatible et vérifier son chemin et ses glyphes |
+| Import incomplet | Lire les éléments ignorés, vectoriser le texte et exporter un dessin 2D plus simple |
+| Poche impossible | Fermer les contours, retirer les doublons et vérifier que la fraise passe dans les régions |
+| Parcours ancien encore visible | Corriger l’erreur de calcul avant de se fier au dernier résultat affiché |
+| Modification sans effet | Terminer la saisie ; cliquer **Appliquer** quand le formulaire l’exige |
+| Suppression d’outil refusée | Sélectionner un outil de remplacement pour les opérations utilisatrices |
+| Objet invisible | Vérifier calque visible, cadrage et filtre de trajectoires |
+| Simulation lente | Commencer avec une maille de 1 ou 0,5 mm avant d’affiner |
+| Export différent sur un autre ordinateur | Comparer version, police, préférences et fichier de post-processeur |
+| `--help` demande une valeur | Utiliser `fablabcam help` dans la version 0.2.0 |
+
+## Périmètre de la première version
+
+FabLabCAM est un outil de **dessin 2D et FAO 2.5D**. Il ne propose pas de
+modélisation paramétrique de solides, d’usinage 5 axes, de tournage, de calcul de
+bridage ni de commande directe de la machine. Le viewer de G-code et les pages
+HTML sont des outils d’inspection, pas un contrôleur CNC.
+
+Les importeurs DXF/SVG et le post-processeur XML couvrent un sous-ensemble.
+Les contours doivent être examinés après conversion. Le texte devient une
+collection de formes ; les polices peuvent changer l’apparence lors d’une
+régénération par script.
+
+La simulation utilise une grille de hauteurs. Elle ne détecte pas toutes les
+collisions de machine et ne modélise pas les brides ou le porte-outil complet.
+La fraise torique est assimilée à une fraise droite. Les limites de coupe et
+plusieurs dimensions de l’outil sont informatives, sans contrainte automatique.
+
+Les paquets macOS ne sont pas notariés et les exécutables Windows ne sont pas
+signés commercialement. Les tests automatisés couvrent les calculs et les
+installations ; les captures et la vérification manuelle du Studio de cette
+version ont été réalisées sur macOS Apple Silicon. Cela ne constitue pas une
+validation visuelle exhaustive sur tous les bureaux et pilotes graphiques.
+
+## Signaler un problème
+
+Ouvrez une [issue dans core](https://github.com/FabLabCAM/core/issues) avec la
+version, l’OS, l’architecture, les étapes, le résultat attendu et le message
+observé. Joignez un exemple minimal sans données confidentielles. Pour une erreur
+dans ce guide, utilisez [le dépôt docs](https://github.com/FabLabCAM/docs/issues).
+Les vulnérabilités peuvent être signalées via le canal de sécurité privé de
+GitHub, lorsqu’il est proposé dans l’onglet Security.

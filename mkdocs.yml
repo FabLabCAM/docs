@@ -1,0 +1,81 @@
+site_name: FabLabCAM
+site_description: Guide complet de FabLabCAM Studio — dessin, usinage 2.5D et simulation.
+site_url: https://fablabcam.github.io/docs/
+repo_url: https://github.com/FabLabCAM/docs
+repo_name: FabLabCAM/docs
+edit_uri: edit/main/docs/
+strict: true
+copyright: FabLabCAM contributors · Apache-2.0
+extra:
+  product_version: 0.2.0
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Passer au thème clair
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Passer au thème sombre
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+plugins:
+  - search:
+      lang: fr
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+extra_css:
+  - assets/styles.css
+nav:
+  - Bienvenue: index.md
+  - Premiers pas:
+      - Installation: installation.md
+      - Tutoriel — une plaque usinée: guide/premier-projet.md
+      - Interface et navigation: guide/interface.md
+      - Fichiers et échanges: guide/fichiers.md
+  - Dessiner:
+      - Formes et sélection: guide/dessin.md
+      - Texte et polices: guide/texte.md
+      - Sommets et propriétés: guide/objets.md
+      - Transformations et booléens: guide/transformations.md
+  - Usiner:
+      - Outils et bibliothèque: guide/outils.md
+      - Vitesses et avances: guide/calculateur.md
+      - Organiser les opérations: guide/operations.md
+      - Profil et ponts: guide/profil.md
+      - Poche et îlots: guide/poche.md
+      - Perçage: guide/percage.md
+      - Gravure: guide/gravure.md
+      - Entrées, passes et finition: guide/parametres.md
+      - Brut, 3D et simulation: guide/simulation.md
+      - Exporter le G-code: guide/gcode.md
+  - Automatiser et comprendre:
+      - Scripts Rhai: reference/rhai.md
+      - Ligne de commande: reference/cli.md
+      - Post-processeurs: reference/postprocesseurs.md
+      - Raccourcis et préférences: reference/raccourcis.md
+      - Index des fonctionnalités: reference/fonctionnalites.md
+      - Dépannage et limites: reference/depannage.md
+  - Projet open source:
+      - Architecture et compilation: reference/developpement.md
+      - Versions et licences: reference/versions.md

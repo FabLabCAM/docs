@@ -1,0 +1,51 @@
+# Fichiers, import et export
+
+[![Commandes du menu Fichier](../assets/screenshots/02-fichiers.png)](../assets/screenshots/02-fichiers.png)
+
+## Le projet natif `.cb`
+
+**Nouveau** crée un projet vide. **Ouvrir** charge un fichier et **Récents** retrouve
+les derniers projets. **Enregistrer** écrit au chemin courant ; **Enregistrer sous**
+crée une copie. Le format `.cb` conserve le dessin ainsi que les outils, opérations,
+paramètres et brut du projet FabLabCAM. Il reste le format recommandé pour reprendre
+un travail d’usinage.
+
+Le Studio accepte aussi le glisser-déposer de fichiers. Sur macOS, le bundle déclare
+les extensions `.cb`, `.dxf` et `.svg` pour l’ouverture de documents.
+
+## DXF et SVG
+
+**Importer un dessin** apporte la géométrie d’un DXF ou SVG au projet ; l’ouverture
+d’un document démarre depuis ce document. **Exporter le dessin** produit une sortie
+DXF ou SVG. Les outils, opérations et paramètres machine ne sont pas transportés
+par ces formats d’échange.
+
+Ces lecteurs couvrent un sous-ensemble de dessin 2D. Un DXF peut contenir des entités,
+blocs ou objets non gérés ; un SVG peut contenir du texte non vectorisé, des effets ou
+des éléments non géométriques. Vérifiez les messages, les dimensions, le nombre de
+formes et les contours après import. Exportez les textes en contours depuis votre
+éditeur d’origine si nécessaire. Ne supposez pas une conservation intégrale d’un
+fichier tiers complexe.
+
+## Dialogues système et saisie par chemin
+
+Les dialogues utilisent les services de l’OS : macOS, PowerShell sur Windows,
+Zenity sous Linux. Le projet possède **Fichiers par chemin (secours)** : saisissez
+un chemin, puis **Importer**, **Exporter CB**, **Exporter DXF** ou **Exporter SVG**.
+Cette zone est utile si un dialogue système est indisponible. Elle ne fournit pas
+le dialogue d’export G-code ; la [CLI](../reference/cli.md) peut produire ce fichier.
+
+[![Réglages du projet, brut et accès aux fichiers](../assets/screenshots/18-brut.png)](../assets/screenshots/18-brut.png)
+
+## Conversion en ligne de commande
+
+```sh
+fablabcam info plaque.cb
+fablabcam convert plaque.cb plaque.svg
+fablabcam convert plaque.cb plaque.dxf
+fablabcam convert dessin.svg dessin.cb
+```
+
+`convert` est une conversion de **dessin** : utilisez le Studio ou `script` pour
+construire un projet d’usinage. Conservez toujours le `.cb` original lors d’un
+échange DXF/SVG. Le G-code exporté est un résultat d’usinage, pas le projet éditable.

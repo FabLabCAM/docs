@@ -1,0 +1,4 @@
+.md-typeset img { border-radius: .45rem; border: 1px solid #69788040; height: auto; }
+.md-typeset .admonition { font-size: .72rem; }
+.md-typeset table:not([class]) { font-size: .7rem; }
+.md-header__topic { font-weight: 650; }
