@@ -113,8 +113,10 @@ fablabcam machine validate machine-valid.nc --profile mach3-mill-demo.json > rap
 `limits_checked` est vrai lorsque les courses XYZ, avances maximales d'axe et
 globale, et bornes de broche sont configurées. `statistics.complete` concerne
 le modèle statique ; les données déjà calculées restent consultables lorsqu'il
-est faux. Une erreur ou un mouvement non interprété arrête l'accumulation des
-trajectoires suivantes pour éviter d'afficher de fausses bornes.
+est faux. Une syntaxe ou un état de mouvement non interprétable arrête
+l'accumulation des trajectoires suivantes. Un trajet dont la géométrie reste
+connue peut être comptabilisé même s'il dépasse une limite : son statut reste
+`invalid`.
 
 ### Ce qui est contrôlé
 
