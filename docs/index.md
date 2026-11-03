@@ -1,6 +1,6 @@
 # FabLabCAM — du dessin au parcours d’outil
 
-**FabLabCAM 0.3.0** est un atelier de CAO/FAO 2.5D, libre sous licence
+**FabLabCAM 0.4.0** est un atelier de CAO/FAO 2.5D, libre sous licence
 Apache-2.0. Dessinez une pièce, définissez vos outils, préparez les opérations,
 inspectez le résultat et exportez le G-code.
 
@@ -13,7 +13,7 @@ inspectez le résultat et exportez le G-code.
 
 | Composant | Usage |
 |---|---|
-| **Studio** | Interface graphique : dessin, outils, usinage, brut et simulation |
+| **Studio** | Interface graphique : dessin, outils, usinage, brut, simulation et profils machine |
 | **CLI `fablabcam`** | Génération, scripts, simulation, profils de machine, validation et archives G-code |
 | **Viewer `fablabcam-view`** | Inspection interactive d’un G-code existant |
 
@@ -31,12 +31,13 @@ n’est pas un modeleur de solides ni une FAO multiaxe.
 5. [Exporter et contrôler le G-code](guide/gcode.md).
 
 L’[index des fonctionnalités](reference/fonctionnalites.md) relie chaque famille
-fonctionnelle à sa procédure et à une capture. Toutes les captures du Studio
-proviennent de la version 0.2.0 sur macOS Apple Silicon, avec un dessin créé pour
-ce guide. Les dialogues système et polices peuvent varier selon l’OS.
+fonctionnelle à sa procédure et à une capture. Les captures du dessin proviennent de la version 0.2.0 ; celles de l’Atelier
+proviennent de la version 0.4.0. Elles sont prises sur macOS Apple Silicon
+avec des exemples publics créés pour ce guide. Les dialogues système et polices peuvent varier selon l’OS.
 
-!!! info "Nouveau dans la v0.3.0"
-    [Gérez les profils de machine et validez vos G-code](guide/machines.md).
+!!! info "Nouveau dans la v0.4.0"
+    [Créez et modifiez vos profils machine dans l’Atelier du Studio](guide/profils-studio.md),
+    avec un parcours guidé et des échanges JSON. La [validation G-code](guide/machines.md) reste disponible en CLI.
     Consultez les [notes de version](reference/versions.md) et le [suivi des issues](reference/suivi.md).
 
 !!! info "Guide du produit"
