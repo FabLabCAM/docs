@@ -133,8 +133,8 @@ rapport incomplet.** Ils ne sont ni exécutés ni supprimés silencieusement.
 Le parseur poursuit l'examen des lignes suivantes et conserve leurs diagnostics.
 
 M6 est incomplet par défaut car les macros locales peuvent déplacer la machine.
-Ne réglez `tools.m6_preserves_position` à `true` qu'après vérification de leur
-comportement. M0/M1 ont une durée opérateur inconnue. Les unités de G4 dépendent
+Ne réglez `tools.m6_preserves_state` à `true` qu'après vérification de leur
+comportement : position, origines, modes, avance et broche doivent être conservés. M0/M1 ont une durée opérateur inconnue. Les unités de G4 dépendent
 d'un réglage contrôleur : sa durée reste partielle.
 
 ### Statistiques et durée
