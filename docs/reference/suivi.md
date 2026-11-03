@@ -41,5 +41,5 @@ rapports JSON et références de téléchargement avec `scripts/check_site.py`.
 
 Avant publication : vérification des paquets,
 contrôles CI, puis déploiement GitHub Pages depuis `main`. Les notes anciennes
-restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.4.0/docs/releasing.md)
+restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.4.1/docs/releasing.md)
 détaille l'ordre des vérifications et la clôture des issues après publication.
