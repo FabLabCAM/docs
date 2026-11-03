@@ -27,6 +27,13 @@ Les raccourcis de dessin sont utilisés hors saisie dans un champ texte.
 | `Maj` + clic | Ajouter/retirer une forme à la sélection |
 | Clic droit | Menu contextuel ; terminer la polyligne en mode dessin |
 
+## Raccourcis dans l’Atelier des profils
+
+Quand l’onglet **Profils machine** est actif, `Mod+N` crée un profil, `Mod+O`
+ou `Mod+I` importe un JSON, `Mod+S` enregistre le profil et `Mod+E` l’exporte.
+Les raccourcis de dessin sont suspendus dans cet espace. Les menus de fichiers
+conservent leurs opérations sur le dessin. [Voir le parcours complet](../guide/profils-studio.md).
+
 ## Préférences
 
 Ouvrez **Outils → Préférences** pour régler le magnétisme, son pas, la maille de

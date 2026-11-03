@@ -1,5 +1,30 @@
 # Versions et licences
 
+## 0.4.0 — Atelier des profils machine
+
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.4.0) · [Issue #11](https://github.com/FabLabCAM/core/issues/11)
+
+- Nouvel espace **Profils machine · Atelier** dans le Studio : bibliothèque,
+  édition, duplication et import/export JSON.
+- Parcours guidé en quatre étapes, valeurs inconnues préservées, récapitulatif
+  des paramètres restant à renseigner et sauvegarde des profils partiels.
+- Formulaires des axes, de la broche et du G-code ; JSON avancé complet.
+- Confirmation des brouillons, choix explicite pour les doublons d’import,
+  refus des conflits concurrents et protection de la fermeture native macOS.
+- [Guide illustré](../guide/profils-studio.md) avec neuf captures réelles ;
+  documentation, index et suivi des issues actualisés.
+
+Les profils conservent le schéma JSON 1. Le dessin `.cb`, les archives G-code
+et la licence Apache-2.0 sont préservés. Les états « À configurer » et « Champs
+renseignés » décrivent des paramètres, pas une qualification de machine.
+La validation des programmes, la conversion et les archives restent en CLI/API.
+Le profil ne sélectionne pas automatiquement le post-processeur du dessin.
+
+Les distributions couvrent macOS, Windows et Linux en x64/ARM64. Les tests
+comprennent la conservation des paramètres avancés, les imports invalides, les
+écritures concurrentes, les exports sans écrasement et les archives immuables.
+Les parcours graphiques illustrés ont été vérifiés sur macOS Apple Silicon.
+
 ## 0.3.0 — profils de machine et G-code
 
 Publiée le **3 novembre 2026** · [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.3.0) · [Issue #9](https://github.com/FabLabCAM/core/issues/9)

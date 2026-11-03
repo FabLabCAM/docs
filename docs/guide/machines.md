@@ -3,7 +3,9 @@
 Depuis **FabLabCAM 0.3.0**, `fablabcam machine` permet d'importer, vérifier,
 convertir et archiver des programmes avec un profil de machine. Cette fonction
 réalise l'[issue #9](https://github.com/FabLabCAM/core/issues/9). Elle s'utilise
-par **CLI ou API Rust** ; elle n'ajoute pas de panneau dans le Studio.
+par **CLI ou API Rust**. Depuis la v0.4.0, l’[Atelier du Studio](profils-studio.md)
+permet aussi de créer, modifier, dupliquer, importer et exporter les profils.
+L’analyse des programmes et les archives restent en CLI/API.
 
 ## Essayer avec les fichiers publics
 
@@ -43,7 +45,7 @@ accompagnées de leur statut et des avertissements.
 fablabcam machine profile init atelier.json
 ```
 
-Éditez ce JSON dans votre éditeur. Donnez-lui un `id` stable, par exemple
+Éditez ce JSON dans votre éditeur ou importez-le dans l’[Atelier du Studio](profils-studio.md). Donnez-lui un `id` stable, par exemple
 `fraiseuse-atelier`, puis renseignez les réglages. L'ID accepte lettres ASCII,
 chiffres, tiret et souligné, sur 1 à 80 caractères. Le schéma est versionné
 (`schema_version: 1`) et les propriétés inconnues sont refusées.

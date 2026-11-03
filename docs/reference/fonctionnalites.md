@@ -1,6 +1,6 @@
 # Index des fonctionnalités et captures
 
-Ce catalogue couvre les commandes exposées par le Studio 0.3.0 et les outils
+Ce catalogue couvre les commandes exposées par le Studio 0.4.0 et les outils
 complémentaires. Chaque lien ouvre une procédure ; la capture montre le panneau
 réel de la famille concernée. Les capacités uniquement CLI sont documentées
 par leur commande reproductible, sans inventer un écran qui n’existe pas.
@@ -28,6 +28,7 @@ par leur commande reproductible, sans inventer un écran qui n’existe pas.
 | [Vue 3D](../guide/simulation.md) | Matière usinée, trajectoires, rotation, zoom et cadrage | [Voir](../assets/screenshots/16-vue-3d.png) |
 | [Simulation](../guide/simulation.md) | Lecture, pause, début, fin, curseur, maillage, volume et gouges | [Voir](../assets/screenshots/17-simulation.png) |
 | [G-code et post-traitement](../guide/gcode.md) | Export NC, post-processeur intégré ou CBPP, contrôle et backplot | [Voir](../assets/screenshots/18-brut.png) |
+| [Profils machine · Atelier](../guide/profils-studio.md) | Bibliothèque, création guidée, édition, duplication, import/export JSON, contrôles de configuration et protection des brouillons | [Voir](../assets/screenshots/29-profils-atelier.png) |
 | [Scripts](../reference/rhai.md) | Éditeur, ouverture, exécution, journal et API de projet | [Voir](../assets/screenshots/19-script.png) |
 | [Préférences](../reference/raccourcis.md) | Magnétisme, pas, résolution, post-processeur et fichiers récents | [Voir](../assets/screenshots/20-preferences.png) |
 | [Aide et raccourcis](../reference/raccourcis.md) | Aide intégrée, commandes clavier et console | [Voir](../assets/screenshots/22-aide.png) |
@@ -45,8 +46,10 @@ par leur commande reproductible, sans inventer un écran qui n’existe pas.
 
 ## Provenance et reproduction
 
-Les captures du Studio sont réalisées sur macOS Apple Silicon avec la version
-0.2.0. Le projet de base, son script et ses exports sont disponibles dans le
+Les captures 01 à 23 sont réalisées sur macOS Apple Silicon avec la version
+0.2.0. Les captures 24 à 32 montrent l’Atelier de la version 0.4.0 sur la même
+plateforme, avec des profils fictifs publics ; la capture 32 est recadrée sur le
+dialogue de doublon. Le projet de base, son script et ses exports sont disponibles dans le
 [tutoriel](../guide/premier-projet.md). Les vues de ponts, de brut et de simulation
 illustrent des modifications décrites dans le tutoriel. Les images sont des
 captures de l’application ; elles ne sont pas des maquettes d’interface.
