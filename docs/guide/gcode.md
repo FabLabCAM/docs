@@ -71,3 +71,10 @@ le type de déplacement et la ligne G-code correspondante.
 La durée affichée est une estimation à partir des mouvements et avances
 interprétés ; elle ne représente pas les accélérations et toutes les pauses
 d’un contrôleur réel.
+
+## Contrôler un programme avec un profil de machine
+
+Depuis la v0.3.0, la commande `fablabcam machine validate` produit un rapport
+lié aux limites et au dialecte d’un profil JSON. Voir le [guide des machines](machines.md).
+Le backplot conserve son rôle de visualisation ; l’analyse statique expose
+séparément les erreurs et les constructions non interprétées.

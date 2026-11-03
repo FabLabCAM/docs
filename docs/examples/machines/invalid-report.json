@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "analyzer_version": "0.3.0",
+  "profile_id": "mach3-mill-demo",
+  "status": "invalid",
+  "limits_checked": true,
+  "diagnostics": [
+    {
+      "severity": "error",
+      "code": "travel",
+      "line": 3,
+      "column": 4,
+      "word": "X",
+      "message": "X hors course : 101.000000 mm"
+    },
+    {
+      "severity": "error",
+      "code": "unsupported_code",
+      "line": 4,
+      "column": 1,
+      "word": "G123",
+      "message": "Code interdit ou absent de la liste autorisée"
+    },
+    {
+      "severity": "info",
+      "code": "scope",
+      "line": 1,
+      "column": 1,
+      "word": null,
+      "message": "Analyse statique : aucun contrôle de collision ni exécution de macro. Durée à vitesse constante, hors accélérations et latences."
+    }
+  ],
+  "statistics": {
+    "bounds_min_mm": [
+      0.0,
+      0.0,
+      5.0
+    ],
+    "bounds_max_mm": [
+      101.0,
+      0.0,
+      5.0
+    ],
+    "cutting_length_mm": 0.0,
+    "rapid_length_mm": 101.0,
+    "estimated_seconds": 3.0300000000000002,
+    "tools": [],
+    "complete": false
+  }
+}

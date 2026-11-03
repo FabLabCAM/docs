@@ -16,3 +16,8 @@ matching core version. Visually inspect representative pages before publishing.
 Keep workflow actions pinned to full commits. Pull requests never deploy Pages.
 Document limitations and actual test coverage. Do not claim machine validation
 from a stock simulation. Keep commits small and explain the intent of changes.
+
+For each released issue, update reference/suivi.md and reference/versions.md,
+link the core issue and release, and preserve historical version notes.
+For CLI-only capabilities, publish executable commands and actual reports.
+Never present an incomplete machine analysis as valid.

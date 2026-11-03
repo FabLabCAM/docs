@@ -32,17 +32,17 @@ de profondeur et de persistance protègent les comportements partagés.
 ```sh
 git clone https://github.com/FabLabCAM/core.git
 cd core
-git checkout v0.2.0
+git checkout v0.3.0
 cargo build --locked --release --workspace
 cargo test --locked --workspace
 cargo clippy --workspace --all-targets -- -D warnings
 ```
 
-Installez Rust et les outils de compilation de votre OS. Le workflow de
+Installez Rust 1.89 ou supérieur et les outils de compilation de votre OS. Le workflow de
 release utilise **Rust 1.99.1** et **Python 3.12**. Linux a besoin des en-têtes
 X11/Xcursor/Xi/Xrandr, xkbcommon, Wayland, OpenGL et de `pkg-config`.
 Les commandes et dépendances exactes sont dans le
-[workflow de paquets](https://github.com/FabLabCAM/core/blob/v0.2.0/.github/workflows/packages.yml).
+[workflow de paquets](https://github.com/FabLabCAM/core/blob/v0.3.0/.github/workflows/packages.yml).
 
 Les exécutables résultants sont `fablabcam`, `fablabcam-view` et
 `fablabcam-studio-ui` (`.exe` sur Windows). Les tests ne doivent pas être
@@ -54,7 +54,7 @@ Le workflow construit nativement les six architectures, exécute les tests,
 compile les binaires optimisés puis assemble les distributions. Il collecte
 les licences via `cargo-about`, les notices des polices et les sources des
 dépendances qui le nécessitent. Le code de packaging est dans
-[`packaging/`](https://github.com/FabLabCAM/core/tree/v0.2.0/packaging).
+[`packaging/`](https://github.com/FabLabCAM/core/tree/v0.3.0/packaging).
 
 Les installateurs Windows sont créés avec NSIS ; macOS utilise les outils de
 bundle et DMG du système ; Linux utilise `dpkg-deb`. Les archives incluent les
@@ -85,3 +85,8 @@ les exemples concernés et l’[index des fonctionnalités](fonctionnalites.md).
 Documentez les hypothèses et limites. Les commits doivent rester ciblés, avec
 un message décrivant le changement ; une fonctionnalité annoncée doit être
 vérifiable dans la version documentée.
+
+Le module `fablabcam_cam::gcode::machine` porte le modèle pur de validation ;
+`fablabcam_studio::gcode_store` porte les profils et révisions sur disque.
+Le [suivi des issues](suivi.md) et les [versions](versions.md) relient chaque
+fonction livrée à sa documentation.

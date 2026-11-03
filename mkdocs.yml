@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 strict: true
 copyright: FabLabCAM contributors · Apache-2.0
 extra:
-  product_version: 0.2.0
+  product_version: 0.3.0
 theme:
   name: material
   language: fr
@@ -69,6 +69,7 @@ nav:
       - Entrées, passes et finition: guide/parametres.md
       - Brut, 3D et simulation: guide/simulation.md
       - Exporter le G-code: guide/gcode.md
+      - Profils de machine et validation: guide/machines.md
   - Automatiser et comprendre:
       - Scripts Rhai: reference/rhai.md
       - Ligne de commande: reference/cli.md
@@ -79,3 +80,4 @@ nav:
   - Projet open source:
       - Architecture et compilation: reference/developpement.md
       - Versions et licences: reference/versions.md
+      - Suivi des issues et du guide: reference/suivi.md

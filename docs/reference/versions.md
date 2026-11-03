@@ -1,5 +1,32 @@
 # Versions et licences
 
+## 0.3.0 — profils de machine et G-code
+
+Publiée le **3 novembre 2026** · [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.3.0) · [Issue #9](https://github.com/FabLabCAM/core/issues/9)
+
+- Profils JSON et référence **Mach3 Mill** sourcée ; exemple fictif configuré.
+- `fablabcam machine` : CRUD, parseur tolérant, validation ligne/colonne,
+  bornes XYZ incluant les extrema d'arcs, longueurs, durées estimées et outils.
+- Contrôle des codes, préambules, courses, avances et broche ; statuts explicites
+  `valid`, `invalid`, `incomplete` et rapports JSON.
+- Conversion compatible des formats/alias avec liste des obstacles et refus
+  de toute perte de précision ; validation de la cible avant écriture.
+- Archives locales versionnées : programme, instantané du profil et du rapport,
+  auteur, date, SHA-256, verrouillage et contrôle d'intégrité.
+- `fablabcam version` / `--version`, profils inclus dans les douze paquets,
+  nouveau guide et suivi des issues/documentation.
+
+Le [guide machine](../guide/machines.md) contient les commandes et exemples.
+La fonction est accessible en CLI/API Rust. Les cycles, macros, compensations
+actives et transformations non interprétés restent incomplets ; ils ne sont pas
+convertis. Les captures du Studio restent celles de la v0.2.0 : son interface
+n'a pas changé. Les projets `.cb` et la licence Apache-2.0 sont conservés.
+
+Les paquets couvrent macOS, Windows et Linux, chacun en x64/ARM64. Les tests
+incluent les cas valides/invalides, arcs et unités, conversions refusées,
+révisions concurrentes et archives altérées. La compilation nécessite Rust 1.89+
+(distributions : 1.99.1). Les rapports ne certifient aucune machine physique.
+
 ## 0.2.0 — première release publique
 
 [Ouvrir la release](https://github.com/FabLabCAM/core/releases/tag/v0.2.0)
