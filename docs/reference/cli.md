@@ -124,7 +124,7 @@ conversions et archives. L’aide du module est reproductible :
 ```text
 fablabcam machine — profils et contrôle statique de G-code
 
-  machine profile init <sortie.json>                 référence Mach3 Mill à configurer
+  machine profile init <sortie.json>                 ID CNC PRO - Mach3 à configurer
   machine profile add|update <profil.json> --store <dossier>
   machine profile list --store <dossier>
   machine profile show|delete <id> --store <dossier>

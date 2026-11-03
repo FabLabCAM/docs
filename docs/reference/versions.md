@@ -1,5 +1,20 @@
 # Versions et licences
 
+## 0.4.1 — ID CNC PRO par défaut
+
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.4.1) · [Issue #9](https://github.com/FabLabCAM/core/issues/9)
+
+- **ID CNC PRO - Mach3** devient le modèle de création du Studio et de la CLI.
+- Initialisation d’une bibliothèque vide, sélection du profil et conservation
+  des personnalisations existantes ; tests des ouvertures concurrentes.
+- [Exemple JSON et guide](../guide/id-cnc-pro.md), sources, caractéristiques
+  nominales et captures réelles du Studio 0.4.1 sur macOS Apple Silicon.
+- Les paramètres locaux non confirmés restent absents et le rapport initial
+  reste incomplet. Les profils générique et fictif restent disponibles.
+
+Les douze paquets couvrent macOS, Windows et Linux en x64/ARM64. Le schéma JSON
+reste en version 1. Cette correction complète la première machine de l’issue #9.
+
 ## 0.4.0 — Atelier des profils machine
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.4.0) · [Issue #11](https://github.com/FabLabCAM/core/issues/11)

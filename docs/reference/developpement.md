@@ -32,7 +32,7 @@ de profondeur et de persistance protègent les comportements partagés.
 ```sh
 git clone https://github.com/FabLabCAM/core.git
 cd core
-git checkout v0.4.0
+git checkout v0.4.1
 cargo build --locked --release --workspace
 cargo test --locked --workspace
 cargo clippy --workspace --all-targets -- -D warnings
@@ -42,7 +42,7 @@ Installez Rust 1.89 ou supérieur et les outils de compilation de votre OS. Le w
 release utilise **Rust 1.99.1** et **Python 3.12**. Linux a besoin des en-têtes
 X11/Xcursor/Xi/Xrandr, xkbcommon, Wayland, OpenGL et de `pkg-config`.
 Les commandes et dépendances exactes sont dans le
-[workflow de paquets](https://github.com/FabLabCAM/core/blob/v0.4.0/.github/workflows/packages.yml).
+[workflow de paquets](https://github.com/FabLabCAM/core/blob/v0.4.1/.github/workflows/packages.yml).
 
 Les exécutables résultants sont `fablabcam`, `fablabcam-view` et
 `fablabcam-studio-ui` (`.exe` sur Windows). Les tests ne doivent pas être
@@ -54,7 +54,7 @@ Le workflow construit nativement les six architectures, exécute les tests,
 compile les binaires optimisés puis assemble les distributions. Il collecte
 les licences via `cargo-about`, les notices des polices et les sources des
 dépendances qui le nécessitent. Le code de packaging est dans
-[`packaging/`](https://github.com/FabLabCAM/core/tree/v0.4.0/packaging).
+[`packaging/`](https://github.com/FabLabCAM/core/tree/v0.4.1/packaging).
 
 Les installateurs Windows sont créés avec NSIS ; macOS utilise les outils de
 bundle et DMG du système ; Linux utilise `dpkg-deb`. Les archives incluent les
@@ -94,4 +94,4 @@ fonction livrée à sa documentation.
 L’Atelier utilise `fablabcam_studio::machine_profiles` pour les brouillons et
 `fablabcam-view/src/machine_ui` pour les formulaires egui. Les écritures comparent
 le profil chargé à la version sur disque sous verrou ; les échanges JSON gardent
-le schéma complet. Voir l’[ADR de l’Atelier](https://github.com/FabLabCAM/core/blob/v0.4.0/docs/adr/0002-machine-profile-studio.md).
+le schéma complet. Voir l’[ADR de l’Atelier](https://github.com/FabLabCAM/core/blob/v0.4.1/docs/adr/0002-machine-profile-studio.md).

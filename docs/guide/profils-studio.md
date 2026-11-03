@@ -15,7 +15,8 @@ le brouillon du profil est conservé en mémoire.
 
 ## Créer un profil avec le parcours guidé
 
-Cliquez sur **Nouveau profil…**. L’assistant part de la référence Mach3 Mill,
+Depuis 0.4.1, une bibliothèque vide propose [ID CNC PRO - Mach3](id-cnc-pro.md).
+Cliquez sur **Nouveau profil…**. L’assistant part de ce modèle,
 avec des limites physiques inconnues. Il ne relève aucun paramètre sur une machine.
 
 ### 1. Général

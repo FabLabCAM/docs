@@ -1,6 +1,6 @@
 # FabLabCAM — du dessin au parcours d’outil
 
-**FabLabCAM 0.4.0** est un atelier de CAO/FAO 2.5D, libre sous licence
+**FabLabCAM 0.4.1** est un atelier de CAO/FAO 2.5D, libre sous licence
 Apache-2.0. Dessinez une pièce, définissez vos outils, préparez les opérations,
 inspectez le résultat et exportez le G-code.
 
@@ -32,10 +32,14 @@ n’est pas un modeleur de solides ni une FAO multiaxe.
 
 L’[index des fonctionnalités](reference/fonctionnalites.md) relie chaque famille
 fonctionnelle à sa procédure et à une capture. Les captures du dessin proviennent de la version 0.2.0 ; celles de l’Atelier
-proviennent de la version 0.4.0. Elles sont prises sur macOS Apple Silicon
+proviennent des versions 0.4.0 et 0.4.1. Elles sont prises sur macOS Apple Silicon
 avec des exemples publics créés pour ce guide. Les dialogues système et polices peuvent varier selon l’OS.
 
-!!! info "Nouveau dans la v0.4.0"
+!!! info "Nouveau dans la v0.4.1"
+    [ID CNC PRO - Mach3](guide/id-cnc-pro.md) devient le modèle par défaut du Studio
+    et de la CLI, avec un exemple JSON sourcé et des paramètres locaux à compléter.
+
+!!! info "Atelier des profils machine"
     [Créez et modifiez vos profils machine dans l’Atelier du Studio](guide/profils-studio.md),
     avec un parcours guidé et des échanges JSON. La [validation G-code](guide/machines.md) reste disponible en CLI.
     Consultez les [notes de version](reference/versions.md) et le [suivi des issues](reference/suivi.md).

@@ -9,6 +9,10 @@ L’analyse des programmes et les archives restent en CLI/API.
 
 ## Essayer avec les fichiers publics
 
+Depuis 0.4.1, le modèle de création par défaut est
+[ID CNC PRO - Mach3](id-cnc-pro.md), avec son [exemple JSON](../examples/machines/id-cnc-pro.json)
+et ses paramètres locaux à renseigner.
+
 Téléchargez dans un même dossier :
 
 - [mach3-mill-demo.json](../examples/machines/mach3-mill-demo.json) : **machine fictive**, limites et origines de démonstration ;
@@ -45,6 +49,7 @@ accompagnées de leur statut et des avertissements.
 fablabcam machine profile init atelier.json
 ```
 
+Cette commande crée le modèle **ID CNC PRO - Mach3** depuis 0.4.1.
 Éditez ce JSON dans votre éditeur ou importez-le dans l’[Atelier du Studio](profils-studio.md). Donnez-lui un `id` stable, par exemple
 `fraiseuse-atelier`, puis renseignez les réglages. L'ID accepte lettres ASCII,
 chiffres, tiret et souligné, sur 1 à 80 caractères. Le schéma est versionné

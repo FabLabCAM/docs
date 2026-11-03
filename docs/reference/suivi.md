@@ -7,6 +7,7 @@ ouverte n'est pas une fonction disponible.
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
+| [0.4.1](versions.md#041-id-cnc-pro-par-defaut) | [#9 — première machine](https://github.com/FabLabCAM/core/issues/9) | ID CNC PRO - Mach3 comme modèle par défaut et exemple | [Guide ID CNC PRO](../guide/id-cnc-pro.md), [Atelier](../guide/profils-studio.md) |
 | [0.4.0](versions.md#040-atelier-des-profils-machine) | [#11 — Atelier et création guidée](https://github.com/FabLabCAM/core/issues/11) | Création, édition, duplication et import/export JSON dans le Studio | [Guide illustré](../guide/profils-studio.md), [raccourcis](raccourcis.md), [index](fonctionnalites.md) |
 | [0.3.0](versions.md#030-profils-de-machine-et-g-code) | [#9 — gestion du G-code par machine](https://github.com/FabLabCAM/core/issues/9) | Profils JSON, validation, statistiques, conversion compatible, archives | [Guide machine](../guide/machines.md), [CLI](cli.md), [architecture](developpement.md) |
 | [0.2.0](versions.md#020-premiere-release-publique) | Première publication | Studio, CLI, viewer et six cibles OS/architecture | [Installation](../installation.md), [index complet](fonctionnalites.md) |
@@ -40,5 +41,5 @@ rapports JSON et références de téléchargement avec `scripts/check_site.py`.
 
 Avant publication : vérification des paquets,
 contrôles CI, puis déploiement GitHub Pages depuis `main`. Les notes anciennes
-restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.4.0/docs/releasing.md)
+restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.4.1/docs/releasing.md)
 détaille l'ordre des vérifications et la clôture des issues après publication.

@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 strict: true
 copyright: FabLabCAM contributors · Apache-2.0
 extra:
-  product_version: 0.4.0
+  product_version: 0.4.1
 theme:
   name: material
   language: fr
@@ -69,6 +69,7 @@ nav:
       - Entrées, passes et finition: guide/parametres.md
       - Brut, 3D et simulation: guide/simulation.md
       - Exporter le G-code: guide/gcode.md
+      - ID CNC PRO - Mach3: guide/id-cnc-pro.md
       - Profils machine dans le Studio: guide/profils-studio.md
       - Validation et archives G-code: guide/machines.md
   - Automatiser et comprendre:
