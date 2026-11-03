@@ -1,0 +1,43 @@
+# Suivi des issues et de la documentation
+
+Cette page relie les changements publiés à leur issue, à leur guide et à leurs
+notes de version. Les demandes en cours restent visibles dans les
+[issues GitHub de core](https://github.com/FabLabCAM/core/issues) ; une demande
+ouverte n'est pas une fonction disponible.
+
+| Version | Issue | Livraison | Documentation |
+|---|---|---|---|
+| [0.3.0](versions.md#030-profils-de-machine-et-g-code) | [#9 — gestion du G-code par machine](https://github.com/FabLabCAM/core/issues/9) | Profils JSON, validation, statistiques, conversion compatible, archives | [Guide machine](../guide/machines.md), [CLI](cli.md), [architecture](developpement.md) |
+| [0.2.0](versions.md#020-premiere-release-publique) | Première publication | Studio, CLI, viewer et six cibles OS/architecture | [Installation](../installation.md), [index complet](fonctionnalites.md) |
+
+## Limites de la livraison #9
+
+L'analyse distingue les programmes valides, invalides et incomplets. Les cycles,
+macros, transformations et compensations actives non interprétés sont signalés.
+La conversion est limitée aux changements de format et alias compatibles ; elle
+ne prétend pas traduire tous les dialectes. Le profil de référence concerne Mach3
+Mill ; LinuxCNC, GRBL, Turn et la cinématique multiaxe restent des extensions futures.
+La prévisualisation existante reste accessible avec `plot` et le viewer.
+
+## Signaler une anomalie
+
+Indiquez la version (`fablabcam version`), l'OS et l'architecture, les étapes,
+le résultat attendu/observé et un exemple minimal. Pour `machine`, joignez le
+rapport JSON et un profil expurgé des données privées. Les paramètres locaux
+et macros ne doivent pas être présumés identiques entre deux installations.
+Les vulnérabilités suivent [SECURITY.md](https://github.com/FabLabCAM/core/blob/main/SECURITY.md).
+
+## Règle de maintien du guide
+
+Chaque PR modifiant une fonction utilisateur doit mettre à jour sa procédure,
+les exemples, l'index, les limites et les notes de version avec un lien d'issue.
+Une capture est renouvelée si son interface change ; sa version d'origine reste
+indiquée. Les exemples CLI sont exécutés contre le binaire documenté.
+
+La CI construit MkDocs en mode strict et contrôle les liens internes, ancres,
+rapports JSON et références de téléchargement avec `scripts/check_site.py`.
+
+Avant publication : vérification des paquets,
+contrôles CI, puis déploiement GitHub Pages depuis `main`. Les notes anciennes
+restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.3.0/docs/releasing.md)
+détaille l'ordre des vérifications et la clôture des issues après publication.

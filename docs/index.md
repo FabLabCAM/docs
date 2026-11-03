@@ -1,6 +1,6 @@
 # FabLabCAM — du dessin au parcours d’outil
 
-**FabLabCAM 0.2.0** est un atelier de CAO/FAO 2.5D, libre sous licence
+**FabLabCAM 0.3.0** est un atelier de CAO/FAO 2.5D, libre sous licence
 Apache-2.0. Dessinez une pièce, définissez vos outils, préparez les opérations,
 inspectez le résultat et exportez le G-code.
 
@@ -14,7 +14,7 @@ inspectez le résultat et exportez le G-code.
 | Composant | Usage |
 |---|---|
 | **Studio** | Interface graphique : dessin, outils, usinage, brut et simulation |
-| **CLI `fablabcam`** | Conversion, génération, scripts Rhai, simulation et exports web |
+| **CLI `fablabcam`** | Génération, scripts, simulation, profils de machine, validation et archives G-code |
 | **Viewer `fablabcam-view`** | Inspection interactive d’un G-code existant |
 
 Le projet natif utilise l’extension **`.cb`**. Les échanges de dessin utilisent
@@ -35,7 +35,11 @@ fonctionnelle à sa procédure et à une capture. Toutes les captures du Studio
 proviennent de la version 0.2.0 sur macOS Apple Silicon, avec un dessin créé pour
 ce guide. Les dialogues système et polices peuvent varier selon l’OS.
 
-!!! info "Première version publique"
+!!! info "Nouveau dans la v0.3.0"
+    [Gérez les profils de machine et validez vos G-code](guide/machines.md).
+    Consultez les [notes de version](reference/versions.md) et le [suivi des issues](reference/suivi.md).
+
+!!! info "Guide du produit"
     Le guide décrit les fonctions implémentées et leurs [limites connues](reference/depannage.md).
     Les exemples servent à apprendre le logiciel. Les réglages de coupe et le
     programme machine doivent être adaptés à votre équipement et au bridage.

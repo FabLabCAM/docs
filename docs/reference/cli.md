@@ -1,7 +1,7 @@
 # Référence de la ligne de commande
 
 `fablabcam help` affiche l’aide de la version installée. Les commandes suivantes
-sont celles de la version 0.2.0. Les chemins contenant des espaces doivent être
+sont celles de la version 0.3.0. Les chemins contenant des espaces doivent être
 placés entre guillemets. Dans PowerShell, préfixez par `./` un exécutable présent
 dans le dossier courant.
 
@@ -9,6 +9,8 @@ dans le dossier courant.
 
 | Besoin | Commande |
 |---|---|
+| Identifier la version | `version` ou `--version` |
+| Profils, validation et archives G-code | [`machine`](../guide/machines.md) |
 | Inventorier un dessin `.cb` | `info` |
 | Lister une bibliothèque de styles | `styles` |
 | Convertir un dessin | `convert` |
@@ -35,12 +37,14 @@ Les fichiers sont disponibles dans le [tutoriel](../guide/premier-projet.md).
 La commande `web` produit une page navigable d’inspection ; elle ne publie rien
 sur Internet et ne remplace pas l’éditeur natif. `plot` relit le programme G-code.
 
-## Aide complète de la version 0.2.0
+## Aide complète de la version 0.3.0
 
 ```text
 fablabcam — FAO 2,5D en Rust (dessins XML .cb, DXF et SVG)
 
 USAGE
+  fablabcam version                              version du produit
+  fablabcam machine help                         profils, validation et archives G-code
   fablabcam info   <fichier.cb>
   fablabcam styles <styles.xml>
   fablabcam gcode  <fichier.cb> --op <profile-outside|profile-inside|profile-on|pocket|drill> [options]
@@ -92,8 +96,10 @@ POCHES  Les formes contenues dans une autre sont traitées comme des îlots.
   -o <fichier>        écrire le G-code dans un fichier (défaut : sortie standard)
 ```
 
-Les sorties d’erreur sont écrites sur stderr et donnent un code de sortie non
-nul. La commande d’aide est `help` ; `--help` n’est pas un alias dans cette version.
+Les erreurs de commande sont écrites sur stderr. Pour `machine validate` et
+`machine stats`, le rapport JSON reste sur stdout : 0 valide, 1 invalide, 2
+incomplet. La commande d’aide générale est `help` ; `machine help` et
+`machine --help` donnent l’aide du nouveau module.
 Le paramètre `--at` est une fraction de longueur de parcours, pas une durée.
 
 ## Viewer natif
@@ -109,3 +115,28 @@ La CLI expose notamment le picage par `--step`, la désactivation des cycles par
 `--no-canned`, le sens de fraisage mixte, les avances de transition et des options
 de rendu du backplot. Les options de `gcode` ne modifient pas le projet `.cb`.
 Gardez vos commandes dans un script si vous devez reproduire exactement le résultat.
+
+## Commandes de machine
+
+Voir le [guide complet](../guide/machines.md) pour les profils JSON, rapports,
+conversions et archives. L’aide du module est reproductible :
+
+```text
+fablabcam machine — profils et contrôle statique de G-code
+
+  machine profile init <sortie.json>                 référence Mach3 Mill à configurer
+  machine profile add|update <profil.json> --store <dossier>
+  machine profile list --store <dossier>
+  machine profile show|delete <id> --store <dossier>
+  machine parse <programme.nc>
+  machine validate|stats <programme.nc> --profile <profil.json>
+  machine convert <programme.nc> --from <source.json> --to <cible.json> -o <sortie.nc>
+  machine archive add <id> <programme.nc> --profile <profil.json> --author <nom> --store <dossier>
+  machine archive list <id> --store <dossier>
+  machine archive show <id> <révision> --store <dossier>
+  machine archive export <id> <révision> --store <dossier> -o <sortie.nc>
+
+Rapports JSON : stdout. Codes de sortie : 0 succès, 1 erreur/validation invalide,
+2 analyse incomplète ou conversion refusée. Les sorties existantes ne sont pas écrasées.
+Les profils du magasin se consultent/exportent avec profile show ; --profile lit un fichier.
+```

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "analyzer_version": "0.3.0",
+  "profile_id": "mach3-mill-demo",
+  "status": "valid",
+  "limits_checked": true,
+  "diagnostics": [
+    {
+      "severity": "info",
+      "code": "scope",
+      "line": 1,
+      "column": 1,
+      "word": null,
+      "message": "Analyse statique : aucun contrôle de collision ni exécution de macro. Durée à vitesse constante, hors accélérations et latences."
+    }
+  ],
+  "statistics": {
+    "bounds_min_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds_max_mm": [
+      10.0,
+      10.0,
+      5.0
+    ],
+    "cutting_length_mm": 30.707963267948966,
+    "rapid_length_mm": 15.0,
+    "estimated_seconds": 4.020796326794897,
+    "tools": [
+      1
+    ],
+    "complete": true
+  }
+}
