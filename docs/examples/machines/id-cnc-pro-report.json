@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "analyzer_version": "0.4.1",
+  "profile_id": "id-cnc-pro-1500x800",
+  "status": "incomplete",
+  "limits_checked": false,
+  "diagnostics": [
+    {
+      "severity": "warning",
+      "code": "unconfigured_limits",
+      "line": 1,
+      "column": 1,
+      "word": null,
+      "message": "Configurer courses XYZ, avances maximales et limites de broche pour une analyse complète"
+    },
+    {
+      "severity": "warning",
+      "code": "work_offset",
+      "line": 6,
+      "column": 1,
+      "word": null,
+      "message": "Origine active non configurée en coordonnées machine"
+    },
+    {
+      "severity": "info",
+      "code": "scope",
+      "line": 1,
+      "column": 1,
+      "word": null,
+      "message": "Analyse statique : aucun contrôle de collision ni exécution de macro. Durée à vitesse constante, hors accélérations et latences."
+    }
+  ],
+  "statistics": {
+    "bounds_min_mm": null,
+    "bounds_max_mm": null,
+    "cutting_length_mm": 0.0,
+    "rapid_length_mm": 0.0,
+    "estimated_seconds": 0.0,
+    "tools": [
+      1
+    ],
+    "complete": false
+  }
+}

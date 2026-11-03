@@ -58,3 +58,10 @@ Après une modification du produit, mettez à jour la procédure et sa capture
 ensemble. Une case disponible dans un panneau commun ne garantit pas un effet
 sur toutes les stratégies : le guide distingue les réglages actifs des métadonnées
 et des [limites de version](depannage.md).
+
+## Modèle ID CNC PRO depuis 0.4.1
+
+[ID CNC PRO - Mach3](../guide/id-cnc-pro.md) est proposé à la première ouverture
+d’une bibliothèque vide, dans la création guidée et par `machine profile init`.
+Les profils existants restent conservés. Exemple JSON, sources et paramètres
+à confirmer sont décrits dans le guide dédié.
