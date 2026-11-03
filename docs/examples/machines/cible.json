@@ -196,5 +196,6 @@
       "M9"
     ],
     "table": {}
-  }
+  },
+  "semantics": "rs274_mill"
 }

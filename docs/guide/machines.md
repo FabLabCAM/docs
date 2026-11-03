@@ -57,6 +57,7 @@ chiffres, tiret et souligné, sur 1 à 80 caractères. Le schéma est versionné
 | Repères | `initial_position_mm`, `work_offsets_mm` pour G54–G59, `positive_directions` |
 | Broche | `spindle.min_rpm`, `max_rpm`, `directions` (`cw`, `ccw`) |
 | Modes initiaux | `defaults.units`, `plane`, `distance`, `arc_distance`, `feed_mode`, `work_offset` |
+| Modèle sémantique | `semantics`: `mach3_mill` ou `rs274_mill` ; définit le sens des codes, indépendamment du nom commercial du contrôleur |
 | Dialecte | `gcodes` et `mcodes` : listes `allow` et `deny` ; une interdiction l'emporte |
 | Format | Numéros N (`optional`, `required`, `forbidden`), décimales, commentaires, ASCII, majuscules, longueur de ligne, en-tête `%`, terminaisons M2/M30 |
 | Atelier | `safety.safe_z_mm`, positions de parking/changement, `required_preamble`, autorisation des hélices, interdiction des rapides sous le Z de sécurité |
@@ -122,7 +123,7 @@ trajectoires suivantes pour éviter d'afficher de fausses bornes.
 - Préambule avant le premier mouvement, en-tête et fin de programme.
 - G0/G1 et arcs G2/G3, plans G17/G18/G19, rayon R signé, IJK absolus/relatifs et hélices.
 - Extrema des arcs, courses XYZ, avances globales et par axe, broche et sens de rotation.
-- Unités G20/G21 (alias Mach3 G70/G71), G90/G91, avances G93/G94/G95.
+- Unités G20/G21 (alias G70/G71 uniquement avec `semantics: mach3_mill`), G90/G91, avances G93/G94/G95.
 - Origines G54–G59 configurées ; G53 pour les mouvements linéaires absolus.
 
 La liste blanche peut reconnaître davantage de codes que le moteur n'en
@@ -162,6 +163,8 @@ fablabcam machine convert machine-valid.nc --from mach3-mill-demo.json --to cibl
 La conversion adapte les commentaires et la numérotation, normalise les mots,
 explicite les modes initiaux et remplace les alias G70/G71 par G20/G21.
 Les deux profils doivent utiliser les mêmes origines et la même position initiale.
+Le modèle `semantics` doit correspondre au sens des codes du contrôleur ; les
+modèles livrés couvrent le fraisage RS274, pas les cycles de tournage.
 Elle refuse les programmes invalides/incomplets, les codes rejetés par la cible,
 les valeurs que sa précision arrondirait et les messages opérateur `MSG`.
 
