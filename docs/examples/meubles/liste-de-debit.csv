@@ -1,0 +1,7 @@
+repere;piece;quantite;largeur_mm;hauteur_mm;epaisseur_mm;dalle;x_mm;y_mm;rotation_90
+DOS;Dos rapporté;1;600;800;20;1;10;10;true
+INF;Dessous;1;560;580;20;1;818;10;false
+C1;Côté gauche;1;800;580;20;2;10;10;false
+SUP;Dessus;1;560;580;20;2;818;10;false
+C2;Côté droit;1;800;580;20;3;10;10;false
+T01;Tablette 1;1;560;580;20;3;818;10;false

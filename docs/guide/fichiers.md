@@ -49,3 +49,11 @@ fablabcam convert dessin.svg dessin.cb
 `convert` est une conversion de **dessin** : utilisez le Studio ou `script` pour
 construire un projet d’usinage. Conservez toujours le `.cb` original lors d’un
 échange DXF/SVG. Le G-code exporté est un résultat d’usinage, pas le projet éditable.
+
+## Modèles et projets de meubles
+
+Depuis 0.5.0, le module [Meubles](meubles.md) possède ses bibliothèques et formats :
+`.fcm-template.json` pour les gabarits, `.fcm.json` pour les projets, ZIP pour les
+dossiers de fabrication. Utilisez **Importer** dans cet espace pour analyser et
+prévisualiser le document. Les plans CB/DXF/SVG exportés sont des géométries ;
+leur ouverture ne reconstitue pas un meuble paramétrique.
