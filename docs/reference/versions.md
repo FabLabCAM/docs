@@ -5,7 +5,7 @@
 [Diagnostic Mach3](../guide/gcode.md#mach3-fichier-charge-lancement-bloque) :
 subdivision des arcs dégénérés après arrondi, contrôle du rayon final nul,
 préambules explicites, tolérance d'arc en pouces et distinction de G91.1/G91
-dans le backplot. Une préversion est en préparation pour les essais Mach3 ;
+dans le backplot. La [préversion est disponible](https://github.com/FabLabCAM/core/releases/tag/v0.7.1-rc.1) pour les essais Mach3 ;
 la version stable reste 0.7.0. Le
 [gabarit CBPP](../examples/mach3-explicit-modes.cbpp) permet déjà de comparer
 les modes des exports en 0.7.0, dont le backplot reste incorrect pour G91.1 ;

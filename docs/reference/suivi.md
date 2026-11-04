@@ -12,7 +12,7 @@ de comparer les modes sur 0.7.0 ; il ne corrige pas les arcs. Le quatrième KO
 présente une dépendance IJ reproduite dès son premier arc en mode absolu hérité.
 Le 4 novembre 2026, l'utilisateur confirme que sa copie ajoutant G91.1 fonctionne
 sur Mach3. Le retour sur les trois autres KO reste attendu ; la préversion 0.7.1-rc.1
-est en préparation pour cette validation.
+est [disponible pour cette validation](https://github.com/FabLabCAM/core/releases/tag/v0.7.1-rc.1).
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|

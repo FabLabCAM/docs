@@ -61,7 +61,7 @@ selon la précision de sortie. Les cercles représentables, les arcs majeurs,
 l'avance et la profondeur hélicoïdale sont conservés. Le validateur rejette
 également un rayon final nul même si l'écart des rayons est sous la tolérance.
 Ces changements sont dans la [PR #25](https://github.com/FabLabCAM/core/pull/25),
-préparés pour la préversion 0.7.1-rc.1 ; ils sont absents de la version stable 0.7.0.
+disponibles dans la préversion 0.7.1-rc.1 ; ils sont absents de la version stable 0.7.0.
 
 Dans la version 0.7.0, le préambule intégré ne déclare pas le mode des centres IJ
 et n'annule pas les compensations et cycles précédents. Pour rendre ces modes
