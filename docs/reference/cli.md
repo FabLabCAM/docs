@@ -1,7 +1,7 @@
 # Référence de la ligne de commande
 
 `fablabcam help` affiche l’aide de la version installée. Les commandes suivantes
-sont celles de la version 0.6.0. Les chemins contenant des espaces doivent être
+sont celles de la version 0.6.1. Les chemins contenant des espaces doivent être
 placés entre guillemets. Dans PowerShell, préfixez par `./` un exécutable présent
 dans le dossier courant.
 
@@ -38,7 +38,7 @@ Les fichiers sont disponibles dans le [tutoriel](../guide/premier-projet.md).
 La commande `web` produit une page navigable d’inspection ; elle ne publie rien
 sur Internet et ne remplace pas l’éditeur natif. `plot` relit le programme G-code.
 
-## Aide complète de la version 0.6.0
+## Aide complète de la version 0.6.1
 
 ```text
 fablabcam — FAO 2,5D en Rust (dessins XML .cb, DXF et SVG)

@@ -1,5 +1,21 @@
 # Versions et licences
 
+## 0.6.1 — Identifiants Rhai
+
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.6.1) · [Issue #19](https://github.com/FabLabCAM/core/issues/19)
+
+- Refus des identifiants négatifs ou supérieurs à `4294967295`, seuls ou dans
+  un tableau, dans toutes les fonctions Rhai qui prennent des références de formes.
+- Une valeur hors plage ne peut plus désigner une autre forme par troncature.
+  Le diagnostic indique la valeur fautive et la position dans le script.
+- Tests de régression sur les dix fonctions concernées, les bornes, les types,
+  l’atomicité du projet et de l’historique et la préservation des fichiers CLI.
+- [Guide Rhai](rhai.md#identifiants-des-formes), mémoire et architecture actualisés.
+
+Les formats et l’API des identifiants valides restent inchangés. Le script
+prérempli crée du dessin ; il ne définit pas d’opérations d’usinage. L’API Rhai
+n’expose pas le compositeur de meubles.
+
 ## 0.6.0 — Composition et assemblages
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.6.0) · [Issue #17](https://github.com/FabLabCAM/core/issues/17)

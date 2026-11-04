@@ -1,6 +1,6 @@
 # Index des fonctionnalités et captures
 
-Ce catalogue couvre les commandes exposées par le Studio 0.6.0 et les outils
+Ce catalogue couvre les commandes exposées par le Studio 0.6.1 et les outils
 complémentaires. Chaque lien ouvre une procédure ; la capture montre le panneau
 réel de la famille concernée. Les capacités uniquement CLI sont documentées
 par leur commande reproductible, sans inventer un écran qui n’existe pas.
@@ -43,7 +43,7 @@ par leur commande reproductible, sans inventer un écran qui n’existe pas.
 | CLI | Inventaire, styles, conversion, parcours directs, construction du projet, scripts, simulation, web et plot | [Commandes complètes](cli.md) |
 | Meubles (CLI/API) | Gabarits, projets, validation, placement et dossier ZIP | [Exemple reproductible](../guide/meubles.md#exemple-reproductible-caisson-osb) |
 | Profils de machine (CLI/API) | CRUD JSON, validation, statistiques, conversion compatible, archives et intégrité | [Guide et rapports reproductibles](../guide/machines.md) |
-| Rhai | Création de formes, transformations, outils, opérations et journal | [API complète](rhai.md) |
+| Rhai | Création de formes, transformations, outils, opérations, journal et validation des identifiants | [API complète](rhai.md) |
 | Post-processeur | Gabarits XML, macros, arcs, numérotation, modalités et changement d’outil | [Propriétés prises en charge](postprocesseurs.md) |
 | Backplot HTML | Zoom, déplacements, animation, filtrage et inspection des trajectoires | [Exemple interactif](../examples/trajectoires.html), [capture](../assets/screenshots/23-backplot.png) |
 | Viewer natif | Lecture G-code, zoom, profondeur et animation | [Utilisation](cli.md#viewer-natif) |
