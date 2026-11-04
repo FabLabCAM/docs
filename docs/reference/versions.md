@@ -16,6 +16,16 @@ Les formats et l’API des identifiants valides restent inchangés. Le script
 prérempli crée du dessin ; il ne définit pas d’opérations d’usinage. L’API Rhai
 n’expose pas le compositeur de meubles.
 
+Validation : **364 tests sur macOS/Linux, 363 sur Windows**, sur les six cibles
+natives, et Clippy strict. Les douze paquets ont été contrôlés : SHA-256, licences,
+sources requises et architectures des exécutables. Installation Debian/Windows
+vérifiée en CI ; DMG macOS ARM64, CLI installée et parcours graphique Rhai vérifiés
+localement, avec une [capture réelle](rhai.md#identifiants-des-formes).
+Les exemples du guide et ses 35 pages passent la construction stricte et le
+contrôle des liens. [QA sources](https://github.com/FabLabCAM/core/blob/v0.6.1/docs/qa/0.6.1.md)
+· [CI](https://github.com/FabLabCAM/core/actions/runs/41839539722)
+· [Paquets](https://github.com/FabLabCAM/core/actions/runs/41839539374).
+
 ## 0.6.0 — Composition et assemblages
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.6.0) · [Issue #17](https://github.com/FabLabCAM/core/issues/17)

@@ -35,7 +35,9 @@ n’est pas un modeleur de solides ni une FAO multiaxe.
 
 L’[index des fonctionnalités](reference/fonctionnalites.md) relie chaque famille
 fonctionnelle à sa procédure et à une capture. Les captures du dessin proviennent de la version 0.2.0 ; celles de l’Atelier
-proviennent des versions 0.4.0 et 0.4.1 ; celles du module Meubles des versions 0.5.0 et 0.6.0. Elles sont prises sur macOS Apple Silicon
+proviennent des versions 0.4.0 et 0.4.1 ; celles du module Meubles des versions 0.5.0 et 0.6.0.
+La capture du contrôle des identifiants Rhai provient du paquet installé 0.6.1.
+Elles sont prises sur macOS Apple Silicon
 avec des exemples publics créés pour ce guide. Les dialogues système et polices peuvent varier selon l’OS.
 
 !!! info "Correctif v0.6.1"

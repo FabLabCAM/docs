@@ -5,7 +5,7 @@
 Ouvrez **Script → Éditeur de script**, saisissez votre programme puis **Exécuter**.
 **Ouvrir un script** charge un fichier `.rhai`. Les sorties de `print` sont
 écrites dans le journal. L’exécution travaille sur une copie du projet : une
- erreur annule les changements du script. Une exécution réussie est une
+erreur annule les changements du script. Une exécution réussie est une
 modification du projet que vous devez ensuite enregistrer. **Annuler** restaure
 le projet en une seule étape. Le script prérempli dessine une plaque et quatre
 trous sans créer d’opérations d’usinage ; utilisez les fonctions `tool`, `profile`,
@@ -63,6 +63,13 @@ si des instructions valides précèdent l’erreur. Corrigez la référence et r
 
 La version 0.6.0 et les versions antérieures pouvaient tronquer ces valeurs et
 modifier une autre forme. Ce correctif est décrit dans l’[issue #19](https://github.com/FabLabCAM/core/issues/19).
+
+[![Identifiant hors plage refusé sans déplacer le cercle](../assets/screenshots/48-script-identifiants.png)](../assets/screenshots/48-script-identifiants.png)
+
+Capture du **Studio 0.6.1 installé depuis le DMG macOS ARM64** : le cercle `#1`
+reste à X = 0 malgré le `move` précédant l’erreur ligne 2. Le refus d’un tableau
+contenant une valeur négative, l’exécution d’un déplacement valide et son
+annulation en une étape ont aussi été vérifiés dans ce paquet.
 
 ## Référence complète de l’API exposée
 
