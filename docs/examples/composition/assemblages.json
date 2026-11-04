@@ -1,0 +1,4701 @@
+{
+  "composition": {
+    "bottom_covers_sides": false,
+    "joint_default": {
+      "blind": false,
+      "clearance": 0.2,
+      "count": 3,
+      "engagement": 8.0,
+      "kind": "butt",
+      "relief": "dogbone",
+      "width": 20.0
+    },
+    "joints": {
+      "INF--C1-0-lo": {
+        "blind": false,
+        "clearance": 0.2,
+        "count": 4,
+        "engagement": 8.0,
+        "kind": "tabs",
+        "relief": "dogbone",
+        "width": 20.0
+      }
+    },
+    "panel_names": {},
+    "panel_thickness": {},
+    "root": {
+      "bin": null,
+      "division": {
+        "axis": "horizontal",
+        "children": [
+          {
+            "bin": null,
+            "division": {
+              "axis": "vertical",
+              "children": [
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf26ca0ab028-79fc-44",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ade688-79fc-12",
+                  "name": "Case 1"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf591299a088-851c-1",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334adea70-79fc-13",
+                  "name": "Case 2"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5912ac0b60-851c-3",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334adee58-79fc-14",
+                  "name": "Case 3"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5912b7b3c0-851c-5",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334adf240-79fc-15",
+                  "name": "Case 4"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5912c1c5e0-851c-7",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334adf628-79fc-16",
+                  "name": "Case 5"
+                }
+              ],
+              "dividers": [
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334adcf18-79fc-e",
+                  "name": "Séparation 1",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334add300-79fc-f",
+                  "name": "Séparation 2",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334addad0-79fc-10",
+                  "name": "Séparation 3",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334addeb8-79fc-11",
+                  "name": "Séparation 4",
+                  "offset": 0.0,
+                  "thickness": null
+                }
+              ],
+              "mode": "equal"
+            },
+            "id": "f-18e4cf2334adafd8-79fc-8",
+            "name": "Case 1"
+          },
+          {
+            "bin": null,
+            "division": {
+              "axis": "vertical",
+              "children": [
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5912ce3960-851c-9",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae0d98-79fc-1b",
+                  "name": "Case 1"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5912da4f20-851c-b",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae1180-79fc-1c",
+                  "name": "Case 2"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5912e6af18-851c-d",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae1568-79fc-1d",
+                  "name": "Case 3"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5912f370b8-851c-f",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae1950-79fc-1e",
+                  "name": "Case 4"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5913002a88-851c-11",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae1950-79fc-1f",
+                  "name": "Case 5"
+                }
+              ],
+              "dividers": [
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334adfa10-79fc-17",
+                  "name": "Séparation 1",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334adfdf8-79fc-18",
+                  "name": "Séparation 2",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae05c8-79fc-19",
+                  "name": "Séparation 3",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae09b0-79fc-1a",
+                  "name": "Séparation 4",
+                  "offset": 0.0,
+                  "thickness": null
+                }
+              ],
+              "mode": "equal"
+            },
+            "id": "f-18e4cf2334adb7a8-79fc-9",
+            "name": "Case 2"
+          },
+          {
+            "bin": null,
+            "division": {
+              "axis": "vertical",
+              "children": [
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf59130dd688-851c-13",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae30c0-79fc-24",
+                  "name": "Case 1"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf59131bf7b8-851c-15",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae34a8-79fc-25",
+                  "name": "Case 2"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf59132ae7f0-851c-17",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae3890-79fc-26",
+                  "name": "Case 3"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf591348c090-851c-19",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae3c78-79fc-27",
+                  "name": "Case 4"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf591379c758-851c-1b",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae3c78-79fc-28",
+                  "name": "Case 5"
+                }
+              ],
+              "dividers": [
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae1d38-79fc-20",
+                  "name": "Séparation 1",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae2120-79fc-21",
+                  "name": "Séparation 2",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae2508-79fc-22",
+                  "name": "Séparation 3",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae2cd8-79fc-23",
+                  "name": "Séparation 4",
+                  "offset": 0.0,
+                  "thickness": null
+                }
+              ],
+              "mode": "equal"
+            },
+            "id": "f-18e4cf2334adbb90-79fc-a",
+            "name": "Case 3"
+          },
+          {
+            "bin": null,
+            "division": {
+              "axis": "vertical",
+              "children": [
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf59138b5388-851c-1d",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae53e8-79fc-2d",
+                  "name": "Case 1"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf59139fb260-851c-1f",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae53e8-79fc-2e",
+                  "name": "Case 2"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5913b3a3d8-851c-21",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae57d0-79fc-2f",
+                  "name": "Case 3"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5913eaa9c8-851c-23",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae5bb8-79fc-30",
+                  "name": "Case 4"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf59141422f8-851c-25",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae5fa0-79fc-31",
+                  "name": "Case 5"
+                }
+              ],
+              "dividers": [
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae4060-79fc-29",
+                  "name": "Séparation 1",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae4448-79fc-2a",
+                  "name": "Séparation 2",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae4830-79fc-2b",
+                  "name": "Séparation 3",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae4c18-79fc-2c",
+                  "name": "Séparation 4",
+                  "offset": 0.0,
+                  "thickness": null
+                }
+              ],
+              "mode": "equal"
+            },
+            "id": "f-18e4cf2334adbf78-79fc-b",
+            "name": "Case 4"
+          },
+          {
+            "bin": null,
+            "division": {
+              "axis": "vertical",
+              "children": [
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf591429be38-851c-27",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae7328-79fc-36",
+                  "name": "Case 1"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf59145b5d58-851c-29",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae7328-79fc-37",
+                  "name": "Case 2"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf59148a6468-851c-2b",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae7710-79fc-38",
+                  "name": "Case 3"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5914a3bcb0-851c-2d",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae7af8-79fc-39",
+                  "name": "Case 4"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5914be4990-851c-2f",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae7ee0-79fc-3a",
+                  "name": "Case 5"
+                }
+              ],
+              "dividers": [
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae6388-79fc-32",
+                  "name": "Séparation 1",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae6388-79fc-33",
+                  "name": "Séparation 2",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae6770-79fc-34",
+                  "name": "Séparation 3",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae6b58-79fc-35",
+                  "name": "Séparation 4",
+                  "offset": 0.0,
+                  "thickness": null
+                }
+              ],
+              "mode": "equal"
+            },
+            "id": "f-18e4cf2334adc360-79fc-c",
+            "name": "Case 5"
+          },
+          {
+            "bin": null,
+            "division": {
+              "axis": "vertical",
+              "children": [
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5914e53a50-851c-31",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae9650-79fc-3f",
+                  "name": "Case 1"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf59150414c0-851c-33",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae9a38-79fc-40",
+                  "name": "Case 2"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf591521ce20-851c-35",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae9a38-79fc-41",
+                  "name": "Case 3"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5915478278-851c-37",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334ae9e20-79fc-42",
+                  "name": "Case 4"
+                },
+                {
+                  "bin": {
+                    "back_gap": 2.0,
+                    "bottom_covers_sides": true,
+                    "depth": 200.0,
+                    "id": "f-18e4cf5915684918-851c-39",
+                    "name": "Bac amovible",
+                    "side_gap": 2.0,
+                    "thickness": 12.0,
+                    "top_gap": 3.0
+                  },
+                  "division": null,
+                  "id": "f-18e4cf2334aea208-79fc-43",
+                  "name": "Case 5"
+                }
+              ],
+              "dividers": [
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae82c8-79fc-3b",
+                  "name": "Séparation 1",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae86b0-79fc-3c",
+                  "name": "Séparation 2",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae8a98-79fc-3d",
+                  "name": "Séparation 3",
+                  "offset": 0.0,
+                  "thickness": null
+                },
+                {
+                  "depth": null,
+                  "id": "f-18e4cf2334ae8e80-79fc-3e",
+                  "name": "Séparation 4",
+                  "offset": 0.0,
+                  "thickness": null
+                }
+              ],
+              "mode": "equal"
+            },
+            "id": "f-18e4cf2334adc748-79fc-d",
+            "name": "Case 6"
+          }
+        ],
+        "dividers": [
+          {
+            "depth": null,
+            "id": "f-18e4cf2334ad80f8-79fc-3",
+            "name": "Tablette 1",
+            "offset": 0.0,
+            "thickness": null
+          },
+          {
+            "depth": null,
+            "id": "f-18e4cf2334ad8cb0-79fc-4",
+            "name": "Tablette 2",
+            "offset": 0.0,
+            "thickness": null
+          },
+          {
+            "depth": null,
+            "id": "f-18e4cf2334ad9098-79fc-5",
+            "name": "Tablette 3",
+            "offset": 0.0,
+            "thickness": null
+          },
+          {
+            "depth": null,
+            "id": "f-18e4cf2334ad9480-79fc-6",
+            "name": "Tablette 4",
+            "offset": 0.0,
+            "thickness": null
+          },
+          {
+            "depth": null,
+            "id": "f-18e4cf2334ad9868-79fc-7",
+            "name": "Tablette 5",
+            "offset": 0.0,
+            "thickness": null
+          }
+        ],
+        "mode": "equal"
+      },
+      "id": "f-18e4cf2334ad4e30-79fc-2",
+      "name": "Grille de rangement"
+    },
+    "top_covers_sides": false
+  },
+  "connections": [
+    {
+      "axis": 0,
+      "female": "C1",
+      "female_face": "back",
+      "high_end": false,
+      "id": "INF--C1-0-lo",
+      "male": "INF",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C2",
+      "female_face": "front",
+      "high_end": true,
+      "id": "INF--C2-0-hi",
+      "male": "INF",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C1",
+      "female_face": "back",
+      "high_end": false,
+      "id": "SUP--C1-0-lo",
+      "male": "SUP",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C2",
+      "female_face": "front",
+      "high_end": true,
+      "id": "SUP--C2-0-hi",
+      "male": "SUP",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C1",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ad80f8-79fc-3--C1-0-lo",
+      "male": "f-18e4cf2334ad80f8-79fc-3",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C2",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ad80f8-79fc-3--C2-0-hi",
+      "male": "f-18e4cf2334ad80f8-79fc-3",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C1",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ad8cb0-79fc-4--C1-0-lo",
+      "male": "f-18e4cf2334ad8cb0-79fc-4",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C2",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ad8cb0-79fc-4--C2-0-hi",
+      "male": "f-18e4cf2334ad8cb0-79fc-4",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C1",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ad9098-79fc-5--C1-0-lo",
+      "male": "f-18e4cf2334ad9098-79fc-5",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C2",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ad9098-79fc-5--C2-0-hi",
+      "male": "f-18e4cf2334ad9098-79fc-5",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C1",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ad9480-79fc-6--C1-0-lo",
+      "male": "f-18e4cf2334ad9480-79fc-6",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C2",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ad9480-79fc-6--C2-0-hi",
+      "male": "f-18e4cf2334ad9480-79fc-6",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C1",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ad9868-79fc-7--C1-0-lo",
+      "male": "f-18e4cf2334ad9868-79fc-7",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 0,
+      "female": "C2",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ad9868-79fc-7--C2-0-hi",
+      "male": "f-18e4cf2334ad9868-79fc-7",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "INF",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334adcf18-79fc-e--INF-2-lo",
+      "male": "f-18e4cf2334adcf18-79fc-e",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad80f8-79fc-3",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334adcf18-79fc-e--f-18e4cf2334ad80f8-79fc-3-2-hi",
+      "male": "f-18e4cf2334adcf18-79fc-e",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "INF",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334add300-79fc-f--INF-2-lo",
+      "male": "f-18e4cf2334add300-79fc-f",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad80f8-79fc-3",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334add300-79fc-f--f-18e4cf2334ad80f8-79fc-3-2-hi",
+      "male": "f-18e4cf2334add300-79fc-f",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "INF",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334addad0-79fc-10--INF-2-lo",
+      "male": "f-18e4cf2334addad0-79fc-10",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad80f8-79fc-3",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334addad0-79fc-10--f-18e4cf2334ad80f8-79fc-3-2-hi",
+      "male": "f-18e4cf2334addad0-79fc-10",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "INF",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334addeb8-79fc-11--INF-2-lo",
+      "male": "f-18e4cf2334addeb8-79fc-11",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad80f8-79fc-3",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334addeb8-79fc-11--f-18e4cf2334ad80f8-79fc-3-2-hi",
+      "male": "f-18e4cf2334addeb8-79fc-11",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad80f8-79fc-3",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334adfa10-79fc-17--f-18e4cf2334ad80f8-79fc-3-2-lo",
+      "male": "f-18e4cf2334adfa10-79fc-17",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad8cb0-79fc-4",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334adfa10-79fc-17--f-18e4cf2334ad8cb0-79fc-4-2-hi",
+      "male": "f-18e4cf2334adfa10-79fc-17",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad80f8-79fc-3",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334adfdf8-79fc-18--f-18e4cf2334ad80f8-79fc-3-2-lo",
+      "male": "f-18e4cf2334adfdf8-79fc-18",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad8cb0-79fc-4",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334adfdf8-79fc-18--f-18e4cf2334ad8cb0-79fc-4-2-hi",
+      "male": "f-18e4cf2334adfdf8-79fc-18",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad80f8-79fc-3",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae05c8-79fc-19--f-18e4cf2334ad80f8-79fc-3-2-lo",
+      "male": "f-18e4cf2334ae05c8-79fc-19",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad8cb0-79fc-4",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae05c8-79fc-19--f-18e4cf2334ad8cb0-79fc-4-2-hi",
+      "male": "f-18e4cf2334ae05c8-79fc-19",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad80f8-79fc-3",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae09b0-79fc-1a--f-18e4cf2334ad80f8-79fc-3-2-lo",
+      "male": "f-18e4cf2334ae09b0-79fc-1a",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad8cb0-79fc-4",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae09b0-79fc-1a--f-18e4cf2334ad8cb0-79fc-4-2-hi",
+      "male": "f-18e4cf2334ae09b0-79fc-1a",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad8cb0-79fc-4",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae1d38-79fc-20--f-18e4cf2334ad8cb0-79fc-4-2-lo",
+      "male": "f-18e4cf2334ae1d38-79fc-20",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9098-79fc-5",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae1d38-79fc-20--f-18e4cf2334ad9098-79fc-5-2-hi",
+      "male": "f-18e4cf2334ae1d38-79fc-20",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad8cb0-79fc-4",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae2120-79fc-21--f-18e4cf2334ad8cb0-79fc-4-2-lo",
+      "male": "f-18e4cf2334ae2120-79fc-21",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9098-79fc-5",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae2120-79fc-21--f-18e4cf2334ad9098-79fc-5-2-hi",
+      "male": "f-18e4cf2334ae2120-79fc-21",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad8cb0-79fc-4",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae2508-79fc-22--f-18e4cf2334ad8cb0-79fc-4-2-lo",
+      "male": "f-18e4cf2334ae2508-79fc-22",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9098-79fc-5",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae2508-79fc-22--f-18e4cf2334ad9098-79fc-5-2-hi",
+      "male": "f-18e4cf2334ae2508-79fc-22",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad8cb0-79fc-4",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae2cd8-79fc-23--f-18e4cf2334ad8cb0-79fc-4-2-lo",
+      "male": "f-18e4cf2334ae2cd8-79fc-23",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9098-79fc-5",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae2cd8-79fc-23--f-18e4cf2334ad9098-79fc-5-2-hi",
+      "male": "f-18e4cf2334ae2cd8-79fc-23",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9098-79fc-5",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae4060-79fc-29--f-18e4cf2334ad9098-79fc-5-2-lo",
+      "male": "f-18e4cf2334ae4060-79fc-29",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9480-79fc-6",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae4060-79fc-29--f-18e4cf2334ad9480-79fc-6-2-hi",
+      "male": "f-18e4cf2334ae4060-79fc-29",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9098-79fc-5",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae4448-79fc-2a--f-18e4cf2334ad9098-79fc-5-2-lo",
+      "male": "f-18e4cf2334ae4448-79fc-2a",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9480-79fc-6",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae4448-79fc-2a--f-18e4cf2334ad9480-79fc-6-2-hi",
+      "male": "f-18e4cf2334ae4448-79fc-2a",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9098-79fc-5",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae4830-79fc-2b--f-18e4cf2334ad9098-79fc-5-2-lo",
+      "male": "f-18e4cf2334ae4830-79fc-2b",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9480-79fc-6",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae4830-79fc-2b--f-18e4cf2334ad9480-79fc-6-2-hi",
+      "male": "f-18e4cf2334ae4830-79fc-2b",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9098-79fc-5",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae4c18-79fc-2c--f-18e4cf2334ad9098-79fc-5-2-lo",
+      "male": "f-18e4cf2334ae4c18-79fc-2c",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9480-79fc-6",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae4c18-79fc-2c--f-18e4cf2334ad9480-79fc-6-2-hi",
+      "male": "f-18e4cf2334ae4c18-79fc-2c",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9480-79fc-6",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae6388-79fc-32--f-18e4cf2334ad9480-79fc-6-2-lo",
+      "male": "f-18e4cf2334ae6388-79fc-32",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9868-79fc-7",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae6388-79fc-32--f-18e4cf2334ad9868-79fc-7-2-hi",
+      "male": "f-18e4cf2334ae6388-79fc-32",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9480-79fc-6",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae6388-79fc-33--f-18e4cf2334ad9480-79fc-6-2-lo",
+      "male": "f-18e4cf2334ae6388-79fc-33",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9868-79fc-7",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae6388-79fc-33--f-18e4cf2334ad9868-79fc-7-2-hi",
+      "male": "f-18e4cf2334ae6388-79fc-33",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9480-79fc-6",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae6770-79fc-34--f-18e4cf2334ad9480-79fc-6-2-lo",
+      "male": "f-18e4cf2334ae6770-79fc-34",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9868-79fc-7",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae6770-79fc-34--f-18e4cf2334ad9868-79fc-7-2-hi",
+      "male": "f-18e4cf2334ae6770-79fc-34",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9480-79fc-6",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae6b58-79fc-35--f-18e4cf2334ad9480-79fc-6-2-lo",
+      "male": "f-18e4cf2334ae6b58-79fc-35",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9868-79fc-7",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae6b58-79fc-35--f-18e4cf2334ad9868-79fc-7-2-hi",
+      "male": "f-18e4cf2334ae6b58-79fc-35",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "SUP",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae82c8-79fc-3b--SUP-2-hi",
+      "male": "f-18e4cf2334ae82c8-79fc-3b",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9868-79fc-7",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae82c8-79fc-3b--f-18e4cf2334ad9868-79fc-7-2-lo",
+      "male": "f-18e4cf2334ae82c8-79fc-3b",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "SUP",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae86b0-79fc-3c--SUP-2-hi",
+      "male": "f-18e4cf2334ae86b0-79fc-3c",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9868-79fc-7",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae86b0-79fc-3c--f-18e4cf2334ad9868-79fc-7-2-lo",
+      "male": "f-18e4cf2334ae86b0-79fc-3c",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "SUP",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae8a98-79fc-3d--SUP-2-hi",
+      "male": "f-18e4cf2334ae8a98-79fc-3d",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9868-79fc-7",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae8a98-79fc-3d--f-18e4cf2334ad9868-79fc-7-2-lo",
+      "male": "f-18e4cf2334ae8a98-79fc-3d",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "SUP",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf2334ae8e80-79fc-3e--SUP-2-hi",
+      "male": "f-18e4cf2334ae8e80-79fc-3e",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf2334ad9868-79fc-7",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf2334ae8e80-79fc-3e--f-18e4cf2334ad9868-79fc-7-2-lo",
+      "male": "f-18e4cf2334ae8e80-79fc-3e",
+      "span": [
+        0.0,
+        350.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf26ca0ab028-79fc-44-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf26ca0ab028-79fc-44-A--f-18e4cf26ca0ab028-79fc-44-B-2-lo",
+      "male": "f-18e4cf26ca0ab028-79fc-44-A",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf26ca0ab028-79fc-44-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf26ca0ab028-79fc-44-A--f-18e4cf26ca0ab028-79fc-44-L-0-lo",
+      "male": "f-18e4cf26ca0ab028-79fc-44-A",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf26ca0ab028-79fc-44-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf26ca0ab028-79fc-44-A--f-18e4cf26ca0ab028-79fc-44-R-0-hi",
+      "male": "f-18e4cf26ca0ab028-79fc-44-A",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf26ca0ab028-79fc-44-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf26ca0ab028-79fc-44-F--f-18e4cf26ca0ab028-79fc-44-B-2-lo",
+      "male": "f-18e4cf26ca0ab028-79fc-44-F",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf26ca0ab028-79fc-44-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf26ca0ab028-79fc-44-F--f-18e4cf26ca0ab028-79fc-44-L-0-lo",
+      "male": "f-18e4cf26ca0ab028-79fc-44-F",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf26ca0ab028-79fc-44-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf26ca0ab028-79fc-44-F--f-18e4cf26ca0ab028-79fc-44-R-0-hi",
+      "male": "f-18e4cf26ca0ab028-79fc-44-F",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf26ca0ab028-79fc-44-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf26ca0ab028-79fc-44-L--f-18e4cf26ca0ab028-79fc-44-B-2-lo",
+      "male": "f-18e4cf26ca0ab028-79fc-44-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf26ca0ab028-79fc-44-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf26ca0ab028-79fc-44-R--f-18e4cf26ca0ab028-79fc-44-B-2-lo",
+      "male": "f-18e4cf26ca0ab028-79fc-44-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591299a088-851c-1-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591299a088-851c-1-A--f-18e4cf591299a088-851c-1-B-2-lo",
+      "male": "f-18e4cf591299a088-851c-1-A",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591299a088-851c-1-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591299a088-851c-1-A--f-18e4cf591299a088-851c-1-L-0-lo",
+      "male": "f-18e4cf591299a088-851c-1-A",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591299a088-851c-1-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf591299a088-851c-1-A--f-18e4cf591299a088-851c-1-R-0-hi",
+      "male": "f-18e4cf591299a088-851c-1-A",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591299a088-851c-1-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591299a088-851c-1-F--f-18e4cf591299a088-851c-1-B-2-lo",
+      "male": "f-18e4cf591299a088-851c-1-F",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591299a088-851c-1-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591299a088-851c-1-F--f-18e4cf591299a088-851c-1-L-0-lo",
+      "male": "f-18e4cf591299a088-851c-1-F",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591299a088-851c-1-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf591299a088-851c-1-F--f-18e4cf591299a088-851c-1-R-0-hi",
+      "male": "f-18e4cf591299a088-851c-1-F",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591299a088-851c-1-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591299a088-851c-1-L--f-18e4cf591299a088-851c-1-B-2-lo",
+      "male": "f-18e4cf591299a088-851c-1-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591299a088-851c-1-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591299a088-851c-1-R--f-18e4cf591299a088-851c-1-B-2-lo",
+      "male": "f-18e4cf591299a088-851c-1-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912ac0b60-851c-3-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ac0b60-851c-3-A--f-18e4cf5912ac0b60-851c-3-B-2-lo",
+      "male": "f-18e4cf5912ac0b60-851c-3-A",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912ac0b60-851c-3-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ac0b60-851c-3-A--f-18e4cf5912ac0b60-851c-3-L-0-lo",
+      "male": "f-18e4cf5912ac0b60-851c-3-A",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912ac0b60-851c-3-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912ac0b60-851c-3-A--f-18e4cf5912ac0b60-851c-3-R-0-hi",
+      "male": "f-18e4cf5912ac0b60-851c-3-A",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912ac0b60-851c-3-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ac0b60-851c-3-F--f-18e4cf5912ac0b60-851c-3-B-2-lo",
+      "male": "f-18e4cf5912ac0b60-851c-3-F",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912ac0b60-851c-3-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ac0b60-851c-3-F--f-18e4cf5912ac0b60-851c-3-L-0-lo",
+      "male": "f-18e4cf5912ac0b60-851c-3-F",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912ac0b60-851c-3-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912ac0b60-851c-3-F--f-18e4cf5912ac0b60-851c-3-R-0-hi",
+      "male": "f-18e4cf5912ac0b60-851c-3-F",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912ac0b60-851c-3-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ac0b60-851c-3-L--f-18e4cf5912ac0b60-851c-3-B-2-lo",
+      "male": "f-18e4cf5912ac0b60-851c-3-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912ac0b60-851c-3-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ac0b60-851c-3-R--f-18e4cf5912ac0b60-851c-3-B-2-lo",
+      "male": "f-18e4cf5912ac0b60-851c-3-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912b7b3c0-851c-5-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912b7b3c0-851c-5-A--f-18e4cf5912b7b3c0-851c-5-B-2-lo",
+      "male": "f-18e4cf5912b7b3c0-851c-5-A",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912b7b3c0-851c-5-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912b7b3c0-851c-5-A--f-18e4cf5912b7b3c0-851c-5-L-0-lo",
+      "male": "f-18e4cf5912b7b3c0-851c-5-A",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912b7b3c0-851c-5-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912b7b3c0-851c-5-A--f-18e4cf5912b7b3c0-851c-5-R-0-hi",
+      "male": "f-18e4cf5912b7b3c0-851c-5-A",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912b7b3c0-851c-5-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912b7b3c0-851c-5-F--f-18e4cf5912b7b3c0-851c-5-B-2-lo",
+      "male": "f-18e4cf5912b7b3c0-851c-5-F",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912b7b3c0-851c-5-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912b7b3c0-851c-5-F--f-18e4cf5912b7b3c0-851c-5-L-0-lo",
+      "male": "f-18e4cf5912b7b3c0-851c-5-F",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912b7b3c0-851c-5-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912b7b3c0-851c-5-F--f-18e4cf5912b7b3c0-851c-5-R-0-hi",
+      "male": "f-18e4cf5912b7b3c0-851c-5-F",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912b7b3c0-851c-5-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912b7b3c0-851c-5-L--f-18e4cf5912b7b3c0-851c-5-B-2-lo",
+      "male": "f-18e4cf5912b7b3c0-851c-5-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912b7b3c0-851c-5-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912b7b3c0-851c-5-R--f-18e4cf5912b7b3c0-851c-5-B-2-lo",
+      "male": "f-18e4cf5912b7b3c0-851c-5-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912c1c5e0-851c-7-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912c1c5e0-851c-7-A--f-18e4cf5912c1c5e0-851c-7-B-2-lo",
+      "male": "f-18e4cf5912c1c5e0-851c-7-A",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912c1c5e0-851c-7-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912c1c5e0-851c-7-A--f-18e4cf5912c1c5e0-851c-7-L-0-lo",
+      "male": "f-18e4cf5912c1c5e0-851c-7-A",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912c1c5e0-851c-7-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912c1c5e0-851c-7-A--f-18e4cf5912c1c5e0-851c-7-R-0-hi",
+      "male": "f-18e4cf5912c1c5e0-851c-7-A",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912c1c5e0-851c-7-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912c1c5e0-851c-7-F--f-18e4cf5912c1c5e0-851c-7-B-2-lo",
+      "male": "f-18e4cf5912c1c5e0-851c-7-F",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912c1c5e0-851c-7-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912c1c5e0-851c-7-F--f-18e4cf5912c1c5e0-851c-7-L-0-lo",
+      "male": "f-18e4cf5912c1c5e0-851c-7-F",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912c1c5e0-851c-7-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912c1c5e0-851c-7-F--f-18e4cf5912c1c5e0-851c-7-R-0-hi",
+      "male": "f-18e4cf5912c1c5e0-851c-7-F",
+      "span": [
+        30.0,
+        194.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912c1c5e0-851c-7-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912c1c5e0-851c-7-L--f-18e4cf5912c1c5e0-851c-7-B-2-lo",
+      "male": "f-18e4cf5912c1c5e0-851c-7-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912c1c5e0-851c-7-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912c1c5e0-851c-7-R--f-18e4cf5912c1c5e0-851c-7-B-2-lo",
+      "male": "f-18e4cf5912c1c5e0-851c-7-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912ce3960-851c-9-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ce3960-851c-9-A--f-18e4cf5912ce3960-851c-9-B-2-lo",
+      "male": "f-18e4cf5912ce3960-851c-9-A",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912ce3960-851c-9-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ce3960-851c-9-A--f-18e4cf5912ce3960-851c-9-L-0-lo",
+      "male": "f-18e4cf5912ce3960-851c-9-A",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912ce3960-851c-9-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912ce3960-851c-9-A--f-18e4cf5912ce3960-851c-9-R-0-hi",
+      "male": "f-18e4cf5912ce3960-851c-9-A",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912ce3960-851c-9-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ce3960-851c-9-F--f-18e4cf5912ce3960-851c-9-B-2-lo",
+      "male": "f-18e4cf5912ce3960-851c-9-F",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912ce3960-851c-9-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ce3960-851c-9-F--f-18e4cf5912ce3960-851c-9-L-0-lo",
+      "male": "f-18e4cf5912ce3960-851c-9-F",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912ce3960-851c-9-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912ce3960-851c-9-F--f-18e4cf5912ce3960-851c-9-R-0-hi",
+      "male": "f-18e4cf5912ce3960-851c-9-F",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912ce3960-851c-9-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ce3960-851c-9-L--f-18e4cf5912ce3960-851c-9-B-2-lo",
+      "male": "f-18e4cf5912ce3960-851c-9-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912ce3960-851c-9-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912ce3960-851c-9-R--f-18e4cf5912ce3960-851c-9-B-2-lo",
+      "male": "f-18e4cf5912ce3960-851c-9-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912da4f20-851c-b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912da4f20-851c-b-A--f-18e4cf5912da4f20-851c-b-B-2-lo",
+      "male": "f-18e4cf5912da4f20-851c-b-A",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912da4f20-851c-b-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912da4f20-851c-b-A--f-18e4cf5912da4f20-851c-b-L-0-lo",
+      "male": "f-18e4cf5912da4f20-851c-b-A",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912da4f20-851c-b-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912da4f20-851c-b-A--f-18e4cf5912da4f20-851c-b-R-0-hi",
+      "male": "f-18e4cf5912da4f20-851c-b-A",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912da4f20-851c-b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912da4f20-851c-b-F--f-18e4cf5912da4f20-851c-b-B-2-lo",
+      "male": "f-18e4cf5912da4f20-851c-b-F",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912da4f20-851c-b-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912da4f20-851c-b-F--f-18e4cf5912da4f20-851c-b-L-0-lo",
+      "male": "f-18e4cf5912da4f20-851c-b-F",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912da4f20-851c-b-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912da4f20-851c-b-F--f-18e4cf5912da4f20-851c-b-R-0-hi",
+      "male": "f-18e4cf5912da4f20-851c-b-F",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912da4f20-851c-b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912da4f20-851c-b-L--f-18e4cf5912da4f20-851c-b-B-2-lo",
+      "male": "f-18e4cf5912da4f20-851c-b-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912da4f20-851c-b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912da4f20-851c-b-R--f-18e4cf5912da4f20-851c-b-B-2-lo",
+      "male": "f-18e4cf5912da4f20-851c-b-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912e6af18-851c-d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912e6af18-851c-d-A--f-18e4cf5912e6af18-851c-d-B-2-lo",
+      "male": "f-18e4cf5912e6af18-851c-d-A",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912e6af18-851c-d-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912e6af18-851c-d-A--f-18e4cf5912e6af18-851c-d-L-0-lo",
+      "male": "f-18e4cf5912e6af18-851c-d-A",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912e6af18-851c-d-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912e6af18-851c-d-A--f-18e4cf5912e6af18-851c-d-R-0-hi",
+      "male": "f-18e4cf5912e6af18-851c-d-A",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912e6af18-851c-d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912e6af18-851c-d-F--f-18e4cf5912e6af18-851c-d-B-2-lo",
+      "male": "f-18e4cf5912e6af18-851c-d-F",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912e6af18-851c-d-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912e6af18-851c-d-F--f-18e4cf5912e6af18-851c-d-L-0-lo",
+      "male": "f-18e4cf5912e6af18-851c-d-F",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912e6af18-851c-d-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912e6af18-851c-d-F--f-18e4cf5912e6af18-851c-d-R-0-hi",
+      "male": "f-18e4cf5912e6af18-851c-d-F",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912e6af18-851c-d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912e6af18-851c-d-L--f-18e4cf5912e6af18-851c-d-B-2-lo",
+      "male": "f-18e4cf5912e6af18-851c-d-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912e6af18-851c-d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912e6af18-851c-d-R--f-18e4cf5912e6af18-851c-d-B-2-lo",
+      "male": "f-18e4cf5912e6af18-851c-d-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912f370b8-851c-f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912f370b8-851c-f-A--f-18e4cf5912f370b8-851c-f-B-2-lo",
+      "male": "f-18e4cf5912f370b8-851c-f-A",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912f370b8-851c-f-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912f370b8-851c-f-A--f-18e4cf5912f370b8-851c-f-L-0-lo",
+      "male": "f-18e4cf5912f370b8-851c-f-A",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912f370b8-851c-f-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912f370b8-851c-f-A--f-18e4cf5912f370b8-851c-f-R-0-hi",
+      "male": "f-18e4cf5912f370b8-851c-f-A",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912f370b8-851c-f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912f370b8-851c-f-F--f-18e4cf5912f370b8-851c-f-B-2-lo",
+      "male": "f-18e4cf5912f370b8-851c-f-F",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912f370b8-851c-f-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912f370b8-851c-f-F--f-18e4cf5912f370b8-851c-f-L-0-lo",
+      "male": "f-18e4cf5912f370b8-851c-f-F",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5912f370b8-851c-f-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5912f370b8-851c-f-F--f-18e4cf5912f370b8-851c-f-R-0-hi",
+      "male": "f-18e4cf5912f370b8-851c-f-F",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912f370b8-851c-f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912f370b8-851c-f-L--f-18e4cf5912f370b8-851c-f-B-2-lo",
+      "male": "f-18e4cf5912f370b8-851c-f-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5912f370b8-851c-f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5912f370b8-851c-f-R--f-18e4cf5912f370b8-851c-f-B-2-lo",
+      "male": "f-18e4cf5912f370b8-851c-f-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913002a88-851c-11-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913002a88-851c-11-A--f-18e4cf5913002a88-851c-11-B-2-lo",
+      "male": "f-18e4cf5913002a88-851c-11-A",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913002a88-851c-11-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913002a88-851c-11-A--f-18e4cf5913002a88-851c-11-L-0-lo",
+      "male": "f-18e4cf5913002a88-851c-11-A",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913002a88-851c-11-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5913002a88-851c-11-A--f-18e4cf5913002a88-851c-11-R-0-hi",
+      "male": "f-18e4cf5913002a88-851c-11-A",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913002a88-851c-11-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913002a88-851c-11-F--f-18e4cf5913002a88-851c-11-B-2-lo",
+      "male": "f-18e4cf5913002a88-851c-11-F",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913002a88-851c-11-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913002a88-851c-11-F--f-18e4cf5913002a88-851c-11-L-0-lo",
+      "male": "f-18e4cf5913002a88-851c-11-F",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913002a88-851c-11-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5913002a88-851c-11-F--f-18e4cf5913002a88-851c-11-R-0-hi",
+      "male": "f-18e4cf5913002a88-851c-11-F",
+      "span": [
+        227.0,
+        391.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913002a88-851c-11-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913002a88-851c-11-L--f-18e4cf5913002a88-851c-11-B-2-lo",
+      "male": "f-18e4cf5913002a88-851c-11-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913002a88-851c-11-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913002a88-851c-11-R--f-18e4cf5913002a88-851c-11-B-2-lo",
+      "male": "f-18e4cf5913002a88-851c-11-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59130dd688-851c-13-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59130dd688-851c-13-A--f-18e4cf59130dd688-851c-13-B-2-lo",
+      "male": "f-18e4cf59130dd688-851c-13-A",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59130dd688-851c-13-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59130dd688-851c-13-A--f-18e4cf59130dd688-851c-13-L-0-lo",
+      "male": "f-18e4cf59130dd688-851c-13-A",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59130dd688-851c-13-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59130dd688-851c-13-A--f-18e4cf59130dd688-851c-13-R-0-hi",
+      "male": "f-18e4cf59130dd688-851c-13-A",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59130dd688-851c-13-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59130dd688-851c-13-F--f-18e4cf59130dd688-851c-13-B-2-lo",
+      "male": "f-18e4cf59130dd688-851c-13-F",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59130dd688-851c-13-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59130dd688-851c-13-F--f-18e4cf59130dd688-851c-13-L-0-lo",
+      "male": "f-18e4cf59130dd688-851c-13-F",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59130dd688-851c-13-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59130dd688-851c-13-F--f-18e4cf59130dd688-851c-13-R-0-hi",
+      "male": "f-18e4cf59130dd688-851c-13-F",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59130dd688-851c-13-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59130dd688-851c-13-L--f-18e4cf59130dd688-851c-13-B-2-lo",
+      "male": "f-18e4cf59130dd688-851c-13-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59130dd688-851c-13-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59130dd688-851c-13-R--f-18e4cf59130dd688-851c-13-B-2-lo",
+      "male": "f-18e4cf59130dd688-851c-13-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59131bf7b8-851c-15-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59131bf7b8-851c-15-A--f-18e4cf59131bf7b8-851c-15-B-2-lo",
+      "male": "f-18e4cf59131bf7b8-851c-15-A",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59131bf7b8-851c-15-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59131bf7b8-851c-15-A--f-18e4cf59131bf7b8-851c-15-L-0-lo",
+      "male": "f-18e4cf59131bf7b8-851c-15-A",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59131bf7b8-851c-15-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59131bf7b8-851c-15-A--f-18e4cf59131bf7b8-851c-15-R-0-hi",
+      "male": "f-18e4cf59131bf7b8-851c-15-A",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59131bf7b8-851c-15-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59131bf7b8-851c-15-F--f-18e4cf59131bf7b8-851c-15-B-2-lo",
+      "male": "f-18e4cf59131bf7b8-851c-15-F",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59131bf7b8-851c-15-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59131bf7b8-851c-15-F--f-18e4cf59131bf7b8-851c-15-L-0-lo",
+      "male": "f-18e4cf59131bf7b8-851c-15-F",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59131bf7b8-851c-15-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59131bf7b8-851c-15-F--f-18e4cf59131bf7b8-851c-15-R-0-hi",
+      "male": "f-18e4cf59131bf7b8-851c-15-F",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59131bf7b8-851c-15-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59131bf7b8-851c-15-L--f-18e4cf59131bf7b8-851c-15-B-2-lo",
+      "male": "f-18e4cf59131bf7b8-851c-15-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59131bf7b8-851c-15-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59131bf7b8-851c-15-R--f-18e4cf59131bf7b8-851c-15-B-2-lo",
+      "male": "f-18e4cf59131bf7b8-851c-15-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59132ae7f0-851c-17-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59132ae7f0-851c-17-A--f-18e4cf59132ae7f0-851c-17-B-2-lo",
+      "male": "f-18e4cf59132ae7f0-851c-17-A",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59132ae7f0-851c-17-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59132ae7f0-851c-17-A--f-18e4cf59132ae7f0-851c-17-L-0-lo",
+      "male": "f-18e4cf59132ae7f0-851c-17-A",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59132ae7f0-851c-17-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59132ae7f0-851c-17-A--f-18e4cf59132ae7f0-851c-17-R-0-hi",
+      "male": "f-18e4cf59132ae7f0-851c-17-A",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59132ae7f0-851c-17-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59132ae7f0-851c-17-F--f-18e4cf59132ae7f0-851c-17-B-2-lo",
+      "male": "f-18e4cf59132ae7f0-851c-17-F",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59132ae7f0-851c-17-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59132ae7f0-851c-17-F--f-18e4cf59132ae7f0-851c-17-L-0-lo",
+      "male": "f-18e4cf59132ae7f0-851c-17-F",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59132ae7f0-851c-17-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59132ae7f0-851c-17-F--f-18e4cf59132ae7f0-851c-17-R-0-hi",
+      "male": "f-18e4cf59132ae7f0-851c-17-F",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59132ae7f0-851c-17-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59132ae7f0-851c-17-L--f-18e4cf59132ae7f0-851c-17-B-2-lo",
+      "male": "f-18e4cf59132ae7f0-851c-17-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59132ae7f0-851c-17-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59132ae7f0-851c-17-R--f-18e4cf59132ae7f0-851c-17-B-2-lo",
+      "male": "f-18e4cf59132ae7f0-851c-17-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591348c090-851c-19-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591348c090-851c-19-A--f-18e4cf591348c090-851c-19-B-2-lo",
+      "male": "f-18e4cf591348c090-851c-19-A",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591348c090-851c-19-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591348c090-851c-19-A--f-18e4cf591348c090-851c-19-L-0-lo",
+      "male": "f-18e4cf591348c090-851c-19-A",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591348c090-851c-19-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf591348c090-851c-19-A--f-18e4cf591348c090-851c-19-R-0-hi",
+      "male": "f-18e4cf591348c090-851c-19-A",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591348c090-851c-19-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591348c090-851c-19-F--f-18e4cf591348c090-851c-19-B-2-lo",
+      "male": "f-18e4cf591348c090-851c-19-F",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591348c090-851c-19-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591348c090-851c-19-F--f-18e4cf591348c090-851c-19-L-0-lo",
+      "male": "f-18e4cf591348c090-851c-19-F",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591348c090-851c-19-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf591348c090-851c-19-F--f-18e4cf591348c090-851c-19-R-0-hi",
+      "male": "f-18e4cf591348c090-851c-19-F",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591348c090-851c-19-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591348c090-851c-19-L--f-18e4cf591348c090-851c-19-B-2-lo",
+      "male": "f-18e4cf591348c090-851c-19-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591348c090-851c-19-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591348c090-851c-19-R--f-18e4cf591348c090-851c-19-B-2-lo",
+      "male": "f-18e4cf591348c090-851c-19-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591379c758-851c-1b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591379c758-851c-1b-A--f-18e4cf591379c758-851c-1b-B-2-lo",
+      "male": "f-18e4cf591379c758-851c-1b-A",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591379c758-851c-1b-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591379c758-851c-1b-A--f-18e4cf591379c758-851c-1b-L-0-lo",
+      "male": "f-18e4cf591379c758-851c-1b-A",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591379c758-851c-1b-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf591379c758-851c-1b-A--f-18e4cf591379c758-851c-1b-R-0-hi",
+      "male": "f-18e4cf591379c758-851c-1b-A",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591379c758-851c-1b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591379c758-851c-1b-F--f-18e4cf591379c758-851c-1b-B-2-lo",
+      "male": "f-18e4cf591379c758-851c-1b-F",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591379c758-851c-1b-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591379c758-851c-1b-F--f-18e4cf591379c758-851c-1b-L-0-lo",
+      "male": "f-18e4cf591379c758-851c-1b-F",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591379c758-851c-1b-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf591379c758-851c-1b-F--f-18e4cf591379c758-851c-1b-R-0-hi",
+      "male": "f-18e4cf591379c758-851c-1b-F",
+      "span": [
+        424.0,
+        588.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591379c758-851c-1b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591379c758-851c-1b-L--f-18e4cf591379c758-851c-1b-B-2-lo",
+      "male": "f-18e4cf591379c758-851c-1b-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591379c758-851c-1b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591379c758-851c-1b-R--f-18e4cf591379c758-851c-1b-B-2-lo",
+      "male": "f-18e4cf591379c758-851c-1b-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59138b5388-851c-1d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59138b5388-851c-1d-A--f-18e4cf59138b5388-851c-1d-B-2-lo",
+      "male": "f-18e4cf59138b5388-851c-1d-A",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59138b5388-851c-1d-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59138b5388-851c-1d-A--f-18e4cf59138b5388-851c-1d-L-0-lo",
+      "male": "f-18e4cf59138b5388-851c-1d-A",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59138b5388-851c-1d-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59138b5388-851c-1d-A--f-18e4cf59138b5388-851c-1d-R-0-hi",
+      "male": "f-18e4cf59138b5388-851c-1d-A",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59138b5388-851c-1d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59138b5388-851c-1d-F--f-18e4cf59138b5388-851c-1d-B-2-lo",
+      "male": "f-18e4cf59138b5388-851c-1d-F",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59138b5388-851c-1d-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59138b5388-851c-1d-F--f-18e4cf59138b5388-851c-1d-L-0-lo",
+      "male": "f-18e4cf59138b5388-851c-1d-F",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59138b5388-851c-1d-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59138b5388-851c-1d-F--f-18e4cf59138b5388-851c-1d-R-0-hi",
+      "male": "f-18e4cf59138b5388-851c-1d-F",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59138b5388-851c-1d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59138b5388-851c-1d-L--f-18e4cf59138b5388-851c-1d-B-2-lo",
+      "male": "f-18e4cf59138b5388-851c-1d-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59138b5388-851c-1d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59138b5388-851c-1d-R--f-18e4cf59138b5388-851c-1d-B-2-lo",
+      "male": "f-18e4cf59138b5388-851c-1d-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59139fb260-851c-1f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59139fb260-851c-1f-A--f-18e4cf59139fb260-851c-1f-B-2-lo",
+      "male": "f-18e4cf59139fb260-851c-1f-A",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59139fb260-851c-1f-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59139fb260-851c-1f-A--f-18e4cf59139fb260-851c-1f-L-0-lo",
+      "male": "f-18e4cf59139fb260-851c-1f-A",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59139fb260-851c-1f-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59139fb260-851c-1f-A--f-18e4cf59139fb260-851c-1f-R-0-hi",
+      "male": "f-18e4cf59139fb260-851c-1f-A",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59139fb260-851c-1f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59139fb260-851c-1f-F--f-18e4cf59139fb260-851c-1f-B-2-lo",
+      "male": "f-18e4cf59139fb260-851c-1f-F",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59139fb260-851c-1f-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59139fb260-851c-1f-F--f-18e4cf59139fb260-851c-1f-L-0-lo",
+      "male": "f-18e4cf59139fb260-851c-1f-F",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59139fb260-851c-1f-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59139fb260-851c-1f-F--f-18e4cf59139fb260-851c-1f-R-0-hi",
+      "male": "f-18e4cf59139fb260-851c-1f-F",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59139fb260-851c-1f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59139fb260-851c-1f-L--f-18e4cf59139fb260-851c-1f-B-2-lo",
+      "male": "f-18e4cf59139fb260-851c-1f-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59139fb260-851c-1f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59139fb260-851c-1f-R--f-18e4cf59139fb260-851c-1f-B-2-lo",
+      "male": "f-18e4cf59139fb260-851c-1f-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913b3a3d8-851c-21-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913b3a3d8-851c-21-A--f-18e4cf5913b3a3d8-851c-21-B-2-lo",
+      "male": "f-18e4cf5913b3a3d8-851c-21-A",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913b3a3d8-851c-21-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913b3a3d8-851c-21-A--f-18e4cf5913b3a3d8-851c-21-L-0-lo",
+      "male": "f-18e4cf5913b3a3d8-851c-21-A",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913b3a3d8-851c-21-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5913b3a3d8-851c-21-A--f-18e4cf5913b3a3d8-851c-21-R-0-hi",
+      "male": "f-18e4cf5913b3a3d8-851c-21-A",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913b3a3d8-851c-21-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913b3a3d8-851c-21-F--f-18e4cf5913b3a3d8-851c-21-B-2-lo",
+      "male": "f-18e4cf5913b3a3d8-851c-21-F",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913b3a3d8-851c-21-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913b3a3d8-851c-21-F--f-18e4cf5913b3a3d8-851c-21-L-0-lo",
+      "male": "f-18e4cf5913b3a3d8-851c-21-F",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913b3a3d8-851c-21-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5913b3a3d8-851c-21-F--f-18e4cf5913b3a3d8-851c-21-R-0-hi",
+      "male": "f-18e4cf5913b3a3d8-851c-21-F",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913b3a3d8-851c-21-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913b3a3d8-851c-21-L--f-18e4cf5913b3a3d8-851c-21-B-2-lo",
+      "male": "f-18e4cf5913b3a3d8-851c-21-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913b3a3d8-851c-21-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913b3a3d8-851c-21-R--f-18e4cf5913b3a3d8-851c-21-B-2-lo",
+      "male": "f-18e4cf5913b3a3d8-851c-21-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913eaa9c8-851c-23-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913eaa9c8-851c-23-A--f-18e4cf5913eaa9c8-851c-23-B-2-lo",
+      "male": "f-18e4cf5913eaa9c8-851c-23-A",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913eaa9c8-851c-23-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913eaa9c8-851c-23-A--f-18e4cf5913eaa9c8-851c-23-L-0-lo",
+      "male": "f-18e4cf5913eaa9c8-851c-23-A",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913eaa9c8-851c-23-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5913eaa9c8-851c-23-A--f-18e4cf5913eaa9c8-851c-23-R-0-hi",
+      "male": "f-18e4cf5913eaa9c8-851c-23-A",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913eaa9c8-851c-23-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913eaa9c8-851c-23-F--f-18e4cf5913eaa9c8-851c-23-B-2-lo",
+      "male": "f-18e4cf5913eaa9c8-851c-23-F",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913eaa9c8-851c-23-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913eaa9c8-851c-23-F--f-18e4cf5913eaa9c8-851c-23-L-0-lo",
+      "male": "f-18e4cf5913eaa9c8-851c-23-F",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5913eaa9c8-851c-23-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5913eaa9c8-851c-23-F--f-18e4cf5913eaa9c8-851c-23-R-0-hi",
+      "male": "f-18e4cf5913eaa9c8-851c-23-F",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913eaa9c8-851c-23-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913eaa9c8-851c-23-L--f-18e4cf5913eaa9c8-851c-23-B-2-lo",
+      "male": "f-18e4cf5913eaa9c8-851c-23-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5913eaa9c8-851c-23-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5913eaa9c8-851c-23-R--f-18e4cf5913eaa9c8-851c-23-B-2-lo",
+      "male": "f-18e4cf5913eaa9c8-851c-23-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59141422f8-851c-25-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59141422f8-851c-25-A--f-18e4cf59141422f8-851c-25-B-2-lo",
+      "male": "f-18e4cf59141422f8-851c-25-A",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59141422f8-851c-25-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59141422f8-851c-25-A--f-18e4cf59141422f8-851c-25-L-0-lo",
+      "male": "f-18e4cf59141422f8-851c-25-A",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59141422f8-851c-25-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59141422f8-851c-25-A--f-18e4cf59141422f8-851c-25-R-0-hi",
+      "male": "f-18e4cf59141422f8-851c-25-A",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59141422f8-851c-25-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59141422f8-851c-25-F--f-18e4cf59141422f8-851c-25-B-2-lo",
+      "male": "f-18e4cf59141422f8-851c-25-F",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59141422f8-851c-25-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59141422f8-851c-25-F--f-18e4cf59141422f8-851c-25-L-0-lo",
+      "male": "f-18e4cf59141422f8-851c-25-F",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59141422f8-851c-25-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59141422f8-851c-25-F--f-18e4cf59141422f8-851c-25-R-0-hi",
+      "male": "f-18e4cf59141422f8-851c-25-F",
+      "span": [
+        621.0,
+        785.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59141422f8-851c-25-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59141422f8-851c-25-L--f-18e4cf59141422f8-851c-25-B-2-lo",
+      "male": "f-18e4cf59141422f8-851c-25-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59141422f8-851c-25-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59141422f8-851c-25-R--f-18e4cf59141422f8-851c-25-B-2-lo",
+      "male": "f-18e4cf59141422f8-851c-25-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591429be38-851c-27-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591429be38-851c-27-A--f-18e4cf591429be38-851c-27-B-2-lo",
+      "male": "f-18e4cf591429be38-851c-27-A",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591429be38-851c-27-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591429be38-851c-27-A--f-18e4cf591429be38-851c-27-L-0-lo",
+      "male": "f-18e4cf591429be38-851c-27-A",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591429be38-851c-27-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf591429be38-851c-27-A--f-18e4cf591429be38-851c-27-R-0-hi",
+      "male": "f-18e4cf591429be38-851c-27-A",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591429be38-851c-27-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591429be38-851c-27-F--f-18e4cf591429be38-851c-27-B-2-lo",
+      "male": "f-18e4cf591429be38-851c-27-F",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591429be38-851c-27-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591429be38-851c-27-F--f-18e4cf591429be38-851c-27-L-0-lo",
+      "male": "f-18e4cf591429be38-851c-27-F",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591429be38-851c-27-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf591429be38-851c-27-F--f-18e4cf591429be38-851c-27-R-0-hi",
+      "male": "f-18e4cf591429be38-851c-27-F",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591429be38-851c-27-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591429be38-851c-27-L--f-18e4cf591429be38-851c-27-B-2-lo",
+      "male": "f-18e4cf591429be38-851c-27-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591429be38-851c-27-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591429be38-851c-27-R--f-18e4cf591429be38-851c-27-B-2-lo",
+      "male": "f-18e4cf591429be38-851c-27-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59145b5d58-851c-29-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59145b5d58-851c-29-A--f-18e4cf59145b5d58-851c-29-B-2-lo",
+      "male": "f-18e4cf59145b5d58-851c-29-A",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59145b5d58-851c-29-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59145b5d58-851c-29-A--f-18e4cf59145b5d58-851c-29-L-0-lo",
+      "male": "f-18e4cf59145b5d58-851c-29-A",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59145b5d58-851c-29-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59145b5d58-851c-29-A--f-18e4cf59145b5d58-851c-29-R-0-hi",
+      "male": "f-18e4cf59145b5d58-851c-29-A",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59145b5d58-851c-29-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59145b5d58-851c-29-F--f-18e4cf59145b5d58-851c-29-B-2-lo",
+      "male": "f-18e4cf59145b5d58-851c-29-F",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59145b5d58-851c-29-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59145b5d58-851c-29-F--f-18e4cf59145b5d58-851c-29-L-0-lo",
+      "male": "f-18e4cf59145b5d58-851c-29-F",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59145b5d58-851c-29-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59145b5d58-851c-29-F--f-18e4cf59145b5d58-851c-29-R-0-hi",
+      "male": "f-18e4cf59145b5d58-851c-29-F",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59145b5d58-851c-29-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59145b5d58-851c-29-L--f-18e4cf59145b5d58-851c-29-B-2-lo",
+      "male": "f-18e4cf59145b5d58-851c-29-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59145b5d58-851c-29-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59145b5d58-851c-29-R--f-18e4cf59145b5d58-851c-29-B-2-lo",
+      "male": "f-18e4cf59145b5d58-851c-29-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59148a6468-851c-2b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59148a6468-851c-2b-A--f-18e4cf59148a6468-851c-2b-B-2-lo",
+      "male": "f-18e4cf59148a6468-851c-2b-A",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59148a6468-851c-2b-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59148a6468-851c-2b-A--f-18e4cf59148a6468-851c-2b-L-0-lo",
+      "male": "f-18e4cf59148a6468-851c-2b-A",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59148a6468-851c-2b-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59148a6468-851c-2b-A--f-18e4cf59148a6468-851c-2b-R-0-hi",
+      "male": "f-18e4cf59148a6468-851c-2b-A",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59148a6468-851c-2b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59148a6468-851c-2b-F--f-18e4cf59148a6468-851c-2b-B-2-lo",
+      "male": "f-18e4cf59148a6468-851c-2b-F",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59148a6468-851c-2b-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59148a6468-851c-2b-F--f-18e4cf59148a6468-851c-2b-L-0-lo",
+      "male": "f-18e4cf59148a6468-851c-2b-F",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59148a6468-851c-2b-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59148a6468-851c-2b-F--f-18e4cf59148a6468-851c-2b-R-0-hi",
+      "male": "f-18e4cf59148a6468-851c-2b-F",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59148a6468-851c-2b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59148a6468-851c-2b-L--f-18e4cf59148a6468-851c-2b-B-2-lo",
+      "male": "f-18e4cf59148a6468-851c-2b-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59148a6468-851c-2b-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59148a6468-851c-2b-R--f-18e4cf59148a6468-851c-2b-B-2-lo",
+      "male": "f-18e4cf59148a6468-851c-2b-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914a3bcb0-851c-2d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914a3bcb0-851c-2d-A--f-18e4cf5914a3bcb0-851c-2d-B-2-lo",
+      "male": "f-18e4cf5914a3bcb0-851c-2d-A",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914a3bcb0-851c-2d-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914a3bcb0-851c-2d-A--f-18e4cf5914a3bcb0-851c-2d-L-0-lo",
+      "male": "f-18e4cf5914a3bcb0-851c-2d-A",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914a3bcb0-851c-2d-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5914a3bcb0-851c-2d-A--f-18e4cf5914a3bcb0-851c-2d-R-0-hi",
+      "male": "f-18e4cf5914a3bcb0-851c-2d-A",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914a3bcb0-851c-2d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914a3bcb0-851c-2d-F--f-18e4cf5914a3bcb0-851c-2d-B-2-lo",
+      "male": "f-18e4cf5914a3bcb0-851c-2d-F",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914a3bcb0-851c-2d-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914a3bcb0-851c-2d-F--f-18e4cf5914a3bcb0-851c-2d-L-0-lo",
+      "male": "f-18e4cf5914a3bcb0-851c-2d-F",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914a3bcb0-851c-2d-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5914a3bcb0-851c-2d-F--f-18e4cf5914a3bcb0-851c-2d-R-0-hi",
+      "male": "f-18e4cf5914a3bcb0-851c-2d-F",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914a3bcb0-851c-2d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914a3bcb0-851c-2d-L--f-18e4cf5914a3bcb0-851c-2d-B-2-lo",
+      "male": "f-18e4cf5914a3bcb0-851c-2d-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914a3bcb0-851c-2d-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914a3bcb0-851c-2d-R--f-18e4cf5914a3bcb0-851c-2d-B-2-lo",
+      "male": "f-18e4cf5914a3bcb0-851c-2d-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914be4990-851c-2f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914be4990-851c-2f-A--f-18e4cf5914be4990-851c-2f-B-2-lo",
+      "male": "f-18e4cf5914be4990-851c-2f-A",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914be4990-851c-2f-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914be4990-851c-2f-A--f-18e4cf5914be4990-851c-2f-L-0-lo",
+      "male": "f-18e4cf5914be4990-851c-2f-A",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914be4990-851c-2f-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5914be4990-851c-2f-A--f-18e4cf5914be4990-851c-2f-R-0-hi",
+      "male": "f-18e4cf5914be4990-851c-2f-A",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914be4990-851c-2f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914be4990-851c-2f-F--f-18e4cf5914be4990-851c-2f-B-2-lo",
+      "male": "f-18e4cf5914be4990-851c-2f-F",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914be4990-851c-2f-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914be4990-851c-2f-F--f-18e4cf5914be4990-851c-2f-L-0-lo",
+      "male": "f-18e4cf5914be4990-851c-2f-F",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914be4990-851c-2f-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5914be4990-851c-2f-F--f-18e4cf5914be4990-851c-2f-R-0-hi",
+      "male": "f-18e4cf5914be4990-851c-2f-F",
+      "span": [
+        818.0,
+        982.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914be4990-851c-2f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914be4990-851c-2f-L--f-18e4cf5914be4990-851c-2f-B-2-lo",
+      "male": "f-18e4cf5914be4990-851c-2f-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914be4990-851c-2f-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914be4990-851c-2f-R--f-18e4cf5914be4990-851c-2f-B-2-lo",
+      "male": "f-18e4cf5914be4990-851c-2f-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914e53a50-851c-31-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914e53a50-851c-31-A--f-18e4cf5914e53a50-851c-31-B-2-lo",
+      "male": "f-18e4cf5914e53a50-851c-31-A",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914e53a50-851c-31-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914e53a50-851c-31-A--f-18e4cf5914e53a50-851c-31-L-0-lo",
+      "male": "f-18e4cf5914e53a50-851c-31-A",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914e53a50-851c-31-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5914e53a50-851c-31-A--f-18e4cf5914e53a50-851c-31-R-0-hi",
+      "male": "f-18e4cf5914e53a50-851c-31-A",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914e53a50-851c-31-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914e53a50-851c-31-F--f-18e4cf5914e53a50-851c-31-B-2-lo",
+      "male": "f-18e4cf5914e53a50-851c-31-F",
+      "span": [
+        32.0,
+        182.4
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914e53a50-851c-31-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914e53a50-851c-31-F--f-18e4cf5914e53a50-851c-31-L-0-lo",
+      "male": "f-18e4cf5914e53a50-851c-31-F",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5914e53a50-851c-31-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5914e53a50-851c-31-F--f-18e4cf5914e53a50-851c-31-R-0-hi",
+      "male": "f-18e4cf5914e53a50-851c-31-F",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914e53a50-851c-31-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914e53a50-851c-31-L--f-18e4cf5914e53a50-851c-31-B-2-lo",
+      "male": "f-18e4cf5914e53a50-851c-31-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5914e53a50-851c-31-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5914e53a50-851c-31-R--f-18e4cf5914e53a50-851c-31-B-2-lo",
+      "male": "f-18e4cf5914e53a50-851c-31-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59150414c0-851c-33-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59150414c0-851c-33-A--f-18e4cf59150414c0-851c-33-B-2-lo",
+      "male": "f-18e4cf59150414c0-851c-33-A",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59150414c0-851c-33-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59150414c0-851c-33-A--f-18e4cf59150414c0-851c-33-L-0-lo",
+      "male": "f-18e4cf59150414c0-851c-33-A",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59150414c0-851c-33-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59150414c0-851c-33-A--f-18e4cf59150414c0-851c-33-R-0-hi",
+      "male": "f-18e4cf59150414c0-851c-33-A",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59150414c0-851c-33-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59150414c0-851c-33-F--f-18e4cf59150414c0-851c-33-B-2-lo",
+      "male": "f-18e4cf59150414c0-851c-33-F",
+      "span": [
+        228.4,
+        378.8
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59150414c0-851c-33-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59150414c0-851c-33-F--f-18e4cf59150414c0-851c-33-L-0-lo",
+      "male": "f-18e4cf59150414c0-851c-33-F",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf59150414c0-851c-33-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf59150414c0-851c-33-F--f-18e4cf59150414c0-851c-33-R-0-hi",
+      "male": "f-18e4cf59150414c0-851c-33-F",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59150414c0-851c-33-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59150414c0-851c-33-L--f-18e4cf59150414c0-851c-33-B-2-lo",
+      "male": "f-18e4cf59150414c0-851c-33-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf59150414c0-851c-33-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf59150414c0-851c-33-R--f-18e4cf59150414c0-851c-33-B-2-lo",
+      "male": "f-18e4cf59150414c0-851c-33-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591521ce20-851c-35-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591521ce20-851c-35-A--f-18e4cf591521ce20-851c-35-B-2-lo",
+      "male": "f-18e4cf591521ce20-851c-35-A",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591521ce20-851c-35-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591521ce20-851c-35-A--f-18e4cf591521ce20-851c-35-L-0-lo",
+      "male": "f-18e4cf591521ce20-851c-35-A",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591521ce20-851c-35-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf591521ce20-851c-35-A--f-18e4cf591521ce20-851c-35-R-0-hi",
+      "male": "f-18e4cf591521ce20-851c-35-A",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591521ce20-851c-35-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591521ce20-851c-35-F--f-18e4cf591521ce20-851c-35-B-2-lo",
+      "male": "f-18e4cf591521ce20-851c-35-F",
+      "span": [
+        424.8,
+        575.2
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591521ce20-851c-35-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591521ce20-851c-35-F--f-18e4cf591521ce20-851c-35-L-0-lo",
+      "male": "f-18e4cf591521ce20-851c-35-F",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf591521ce20-851c-35-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf591521ce20-851c-35-F--f-18e4cf591521ce20-851c-35-R-0-hi",
+      "male": "f-18e4cf591521ce20-851c-35-F",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591521ce20-851c-35-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591521ce20-851c-35-L--f-18e4cf591521ce20-851c-35-B-2-lo",
+      "male": "f-18e4cf591521ce20-851c-35-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf591521ce20-851c-35-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf591521ce20-851c-35-R--f-18e4cf591521ce20-851c-35-B-2-lo",
+      "male": "f-18e4cf591521ce20-851c-35-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5915478278-851c-37-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915478278-851c-37-A--f-18e4cf5915478278-851c-37-B-2-lo",
+      "male": "f-18e4cf5915478278-851c-37-A",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5915478278-851c-37-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915478278-851c-37-A--f-18e4cf5915478278-851c-37-L-0-lo",
+      "male": "f-18e4cf5915478278-851c-37-A",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5915478278-851c-37-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5915478278-851c-37-A--f-18e4cf5915478278-851c-37-R-0-hi",
+      "male": "f-18e4cf5915478278-851c-37-A",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5915478278-851c-37-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915478278-851c-37-F--f-18e4cf5915478278-851c-37-B-2-lo",
+      "male": "f-18e4cf5915478278-851c-37-F",
+      "span": [
+        621.2,
+        771.6
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5915478278-851c-37-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915478278-851c-37-F--f-18e4cf5915478278-851c-37-L-0-lo",
+      "male": "f-18e4cf5915478278-851c-37-F",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5915478278-851c-37-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5915478278-851c-37-F--f-18e4cf5915478278-851c-37-R-0-hi",
+      "male": "f-18e4cf5915478278-851c-37-F",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5915478278-851c-37-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915478278-851c-37-L--f-18e4cf5915478278-851c-37-B-2-lo",
+      "male": "f-18e4cf5915478278-851c-37-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5915478278-851c-37-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915478278-851c-37-R--f-18e4cf5915478278-851c-37-B-2-lo",
+      "male": "f-18e4cf5915478278-851c-37-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5915684918-851c-39-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915684918-851c-39-A--f-18e4cf5915684918-851c-39-B-2-lo",
+      "male": "f-18e4cf5915684918-851c-39-A",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5915684918-851c-39-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915684918-851c-39-A--f-18e4cf5915684918-851c-39-L-0-lo",
+      "male": "f-18e4cf5915684918-851c-39-A",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5915684918-851c-39-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5915684918-851c-39-A--f-18e4cf5915684918-851c-39-R-0-hi",
+      "male": "f-18e4cf5915684918-851c-39-A",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5915684918-851c-39-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915684918-851c-39-F--f-18e4cf5915684918-851c-39-B-2-lo",
+      "male": "f-18e4cf5915684918-851c-39-F",
+      "span": [
+        817.6,
+        968.0
+      ],
+      "span_axis": 0
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5915684918-851c-39-L",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915684918-851c-39-F--f-18e4cf5915684918-851c-39-L-0-lo",
+      "male": "f-18e4cf5915684918-851c-39-F",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 0,
+      "female": "f-18e4cf5915684918-851c-39-R",
+      "female_face": "front",
+      "high_end": true,
+      "id": "f-18e4cf5915684918-851c-39-F--f-18e4cf5915684918-851c-39-R-0-hi",
+      "male": "f-18e4cf5915684918-851c-39-F",
+      "span": [
+        1015.0,
+        1179.0
+      ],
+      "span_axis": 2
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5915684918-851c-39-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915684918-851c-39-L--f-18e4cf5915684918-851c-39-B-2-lo",
+      "male": "f-18e4cf5915684918-851c-39-L",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    },
+    {
+      "axis": 2,
+      "female": "f-18e4cf5915684918-851c-39-B",
+      "female_face": "back",
+      "high_end": false,
+      "id": "f-18e4cf5915684918-851c-39-R--f-18e4cf5915684918-851c-39-B-2-lo",
+      "male": "f-18e4cf5915684918-851c-39-R",
+      "span": [
+        0.0,
+        200.0
+      ],
+      "span_axis": 1
+    }
+  ],
+  "coordinate_system": "X largeur, Y profondeur, Z hauteur ; axes locaux par normale ; verso miroir X autour de Y"
+}
