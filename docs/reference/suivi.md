@@ -7,6 +7,7 @@ ouverte n'est pas une fonction disponible.
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
+| Non publié | [#26 — import SVG](https://github.com/FabLabCAM/core/issues/26) | Correctif et régressions sur branche dédiée ; distribution à valider | [Guide](../guide/fichiers.md#correctif-svg-26-en-preparation), [versions](versions.md#correctif-en-preparation-svg-26) |
 | [0.7.0](versions.md#070-assistant-natif) | [#20 — assistant](https://github.com/FabLabCAM/core/issues/20) | Panneau natif, modes et actions validées ; qualification réelle des autres fournisseurs encore ouverte | [Guide illustré](../guide/assistant.md), [index](fonctionnalites.md) |
 | [0.6.1](versions.md#061-identifiants-rhai) | [#19 — identifiants Rhai](https://github.com/FabLabCAM/core/issues/19) | Refus des références hors plage, atomicité et régressions | [Scripts](rhai.md#identifiants-des-formes), [index](fonctionnalites.md) |
 | [0.6.0](versions.md#060-composition-et-assemblages) | [#17 — compositeur et assemblages](https://github.com/FabLabCAM/core/issues/17) | Éléments, cases, bacs, huit familles d’assemblages et modèles complets | [Guide](../guide/composer-meubles.md), [CLI](cli.md), [index](fonctionnalites.md) |

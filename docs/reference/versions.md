@@ -1,5 +1,16 @@
 # Versions et licences
 
+## Correctif en préparation — SVG #26
+
+La branche `fix/26-svg-import` corrige les transformations SVG imbriquées, les
+définitions importées à tort et les nombres scientifiques. Elle ajoute des
+régressions moteur/CLI et conserve les arcs circulaires lorsque la transformation
+le permet. Voir le [guide et ses limites](../guide/fichiers.md#correctif-svg-26-en-preparation)
+et [l'issue #26](https://github.com/FabLabCAM/core/issues/26).
+
+Ce correctif n'est pas encore distribué ; les installateurs publiés restent ceux
+de 0.7.0. La vérification locale ne vaut pas validation des paquets des trois OS.
+
 ## 0.7.0 — Assistant natif
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.0) · [Issue #20](https://github.com/FabLabCAM/core/issues/20)

@@ -27,6 +27,31 @@ formes et les contours après import. Exportez les textes en contours depuis vot
 éditeur d’origine si nécessaire. Ne supposez pas une conservation intégrale d’un
 fichier tiers complexe.
 
+### Correctif SVG #26 en préparation
+
+La version publiée 0.7.0 peut désassembler un SVG qui contient des transformations
+de groupes, importer des formes de `defs` qui ne sont pas visibles et perdre des
+segments utilisant des coordonnées scientifiques. Le suivi est dans
+[#26](https://github.com/FabLabCAM/core/issues/26).
+
+Le correctif de la branche `fix/26-svg-import`, non encore distribué, compose les
+transformations des parents et des formes, exclut les ressources inutilisées et
+lit les exposants. Les arcs restent circulaires sous rotation, échelle uniforme
+et miroir ; une échelle différente en X et Y ou un biais produit une polyligne.
+Un chemin ou une transformation invalide entraîne une erreur d'import.
+
+Pour vérifier un SVG : importer dans un document vierge, utiliser **Cadrer**, puis
+contrôler l'assemblage, les dimensions et les messages. Les textes doivent être
+vectorisés. Les références `use`, masques, découpes, effets, SVG imbriqués et CSS
+ne sont pas intégralement pris en charge. Un avertissement signifie que le résultat
+peut être incomplet.
+
+Les coordonnées restent dans les unités utilisateur du fichier : la conversion
+générale entre pixels, millimètres et `viewBox` n'est pas incluse dans ce correctif.
+Vérifiez les dimensions avant de créer les opérations d'usinage. Les exports où
+les dimensions en mm correspondent au `viewBox`, comme le fichier signalé, gardent
+directement leur échelle.
+
 ## Dialogues système et saisie par chemin
 
 Les dialogues utilisent les services de l’OS : macOS, PowerShell sur Windows,
