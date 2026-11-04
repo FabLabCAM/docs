@@ -50,3 +50,16 @@ observé. Joignez un exemple minimal sans données confidentielles. Pour une err
 dans ce guide, utilisez [le dépôt docs](https://github.com/FabLabCAM/docs/issues).
 Les vulnérabilités peuvent être signalées via le canal de sécurité privé de
 GitHub, lorsqu’il est proposé dans l’onglet Security.
+
+## Meubles et dalles CNC
+
+Une dimension impossible, une dalle plus grande que la course déclarée ou une
+pièce hors zone utile bloque le dossier de fabrication. Vérifiez les limites du
+modèle, marges, espacement, diamètre de fraise et rotations. Le placement ne
+raccorde pas les pièces trop grandes. Les courses d'exemple ne complètent pas les
+limites inconnues du profil machine. Un export G-code de dalle reste bloqué tant
+que sa configuration et son analyse sont incomplètes.
+
+Lorsqu'un document a été modifié ailleurs, rechargez-le ou importez une copie ;
+les données récentes ne sont pas écrasées. Un export exige un nouveau nom de
+fichier. Voir les [formats et limites du module](../guide/meubles.md).

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "analyzer_version": "0.4.1",
+  "analyzer_version": "0.5.0",
   "profile_id": "id-cnc-pro-1500x800",
   "status": "incomplete",
   "limits_checked": false,

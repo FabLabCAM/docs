@@ -1,5 +1,33 @@
 # Versions et licences
 
+## 0.5.0 — Meubles paramétriques
+
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.5.0) · [Issue #14](https://github.com/FabLabCAM/core/issues/14)
+
+- Espace **Meubles**, bibliothèques de modèles et de projets, assistant en quatre
+  étapes et aperçus assemblé/éclaté avec repères des panneaux.
+- Caissons et étagères vissés : dimensions, épaisseur, dos et tablettes. Modèles
+  révisés sans modifier les meubles existants ; copie du profil CNC par projet.
+- Création, édition, duplication, annulation/rétablissement, sauvegarde et
+  import/export natif avec aperçu, contrôle du format et copie des doublons.
+- Placement rectangulaire sur plusieurs dalles, marges, espacement et rotations ;
+  refus d'un dossier partiel quand une pièce ne rentre pas.
+- ZIP avec plans CB/DXF/SVG, CSV, PDF et natif facultatif ; transfert d'une dalle
+  en FAO. Le profil attaché au CB contrôle l'export G-code natif et `build`.
+- Commandes CLI `furniture` et [guide illustré](../guide/meubles.md), avec sept
+  captures réelles et un exemple reproductible de six pièces sur trois dalles.
+
+Les formats `.fcm-template.json` et `.fcm.json` utilisent le schéma 1. Le dessin
+`.cb`, les sept crates et la licence Apache-2.0 sont conservés. Les douze paquets
+couvrent macOS, Windows et Linux en x64/ARM64.
+
+Le placement est heuristique. Les opérations, le bridage et le post-processeur
+restent à préparer ; aucun G-code n'est inclus dans le ZIP. Les pièces trop
+grandes, profils incomplets et analyses partielles ne sont pas présentés comme
+validés. Portes, tiroirs, assemblages usinés, quincaillerie et charges admissibles
+restent hors périmètre V1.
+
+
 ## 0.4.1 — ID CNC PRO par défaut
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.4.1) · [Issue #9](https://github.com/FabLabCAM/core/issues/9)

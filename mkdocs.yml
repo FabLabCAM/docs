@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 strict: true
 copyright: FabLabCAM contributors · Apache-2.0
 extra:
-  product_version: 0.4.1
+  product_version: 0.5.0
 theme:
   name: material
   language: fr
@@ -58,6 +58,8 @@ nav:
       - Texte et polices: guide/texte.md
       - Sommets et propriétés: guide/objets.md
       - Transformations et booléens: guide/transformations.md
+  - Fabriquer du mobilier:
+      - Modèles, meubles et dalles CNC: guide/meubles.md
   - Usiner:
       - Outils et bibliothèque: guide/outils.md
       - Vitesses et avances: guide/calculateur.md

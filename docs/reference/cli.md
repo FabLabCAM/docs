@@ -1,7 +1,7 @@
 # Référence de la ligne de commande
 
 `fablabcam help` affiche l’aide de la version installée. Les commandes suivantes
-sont celles de la version 0.3.0. Les chemins contenant des espaces doivent être
+sont celles de la version 0.5.0. Les chemins contenant des espaces doivent être
 placés entre guillemets. Dans PowerShell, préfixez par `./` un exécutable présent
 dans le dossier courant.
 
@@ -11,6 +11,7 @@ dans le dossier courant.
 |---|---|
 | Identifier la version | `version` ou `--version` |
 | Profils, validation et archives G-code | [`machine`](../guide/machines.md) |
+| Modèles, meubles, placement et dossier ZIP | [`furniture`](../guide/meubles.md) |
 | Inventorier un dessin `.cb` | `info` |
 | Lister une bibliothèque de styles | `styles` |
 | Convertir un dessin | `convert` |
@@ -37,7 +38,7 @@ Les fichiers sont disponibles dans le [tutoriel](../guide/premier-projet.md).
 La commande `web` produit une page navigable d’inspection ; elle ne publie rien
 sur Internet et ne remplace pas l’éditeur natif. `plot` relit le programme G-code.
 
-## Aide complète de la version 0.3.0
+## Aide complète de la version 0.5.0
 
 ```text
 fablabcam — FAO 2,5D en Rust (dessins XML .cb, DXF et SVG)
@@ -45,6 +46,7 @@ fablabcam — FAO 2,5D en Rust (dessins XML .cb, DXF et SVG)
 USAGE
   fablabcam version                              version du produit
   fablabcam machine help                         profils, validation et archives G-code
+  fablabcam furniture help                       modèles, meubles et dossiers de fabrication
   fablabcam info   <fichier.cb>
   fablabcam styles <styles.xml>
   fablabcam gcode  <fichier.cb> --op <profile-outside|profile-inside|profile-on|pocket|drill> [options]
@@ -140,3 +142,24 @@ Rapports JSON : stdout. Codes de sortie : 0 succès, 1 erreur/validation invalid
 2 analyse incomplète ou conversion refusée. Les sorties existantes ne sont pas écrasées.
 Les profils du magasin se consultent/exportent avec profile show ; --profile lit un fichier.
 ```
+
+## Commandes de meubles
+
+```sh
+fablabcam furniture template cabinet -o caisson.fcm-template.json
+fablabcam furniture new caisson.fcm-template.json -o caisson.fcm.json --width 700
+fablabcam furniture validate caisson.fcm.json
+fablabcam furniture plan caisson.fcm.json
+fablabcam furniture pack caisson.fcm.json -o fabrication.zip
+```
+
+`template shelving` crée une étagère. `new` accepte également `--depth`,
+`--height`, `--thickness`, `--shelves` et `--profile`. Les sorties existantes sont
+refusées. Un projet conserve son modèle et son profil CNC, indépendamment du
+catalogue local du Studio. `plan` écrit le placement JSON sur stdout ; `pack`
+crée un dossier géométrique sans G-code. Importez le natif dans **Meubles** pour
+l'éditer dans l'interface. Voir le [guide meubles](../guide/meubles.md).
+
+Pour un `.cb` associé à une machine par le module Meubles, `build` vérifie aussi
+les opérations calculées et l'analyse du programme avec le profil attaché. Un
+rapport incomplet ou invalide bloque l'écriture du G-code.

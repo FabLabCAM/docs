@@ -1,12 +1,13 @@
 # Index des fonctionnalités et captures
 
-Ce catalogue couvre les commandes exposées par le Studio 0.4.1 et les outils
+Ce catalogue couvre les commandes exposées par le Studio 0.5.0 et les outils
 complémentaires. Chaque lien ouvre une procédure ; la capture montre le panneau
 réel de la famille concernée. Les capacités uniquement CLI sont documentées
 par leur commande reproductible, sans inventer un écran qui n’existe pas.
 
 | Famille | Fonctions documentées | Capture |
 |---|---|---|
+| [Meubles](../guide/meubles.md) | Modèles et projets, assistant, création/édition/duplication, historique, imports/exports JSON, placement, ZIP CB/DXF/SVG/CSV/PDF, passage en FAO | [Voir](../assets/screenshots/37-meubles-assistant.png) |
 | [Fichiers](../guide/fichiers.md) | Nouveau, ouvrir, récents, enregistrer, enregistrer sous, import DXF/SVG, export CB/DXF/SVG, glisser-déposer, saisie par chemin | [Voir](../assets/screenshots/02-fichiers.png) |
 | [Interface](../guide/interface.md) | Calques, visibilité, calque courant, sélection, propriétés, console, unités, magnétisme, cadrage et navigation | [Voir](../assets/screenshots/01-interface.png) |
 | [Dessin](../guide/dessin.md) | Ligne, polyligne, rectangle, cercle, arc, sélection, copier/couper/coller et menu contextuel | [Voir](../assets/screenshots/03-dessin.png) |
@@ -39,6 +40,7 @@ par leur commande reproductible, sans inventer un écran qui n’existe pas.
 | Outil | Fonctions | Référence |
 |---|---|---|
 | CLI | Inventaire, styles, conversion, parcours directs, construction du projet, scripts, simulation, web et plot | [Commandes complètes](cli.md) |
+| Meubles (CLI/API) | Gabarits, projets, validation, placement et dossier ZIP | [Exemple reproductible](../guide/meubles.md#exemple-reproductible-caisson-osb) |
 | Profils de machine (CLI/API) | CRUD JSON, validation, statistiques, conversion compatible, archives et intégrité | [Guide et rapports reproductibles](../guide/machines.md) |
 | Rhai | Création de formes, transformations, outils, opérations et journal | [API complète](rhai.md) |
 | Post-processeur | Gabarits XML, macros, arcs, numérotation, modalités et changement d’outil | [Propriétés prises en charge](postprocesseurs.md) |
@@ -51,7 +53,10 @@ Les captures 01 à 23 sont réalisées sur macOS Apple Silicon avec la version
 0.2.0. Les captures 24 à 32 montrent l’Atelier de la version 0.4.0 sur la même
 plateforme, avec des profils fictifs publics ; la capture 32 est recadrée sur le
 dialogue de doublon. Les captures 33 et 34 montrent le modèle ID CNC PRO dans
-le Studio 0.4.1 sur macOS Apple Silicon. Le projet de base, son script et ses exports sont disponibles dans le
+le Studio 0.4.1 sur macOS Apple Silicon. Les captures 35 à 41 montrent le module
+Meubles du build de développement 0.5.0 sur la même plateforme (sources d’interface
+identiques au tag livré), avec le caisson synthétique
+du [guide meubles](../guide/meubles.md). Le projet de base, son script et ses exports sont disponibles dans le
 [tutoriel](../guide/premier-projet.md). Les vues de ponts, de brut et de simulation
 illustrent des modifications décrites dans le tutoriel. Les images sont des
 captures de l’application ; elles ne sont pas des maquettes d’interface.
