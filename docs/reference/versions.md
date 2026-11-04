@@ -18,12 +18,16 @@ a été testé réellement ; les trois autres fournisseurs ont des tests de prot
 locaux et restent à qualifier en conditions réelles. L’issue #20 reste ouverte
 pour ce suivi. La simulation et les valeurs d’outils ne qualifient aucune CNC.
 
-Distribution en validation : les huit paquets Windows/Linux (ARM64 et x64)
-ont passé les tests et installations CI ; leurs SHA-256, notices et architectures
-des douze exécutables ont été contrôlés. Un DMG macOS ARM64 construit localement
-a été installé et vérifié : signature ad hoc, CLI 0.7.0, script public de la plaque,
-GUI et test de connexion/appel d’outil Mistral. La publication attend encore les
-exécuteurs macOS de GitHub, indisponibles lors de cette validation.
+Distribution validée : tests workspace et Clippy réussis sur les trois OS,
+six constructions natives macOS/Windows/Linux en ARM64 et x64. Les douze paquets
+publiés ont été contrôlés : SHA-256, licences et sources requises, architectures
+des dix-huit exécutables. Les installations Debian/Windows sont vérifiées en CI.
+Le DMG macOS ARM64 issu de cette CI a été installé : signature ad hoc, CLI 0.7.0,
+script public de la plaque (21 formes, 4 opérations) et interface réelle avec
+simulation et panneau assistant vérifiés. Les 36 pages du guide passent la
+construction stricte et le contrôle des liens ; six captures réelles illustrent
+l’assistant. Les tests automatisés des autres plateformes ne remplacent pas une
+revue graphique manuelle.
 [CI](https://github.com/FabLabCAM/core/actions/runs/41858524147) ·
 [Paquets](https://github.com/FabLabCAM/core/actions/runs/41858524071).
 
