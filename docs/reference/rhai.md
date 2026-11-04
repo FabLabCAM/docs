@@ -117,3 +117,11 @@ L’interpréteur limite une exécution à cinq millions d’opérations éléme
 et une profondeur d’expression de 64. Ces limites arrêtent notamment une boucle
 infinie ; elles ne sont pas un quota d’opérations d’usinage. L’API de projet ne
 fournit pas de fonction de commande machine ou de téléchargement réseau.
+
+## Assistant et exécution bornée depuis 0.7.0
+
+La page **Scripts** conserve le [panneau assistant](../guide/assistant.md#scripts-et-cao).
+Modifier le texte ne l’exécute pas. Le bouton manuel Exécuter travaille hors du
+rendu et propose un arrêt ; les imports Rhai sont désactivés et les tailles,
+profondeurs et opérations sont limitées. Le délai de dix secondes est coopératif :
+un appel géométrique natif n’est pas interrompu en plein calcul.

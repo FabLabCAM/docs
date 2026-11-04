@@ -1,5 +1,36 @@
 # Versions et licences
 
+## 0.7.0 — Assistant natif
+
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.0) · [Issue #20](https://github.com/FabLabCAM/core/issues/20)
+
+- Panneau Rust/egui commun aux pages, Markdown, contexte choisi et historique local.
+- Ask en lecture seule, Plan sur copie et Agent avec aperçu puis validation par lot.
+- Actions dessin, Rhai, meubles, assemblages, outils, opérations et exports natifs.
+- Streaming OpenAI Responses, Claude Messages, Mistral et Ollama ; coffre système,
+  annulation, limites, diagnostics et refus des propositions obsolètes.
+- Scripts manuels et préparation des dossiers ZIP hors du rendu graphique.
+- [Guide illustré](../guide/assistant.md), mémoire, architecture et
+  [QA sources](https://github.com/FabLabCAM/core/blob/v0.7.0/docs/qa/0.7.0.md).
+
+387 tests locaux réussis sur macOS Apple Silicon et Clippy strict ; compilation vérifiée avec Rust 1.89. Mistral Small
+a été testé réellement ; les trois autres fournisseurs ont des tests de protocole
+locaux et restent à qualifier en conditions réelles. L’issue #20 reste ouverte
+pour ce suivi. La simulation et les valeurs d’outils ne qualifient aucune CNC.
+
+Distribution validée : tests workspace et Clippy réussis sur les trois OS,
+six constructions natives macOS/Windows/Linux en ARM64 et x64. Les douze paquets
+publiés ont été contrôlés : SHA-256, licences et sources requises, architectures
+des dix-huit exécutables. Les installations Debian/Windows sont vérifiées en CI.
+Le DMG macOS ARM64 issu de cette CI a été installé : signature ad hoc, CLI 0.7.0,
+script public de la plaque (21 formes, 4 opérations) et interface réelle avec
+simulation et panneau assistant vérifiés. Les 36 pages du guide passent la
+construction stricte et le contrôle des liens ; six captures réelles illustrent
+l’assistant. Les tests automatisés des autres plateformes ne remplacent pas une
+revue graphique manuelle.
+[CI](https://github.com/FabLabCAM/core/actions/runs/41858524147) ·
+[Paquets](https://github.com/FabLabCAM/core/actions/runs/41858524071).
+
 ## 0.6.1 — Identifiants Rhai
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.6.1) · [Issue #19](https://github.com/FabLabCAM/core/issues/19)
