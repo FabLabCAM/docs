@@ -4,6 +4,10 @@ Depuis **FabLabCAM 0.5.0**, l'onglet **Meubles** permet de préparer un caisson 
 une étagère à partir de panneaux rectangulaires. Le parcours conserve les repères
 des pièces depuis l'aperçu du meuble jusqu'aux plans de découpe.
 
+Depuis la **0.6.0**, le [compositeur visuel](composer-meubles.md) permet aussi
+d’ajouter des éléments, des bacs et des assemblages usinés. Cette page conserve
+le parcours de base et les captures historiques de la 0.5.0.
+
 ## Modèle et meuble : deux documents
 
 | Bibliothèque | Document | Usage |
@@ -167,9 +171,9 @@ du Studio : importez le fichier produit pour l'y ajouter.
 
 ## Limites et provenance
 
-La V1 couvre les caissons et étagères rectangulaires vissés. Les assemblages usinés,
-portes, tiroirs, quincaillerie, chutes et structures arbitraires restent hors
-périmètre. Vis, avant-trous, ancrages, stabilité et charges admissibles ne sont
+Le parcours historique de la 0.5.0 couvre les caissons et étagères rectangulaires
+vissés. La 0.6.0 ajoute [composition, bacs et assemblages](composer-meubles.md).
+Portes, coulisses, quincaillerie, chutes et édition 3D libre restent hors périmètre. Vis, avant-trous, ancrages, stabilité et charges admissibles ne sont
 pas dimensionnés. Les projets natifs conservent les noms Unicode ; la notice
 PDF utilise des libellés fixes en français et des repères.
 

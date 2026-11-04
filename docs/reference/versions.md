@@ -1,5 +1,26 @@
 # Versions et licences
 
+## 0.6.0 — Composition et assemblages
+
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.6.0) · [Issue #17](https://github.com/FabLabCAM/core/issues/17)
+
+- Compositeur visuel : tablettes, séparations, cases, grilles et bacs amovibles.
+- Dimensions utiles, épaisseurs individuelles, positions fixes/égales,
+  duplication, répétition, suppression confirmée et annuler/rétablir.
+- Huit familles orthogonales d’assemblages, défaut général et surcharges, jeu total,
+  dogbone/T-bone, variantes borgnes/traversantes et contours complémentaires.
+- Modèles et projets complets en schéma 2, lecture du schéma 1 et migration explicite.
+- Plans, manifestes d’opérations et d’assemblages, montages verso, placement par
+  épaisseur et contrôle des opérations requises avant le G-code.
+- [Guide illustré et exemples](../guide/composer-meubles.md), mémoire, architecture,
+  formats et [QA sources](https://github.com/FabLabCAM/core/blob/v0.6.0/docs/qa/0.6.0.md).
+
+359 tests sur macOS/Linux (358 sur Windows), Clippy strict et compatibilité Rust 1.89.
+Les six cibles natives produisent douze paquets. Les familles complémentaires sont
+désactivées ; les variantes inclinées, coulisses, quincaillerie et calcul de tenue
+ne sont pas inclus. Les opérations, le bridage et les retournements restent à
+préparer ; aucun G-code automatique n’est livré dans les dossiers.
+
 ## 0.5.0 — Meubles paramétriques
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.5.0) · [Issue #14](https://github.com/FabLabCAM/core/issues/14)
