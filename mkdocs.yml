@@ -83,6 +83,7 @@ nav:
       - Raccourcis et préférences: reference/raccourcis.md
       - Index des fonctionnalités: reference/fonctionnalites.md
       - Dépannage et limites: reference/depannage.md
+      - Diagnostics (0.7.1 en préparation): reference/diagnostics.md
   - Projet open source:
       - Architecture et compilation: reference/developpement.md
       - Versions et licences: reference/versions.md

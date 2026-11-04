@@ -60,3 +60,6 @@ Le menu **Affichage** contrôle les trajectoires et la console. La zone
 **effacer** vide l’affichage du journal. **Aide → Raccourcis et prise en main**
 ouvre le résumé intégré. Pour un problème reproductible, conservez le message
 exact, la version, l’OS et un petit fichier d’exemple partageable.
+
+Les [journaux, piles et options de core dump](diagnostics.md) sont ajoutés aux
+préférences dans la version 0.7.1 en préparation.

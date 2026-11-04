@@ -1,5 +1,21 @@
 # Versions et licences
 
+## 0.7.1 — en préparation : profils et diagnostics
+
+[Issue #24](https://github.com/FabLabCAM/core/issues/24) · [Guide](diagnostics.md)
+
+Correction de l'offset des contours DXF avec fermeture répétée, protection du
+calcul et refus d'export d'un parcours obsolète. Préférences de diagnostic avec
+journaux bornés, piles persistantes, export texte et core macOS sur demande.
+Compilation de diagnostic distincte avec dSYM ; paquets normaux sans nouvelle
+permission de débogage. Les autres OS conservent les rapports texte.
+
+Le DXF réel et les tests synthétiques passent localement ; le profil des 19
+formes affiche 32 415 mouvements dans l'interface. Une panique contrôlée a produit
+un core ouvert dans LLDB avec ses lignes source. La distribution et la publication
+restent à valider ; les installateurs 0.7.0 ne contiennent pas ces changements.
+
+
 ## 0.7.0 — Assistant natif
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.0) · [Issue #20](https://github.com/FabLabCAM/core/issues/20)

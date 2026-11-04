@@ -16,6 +16,13 @@ ouverte n'est pas une fonction disponible.
 | [0.3.0](versions.md#030-profils-de-machine-et-g-code) | [#9 — gestion du G-code par machine](https://github.com/FabLabCAM/core/issues/9) | Profils JSON, validation, statistiques, conversion compatible, archives | [Guide machine](../guide/machines.md), [CLI](cli.md), [architecture](developpement.md) |
 | [0.2.0](versions.md#020-premiere-release-publique) | Première publication | Studio, CLI, viewer et six cibles OS/architecture | [Installation](../installation.md), [index complet](fonctionnalites.md) |
 
+## En préparation
+
+[#24 — crash du profil et diagnostics](https://github.com/FabLabCAM/core/issues/24) :
+correctif et UI 0.7.1 vérifiés localement, [guide de diagnostic](diagnostics.md)
+et [notes](versions.md#071-en-preparation-profils-et-diagnostics).
+L'issue reste ouverte jusqu'à la validation des paquets et à leur publication.
+
 ## Limites de la livraison #9
 
 L'analyse distingue les programmes valides, invalides et incomplets. Les cycles,
