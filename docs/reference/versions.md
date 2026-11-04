@@ -28,6 +28,11 @@ validés. Portes, tiroirs, assemblages usinés, quincaillerie et charges admissi
 restent hors périmètre V1.
 
 
+Validation complémentaire du 4 novembre 2026 : parcours graphique du DMG
+Apple Silicon, export ZIP depuis le Studio, import en copie, transfert en FAO et
+persistance après relance vérifiés ; les sept captures du guide proviennent du
+binaire publié. [Compte rendu](https://github.com/FabLabCAM/core/blob/main/docs/qa/0.5.0.md).
+
 ## 0.4.1 — ID CNC PRO par défaut
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.4.1) · [Issue #9](https://github.com/FabLabCAM/core/issues/9)
