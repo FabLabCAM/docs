@@ -7,6 +7,7 @@ ouverte n'est pas une fonction disponible.
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
+| [0.6.0](versions.md#060-composition-et-assemblages) | [#17 — compositeur et assemblages](https://github.com/FabLabCAM/core/issues/17) | Éléments, cases, bacs, huit familles d’assemblages et modèles complets | [Guide](../guide/composer-meubles.md), [CLI](cli.md), [index](fonctionnalites.md) |
 | [0.5.0](versions.md#050-meubles-parametriques) | [#14 — mobilier de FabLab](https://github.com/FabLabCAM/core/issues/14) | Modèles, meubles, assistant, découpe et dossiers de fabrication | [Guide illustré](../guide/meubles.md), [CLI](cli.md), [index](fonctionnalites.md) |
 | [0.4.1](versions.md#041-id-cnc-pro-par-defaut) | [#9 — première machine](https://github.com/FabLabCAM/core/issues/9) | ID CNC PRO - Mach3 comme modèle par défaut et exemple | [Guide ID CNC PRO](../guide/id-cnc-pro.md), [Atelier](../guide/profils-studio.md) |
 | [0.4.0](versions.md#040-atelier-des-profils-machine) | [#11 — Atelier et création guidée](https://github.com/FabLabCAM/core/issues/11) | Création, édition, duplication et import/export JSON dans le Studio | [Guide illustré](../guide/profils-studio.md), [raccourcis](raccourcis.md), [index](fonctionnalites.md) |
@@ -42,5 +43,5 @@ rapports JSON et références de téléchargement avec `scripts/check_site.py`.
 
 Avant publication : vérification des paquets,
 contrôles CI, puis déploiement GitHub Pages depuis `main`. Les notes anciennes
-restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.5.0/docs/releasing.md)
+restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.6.0/docs/releasing.md)
 détaille l'ordre des vérifications et la clôture des issues après publication.

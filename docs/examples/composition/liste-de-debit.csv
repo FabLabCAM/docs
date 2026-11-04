@@ -1,0 +1,184 @@
+repere;piece;quantite;largeur_mm;hauteur_mm;epaisseur_mm;dalle;x_mm;y_mm;rotation_90
+C1;"Côté gauche";1;1200.9786796564404;350;18;1;10;10;false
+C2;"Côté droit";1;1200;350;18;1;10;368;false
+f-18e4cf2334adcf18-79fc-e;"Séparation 1";1;179;350;18;1;1218.9786796564404;10;false
+f-18e4cf2334add300-79fc-f;"Séparation 2";1;179;350;18;1;1218;368;false
+INF;"Dessous";1;982;350;18;2;10;10;false
+SUP;"Dessus";1;964;350;18;2;10;368;false
+f-18e4cf2334addad0-79fc-10;"Séparation 3";1;179;350;18;2;1000;10;false
+f-18e4cf2334addeb8-79fc-11;"Séparation 4";1;179;350;18;2;982;368;false
+f-18e4cf2334adfa10-79fc-17;"Séparation 1";1;179;350;18;2;1187;10;false
+f-18e4cf2334adfdf8-79fc-18;"Séparation 2";1;179;350;18;2;1169;368;false
+f-18e4cf2334ad80f8-79fc-3;"Tablette 1";1;964;350;18;3;10;10;false
+f-18e4cf2334ad8cb0-79fc-4;"Tablette 2";1;964;350;18;3;10;368;false
+f-18e4cf2334ae05c8-79fc-19;"Séparation 3";1;179;350;18;3;982;10;false
+f-18e4cf2334ae09b0-79fc-1a;"Séparation 4";1;179;350;18;3;982;368;false
+f-18e4cf2334ae1d38-79fc-20;"Séparation 1";1;179;350;18;3;1169;10;false
+f-18e4cf2334ae2120-79fc-21;"Séparation 2";1;179;350;18;3;1169;368;false
+f-18e4cf2334ad9098-79fc-5;"Tablette 3";1;964;350;18;4;10;10;false
+f-18e4cf2334ad9480-79fc-6;"Tablette 4";1;964;350;18;4;10;368;false
+f-18e4cf2334ae2508-79fc-22;"Séparation 3";1;179;350;18;4;982;10;false
+f-18e4cf2334ae2cd8-79fc-23;"Séparation 4";1;179;350;18;4;982;368;false
+f-18e4cf2334ae4060-79fc-29;"Séparation 1";1;179;350;18;4;1169;10;false
+f-18e4cf2334ae4448-79fc-2a;"Séparation 2";1;179;350;18;4;1169;368;false
+f-18e4cf2334ad9868-79fc-7;"Tablette 5";1;964;350;18;5;10;10;false
+f-18e4cf2334ae4830-79fc-2b;"Séparation 3";1;179;350;18;5;982;10;false
+f-18e4cf2334ae4c18-79fc-2c;"Séparation 4";1;179;350;18;5;10;368;false
+f-18e4cf2334ae6388-79fc-32;"Séparation 1";1;179;350;18;5;1169;10;false
+f-18e4cf2334ae6388-79fc-33;"Séparation 2";1;179;350;18;5;197;368;false
+f-18e4cf2334ae6770-79fc-34;"Séparation 3";1;179;350;18;5;384;368;false
+f-18e4cf2334ae6b58-79fc-35;"Séparation 4";1;179;350;18;5;571;368;false
+f-18e4cf2334ae82c8-79fc-3b;"Séparation 1";1;179;350;18;5;758;368;false
+f-18e4cf2334ae86b0-79fc-3c;"Séparation 2";1;179;350;18;5;945;368;false
+f-18e4cf2334ae8a98-79fc-3d;"Séparation 3";1;179;350;18;5;1132;368;false
+f-18e4cf2334ae8e80-79fc-3e;"Séparation 4";1;179;350;18;6;10;10;false
+f-18e4cf5912ac0b60-851c-3-B;"Bac amovible — fond";1;174.40000000000003;200;12;7;10;10;false
+f-18e4cf5912e6af18-851c-d-B;"Bac amovible — fond";1;174.40000000000003;200;12;7;192.40000000000003;10;false
+f-18e4cf59132ae7f0-851c-17-B;"Bac amovible — fond";1;174.40000000000003;200;12;7;10;218;false
+f-18e4cf5913b3a3d8-851c-21-B;"Bac amovible — fond";1;174.40000000000003;200;12;7;374.80000000000007;10;false
+f-18e4cf59148a6468-851c-2b-B;"Bac amovible — fond";1;174.40000000000003;200;12;7;192.40000000000003;218;false
+f-18e4cf591521ce20-851c-35-B;"Bac amovible — fond";1;174.40000000000003;200;12;7;10;426;false
+f-18e4cf26ca0ab028-79fc-44-B;"Bac amovible — fond";1;174.4;200;12;7;557.2;10;false
+f-18e4cf591299a088-851c-1-B;"Bac amovible — fond";1;174.4;200;12;7;374.80000000000007;218;false
+f-18e4cf5912ce3960-851c-9-B;"Bac amovible — fond";1;174.4;200;12;7;192.40000000000003;426;false
+f-18e4cf5912da4f20-851c-b-B;"Bac amovible — fond";1;174.4;200;12;7;739.6;10;false
+f-18e4cf59130dd688-851c-13-B;"Bac amovible — fond";1;174.4;200;12;7;557.2;218;false
+f-18e4cf59131bf7b8-851c-15-B;"Bac amovible — fond";1;174.4;200;12;7;374.80000000000007;426;false
+f-18e4cf59138b5388-851c-1d-B;"Bac amovible — fond";1;174.4;200;12;7;922;10;false
+f-18e4cf59139fb260-851c-1f-B;"Bac amovible — fond";1;174.4;200;12;7;739.6;218;false
+f-18e4cf591429be38-851c-27-B;"Bac amovible — fond";1;174.4;200;12;7;557.2;426;false
+f-18e4cf59145b5d58-851c-29-B;"Bac amovible — fond";1;174.4;200;12;7;1104.4;10;false
+f-18e4cf5914e53a50-851c-31-B;"Bac amovible — fond";1;174.4;200;12;7;922;218;false
+f-18e4cf59150414c0-851c-33-B;"Bac amovible — fond";1;174.4;200;12;7;739.6;426;false
+f-18e4cf5912b7b3c0-851c-5-B;"Bac amovible — fond";1;174.39999999999998;200;12;7;1286.8000000000002;10;false
+f-18e4cf5912c1c5e0-851c-7-B;"Bac amovible — fond";1;174.39999999999998;200;12;7;1104.4;218;false
+f-18e4cf5912f370b8-851c-f-B;"Bac amovible — fond";1;174.39999999999998;200;12;7;922;426;false
+f-18e4cf5913002a88-851c-11-B;"Bac amovible — fond";1;174.39999999999998;200;12;7;1286.8000000000002;218;false
+f-18e4cf591348c090-851c-19-B;"Bac amovible — fond";1;174.39999999999998;200;12;7;1104.4;426;false
+f-18e4cf591379c758-851c-1b-B;"Bac amovible — fond";1;174.39999999999998;200;12;7;1286.8000000000002;426;false
+f-18e4cf5912ac0b60-851c-3-A;"Bac amovible — arrière";1;150.40000000000003;164;12;7;10;634;true
+f-18e4cf5912ac0b60-851c-3-F;"Bac amovible — façade";1;150.40000000000003;164;12;7;182;634;true
+f-18e4cf5912e6af18-851c-d-A;"Bac amovible — arrière";1;150.40000000000003;164;12;7;354;634;true
+f-18e4cf5912e6af18-851c-d-F;"Bac amovible — façade";1;150.40000000000003;164;12;7;526;634;true
+f-18e4cf59132ae7f0-851c-17-A;"Bac amovible — arrière";1;150.40000000000003;164;12;7;698;634;true
+f-18e4cf59132ae7f0-851c-17-F;"Bac amovible — façade";1;150.40000000000003;164;12;7;870;634;true
+f-18e4cf5913b3a3d8-851c-21-A;"Bac amovible — arrière";1;150.40000000000003;164;12;7;1042;634;true
+f-18e4cf5913b3a3d8-851c-21-F;"Bac amovible — façade";1;150.40000000000003;164;12;7;1214;634;true
+f-18e4cf5913eaa9c8-851c-23-B;"Bac amovible — fond";1;174.39999999999998;200;12;8;10;10;false
+f-18e4cf59141422f8-851c-25-B;"Bac amovible — fond";1;174.39999999999998;200;12;8;192.39999999999998;10;false
+f-18e4cf5914a3bcb0-851c-2d-B;"Bac amovible — fond";1;174.39999999999998;200;12;8;10;218;false
+f-18e4cf5914be4990-851c-2f-B;"Bac amovible — fond";1;174.39999999999998;200;12;8;374.79999999999995;10;false
+f-18e4cf5915478278-851c-37-B;"Bac amovible — fond";1;174.39999999999998;200;12;8;192.39999999999998;218;false
+f-18e4cf5915684918-851c-39-B;"Bac amovible — fond";1;174.39999999999998;200;12;8;10;426;false
+f-18e4cf26ca0ab028-79fc-44-L;"Bac amovible — gauche";1;164;200;12;8;557.1999999999999;10;false
+f-18e4cf26ca0ab028-79fc-44-R;"Bac amovible — droit";1;164;200;12;8;374.79999999999995;218;false
+f-18e4cf591299a088-851c-1-L;"Bac amovible — gauche";1;164;200;12;8;192.39999999999998;426;false
+f-18e4cf591299a088-851c-1-R;"Bac amovible — droit";1;164;200;12;8;729.1999999999999;10;false
+f-18e4cf5912ac0b60-851c-3-L;"Bac amovible — gauche";1;164;200;12;8;546.8;218;false
+f-18e4cf5912ac0b60-851c-3-R;"Bac amovible — droit";1;164;200;12;8;364.4;426;false
+f-18e4cf5912b7b3c0-851c-5-L;"Bac amovible — gauche";1;164;200;12;8;901.1999999999999;10;false
+f-18e4cf5912b7b3c0-851c-5-R;"Bac amovible — droit";1;164;200;12;8;718.8;218;false
+f-18e4cf5912c1c5e0-851c-7-L;"Bac amovible — gauche";1;164;200;12;8;536.4;426;false
+f-18e4cf5912c1c5e0-851c-7-R;"Bac amovible — droit";1;164;200;12;8;1073.1999999999998;10;false
+f-18e4cf5912ce3960-851c-9-L;"Bac amovible — gauche";1;164;200;12;8;890.8;218;false
+f-18e4cf5912ce3960-851c-9-R;"Bac amovible — droit";1;164;200;12;8;708.4;426;false
+f-18e4cf5912da4f20-851c-b-L;"Bac amovible — gauche";1;164;200;12;8;1245.1999999999998;10;false
+f-18e4cf5912da4f20-851c-b-R;"Bac amovible — droit";1;164;200;12;8;1062.8;218;false
+f-18e4cf5912e6af18-851c-d-L;"Bac amovible — gauche";1;164;200;12;8;880.4;426;false
+f-18e4cf5912e6af18-851c-d-R;"Bac amovible — droit";1;164;200;12;8;1234.8;218;false
+f-18e4cf5912f370b8-851c-f-L;"Bac amovible — gauche";1;164;200;12;8;1052.4;426;false
+f-18e4cf5912f370b8-851c-f-R;"Bac amovible — droit";1;164;200;12;8;1224.4;426;false
+f-18e4cf59148a6468-851c-2b-A;"Bac amovible — arrière";1;150.40000000000003;164;12;8;10;634;true
+f-18e4cf59148a6468-851c-2b-F;"Bac amovible — façade";1;150.40000000000003;164;12;8;182;634;true
+f-18e4cf591521ce20-851c-35-A;"Bac amovible — arrière";1;150.40000000000003;164;12;8;354;634;true
+f-18e4cf591521ce20-851c-35-F;"Bac amovible — façade";1;150.40000000000003;164;12;8;526;634;true
+f-18e4cf26ca0ab028-79fc-44-A;"Bac amovible — arrière";1;150.4;164;12;8;698;634;true
+f-18e4cf26ca0ab028-79fc-44-F;"Bac amovible — façade";1;150.4;164;12;8;870;634;true
+f-18e4cf591299a088-851c-1-A;"Bac amovible — arrière";1;150.4;164;12;8;1042;634;true
+f-18e4cf591299a088-851c-1-F;"Bac amovible — façade";1;150.4;164;12;8;1214;634;true
+f-18e4cf5913002a88-851c-11-L;"Bac amovible — gauche";1;164;200;12;9;10;10;false
+f-18e4cf5913002a88-851c-11-R;"Bac amovible — droit";1;164;200;12;9;182;10;false
+f-18e4cf59130dd688-851c-13-L;"Bac amovible — gauche";1;164;200;12;9;10;218;false
+f-18e4cf59130dd688-851c-13-R;"Bac amovible — droit";1;164;200;12;9;354;10;false
+f-18e4cf59131bf7b8-851c-15-L;"Bac amovible — gauche";1;164;200;12;9;182;218;false
+f-18e4cf59131bf7b8-851c-15-R;"Bac amovible — droit";1;164;200;12;9;10;426;false
+f-18e4cf59132ae7f0-851c-17-L;"Bac amovible — gauche";1;164;200;12;9;526;10;false
+f-18e4cf59132ae7f0-851c-17-R;"Bac amovible — droit";1;164;200;12;9;354;218;false
+f-18e4cf591348c090-851c-19-L;"Bac amovible — gauche";1;164;200;12;9;182;426;false
+f-18e4cf591348c090-851c-19-R;"Bac amovible — droit";1;164;200;12;9;698;10;false
+f-18e4cf591379c758-851c-1b-L;"Bac amovible — gauche";1;164;200;12;9;526;218;false
+f-18e4cf591379c758-851c-1b-R;"Bac amovible — droit";1;164;200;12;9;354;426;false
+f-18e4cf59138b5388-851c-1d-L;"Bac amovible — gauche";1;164;200;12;9;870;10;false
+f-18e4cf59138b5388-851c-1d-R;"Bac amovible — droit";1;164;200;12;9;698;218;false
+f-18e4cf59139fb260-851c-1f-L;"Bac amovible — gauche";1;164;200;12;9;526;426;false
+f-18e4cf59139fb260-851c-1f-R;"Bac amovible — droit";1;164;200;12;9;1042;10;false
+f-18e4cf5913b3a3d8-851c-21-L;"Bac amovible — gauche";1;164;200;12;9;870;218;false
+f-18e4cf5913b3a3d8-851c-21-R;"Bac amovible — droit";1;164;200;12;9;698;426;false
+f-18e4cf5913eaa9c8-851c-23-L;"Bac amovible — gauche";1;164;200;12;9;1214;10;false
+f-18e4cf5913eaa9c8-851c-23-R;"Bac amovible — droit";1;164;200;12;9;1042;218;false
+f-18e4cf59141422f8-851c-25-L;"Bac amovible — gauche";1;164;200;12;9;870;426;false
+f-18e4cf59141422f8-851c-25-R;"Bac amovible — droit";1;164;200;12;9;1214;218;false
+f-18e4cf591429be38-851c-27-L;"Bac amovible — gauche";1;164;200;12;9;1042;426;false
+f-18e4cf591429be38-851c-27-R;"Bac amovible — droit";1;164;200;12;9;1214;426;false
+f-18e4cf5912ce3960-851c-9-A;"Bac amovible — arrière";1;150.4;164;12;9;10;634;true
+f-18e4cf5912ce3960-851c-9-F;"Bac amovible — façade";1;150.4;164;12;9;182;634;true
+f-18e4cf5912da4f20-851c-b-A;"Bac amovible — arrière";1;150.4;164;12;9;354;634;true
+f-18e4cf5912da4f20-851c-b-F;"Bac amovible — façade";1;150.4;164;12;9;526;634;true
+f-18e4cf59130dd688-851c-13-A;"Bac amovible — arrière";1;150.4;164;12;9;698;634;true
+f-18e4cf59130dd688-851c-13-F;"Bac amovible — façade";1;150.4;164;12;9;870;634;true
+f-18e4cf59131bf7b8-851c-15-A;"Bac amovible — arrière";1;150.4;164;12;9;1042;634;true
+f-18e4cf59131bf7b8-851c-15-F;"Bac amovible — façade";1;150.4;164;12;9;1214;634;true
+f-18e4cf59145b5d58-851c-29-L;"Bac amovible — gauche";1;164;200;12;10;10;10;false
+f-18e4cf59145b5d58-851c-29-R;"Bac amovible — droit";1;164;200;12;10;182;10;false
+f-18e4cf59148a6468-851c-2b-L;"Bac amovible — gauche";1;164;200;12;10;10;218;false
+f-18e4cf59148a6468-851c-2b-R;"Bac amovible — droit";1;164;200;12;10;354;10;false
+f-18e4cf5914a3bcb0-851c-2d-L;"Bac amovible — gauche";1;164;200;12;10;182;218;false
+f-18e4cf5914a3bcb0-851c-2d-R;"Bac amovible — droit";1;164;200;12;10;10;426;false
+f-18e4cf5914be4990-851c-2f-L;"Bac amovible — gauche";1;164;200;12;10;526;10;false
+f-18e4cf5914be4990-851c-2f-R;"Bac amovible — droit";1;164;200;12;10;354;218;false
+f-18e4cf5914e53a50-851c-31-L;"Bac amovible — gauche";1;164;200;12;10;182;426;false
+f-18e4cf5914e53a50-851c-31-R;"Bac amovible — droit";1;164;200;12;10;698;10;false
+f-18e4cf59150414c0-851c-33-L;"Bac amovible — gauche";1;164;200;12;10;526;218;false
+f-18e4cf59150414c0-851c-33-R;"Bac amovible — droit";1;164;200;12;10;354;426;false
+f-18e4cf591521ce20-851c-35-L;"Bac amovible — gauche";1;164;200;12;10;870;10;false
+f-18e4cf591521ce20-851c-35-R;"Bac amovible — droit";1;164;200;12;10;698;218;false
+f-18e4cf5915478278-851c-37-L;"Bac amovible — gauche";1;164;200;12;10;526;426;false
+f-18e4cf5915478278-851c-37-R;"Bac amovible — droit";1;164;200;12;10;1042;10;false
+f-18e4cf5915684918-851c-39-L;"Bac amovible — gauche";1;164;200;12;10;870;218;false
+f-18e4cf5915684918-851c-39-R;"Bac amovible — droit";1;164;200;12;10;698;426;false
+f-18e4cf59138b5388-851c-1d-A;"Bac amovible — arrière";1;150.4;164;12;10;10;634;true
+f-18e4cf59138b5388-851c-1d-F;"Bac amovible — façade";1;150.4;164;12;10;1214;10;false
+f-18e4cf59139fb260-851c-1f-A;"Bac amovible — arrière";1;150.4;164;12;10;1042;218;false
+f-18e4cf59139fb260-851c-1f-F;"Bac amovible — façade";1;150.4;164;12;10;870;426;false
+f-18e4cf591429be38-851c-27-A;"Bac amovible — arrière";1;150.4;164;12;10;182;634;true
+f-18e4cf591429be38-851c-27-F;"Bac amovible — façade";1;150.4;164;12;10;1200.4;218;false
+f-18e4cf59145b5d58-851c-29-A;"Bac amovible — arrière";1;150.4;164;12;10;1028.4;426;false
+f-18e4cf59145b5d58-851c-29-F;"Bac amovible — façade";1;150.4;164;12;10;354;634;true
+f-18e4cf5914e53a50-851c-31-A;"Bac amovible — arrière";1;150.4;164;12;10;1186.8000000000002;426;false
+f-18e4cf5914e53a50-851c-31-F;"Bac amovible — façade";1;150.4;164;12;10;526;634;true
+f-18e4cf59150414c0-851c-33-A;"Bac amovible — arrière";1;150.4;164;12;10;698;634;true
+f-18e4cf59150414c0-851c-33-F;"Bac amovible — façade";1;150.4;164;12;10;870;634;true
+f-18e4cf5912b7b3c0-851c-5-A;"Bac amovible — arrière";1;150.39999999999998;164;12;10;1042;634;true
+f-18e4cf5912b7b3c0-851c-5-F;"Bac amovible — façade";1;150.39999999999998;164;12;10;1214;634;true
+f-18e4cf5912c1c5e0-851c-7-A;"Bac amovible — arrière";1;150.39999999999998;164;12;11;10;10;false
+f-18e4cf5912c1c5e0-851c-7-F;"Bac amovible — façade";1;150.39999999999998;164;12;11;168.39999999999998;10;false
+f-18e4cf5912f370b8-851c-f-A;"Bac amovible — arrière";1;150.39999999999998;164;12;11;10;182;false
+f-18e4cf5912f370b8-851c-f-F;"Bac amovible — façade";1;150.39999999999998;164;12;11;326.79999999999995;10;false
+f-18e4cf5913002a88-851c-11-A;"Bac amovible — arrière";1;150.39999999999998;164;12;11;168.39999999999998;182;false
+f-18e4cf5913002a88-851c-11-F;"Bac amovible — façade";1;150.39999999999998;164;12;11;10;354;false
+f-18e4cf591348c090-851c-19-A;"Bac amovible — arrière";1;150.39999999999998;164;12;11;485.19999999999993;10;false
+f-18e4cf591348c090-851c-19-F;"Bac amovible — façade";1;150.39999999999998;164;12;11;326.79999999999995;182;false
+f-18e4cf591379c758-851c-1b-A;"Bac amovible — arrière";1;150.39999999999998;164;12;11;168.39999999999998;354;false
+f-18e4cf591379c758-851c-1b-F;"Bac amovible — façade";1;150.39999999999998;164;12;11;10;526;false
+f-18e4cf5913eaa9c8-851c-23-A;"Bac amovible — arrière";1;150.39999999999998;164;12;11;643.5999999999999;10;false
+f-18e4cf5913eaa9c8-851c-23-F;"Bac amovible — façade";1;150.39999999999998;164;12;11;485.19999999999993;182;false
+f-18e4cf59141422f8-851c-25-A;"Bac amovible — arrière";1;150.39999999999998;164;12;11;326.79999999999995;354;false
+f-18e4cf59141422f8-851c-25-F;"Bac amovible — façade";1;150.39999999999998;164;12;11;168.39999999999998;526;false
+f-18e4cf5914a3bcb0-851c-2d-A;"Bac amovible — arrière";1;150.39999999999998;164;12;11;801.9999999999999;10;false
+f-18e4cf5914a3bcb0-851c-2d-F;"Bac amovible — façade";1;150.39999999999998;164;12;11;643.5999999999999;182;false
+f-18e4cf5914be4990-851c-2f-A;"Bac amovible — arrière";1;150.39999999999998;164;12;11;485.19999999999993;354;false
+f-18e4cf5914be4990-851c-2f-F;"Bac amovible — façade";1;150.39999999999998;164;12;11;326.79999999999995;526;false
+f-18e4cf5915478278-851c-37-A;"Bac amovible — arrière";1;150.39999999999998;164;12;11;960.3999999999999;10;false
+f-18e4cf5915478278-851c-37-F;"Bac amovible — façade";1;150.39999999999998;164;12;11;801.9999999999999;182;false
+f-18e4cf5915684918-851c-39-A;"Bac amovible — arrière";1;150.39999999999998;164;12;11;643.5999999999999;354;false
+f-18e4cf5915684918-851c-39-F;"Bac amovible — façade";1;150.39999999999998;164;12;11;485.19999999999993;526;false

@@ -1,7 +1,7 @@
 # Référence de la ligne de commande
 
 `fablabcam help` affiche l’aide de la version installée. Les commandes suivantes
-sont celles de la version 0.5.0. Les chemins contenant des espaces doivent être
+sont celles de la version 0.6.0. Les chemins contenant des espaces doivent être
 placés entre guillemets. Dans PowerShell, préfixez par `./` un exécutable présent
 dans le dossier courant.
 
@@ -38,7 +38,7 @@ Les fichiers sont disponibles dans le [tutoriel](../guide/premier-projet.md).
 La commande `web` produit une page navigable d’inspection ; elle ne publie rien
 sur Internet et ne remplace pas l’éditeur natif. `plot` relit le programme G-code.
 
-## Aide complète de la version 0.5.0
+## Aide complète de la version 0.6.0
 
 ```text
 fablabcam — FAO 2,5D en Rust (dessins XML .cb, DXF et SVG)
@@ -163,3 +163,12 @@ l'éditer dans l'interface. Voir le [guide meubles](../guide/meubles.md).
 Pour un `.cb` associé à une machine par le module Meubles, `build` vérifie aussi
 les opérations calculées et l'analyse du programme avec le profil attaché. Un
 rapport incomplet ou invalide bloque l'écriture du G-code.
+
+
+### Grilles et bacs en 0.6.0
+
+`furniture new` accepte `--columns N --rows N --bins yes` pour créer une grille.
+Le gabarit peut aussi contenir une composition complète et ses assemblages :
+`new` les conserve dans le projet autonome. Voir les [exemples exécutables](../guide/composer-meubles.md#exemples-reproductibles).
+L'édition détaillée des éléments et liaisons se fait dans le Studio ou l'API Rust ;
+la CLI ne fournit pas de commandes interactives d'édition de l'arbre.

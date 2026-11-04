@@ -1,0 +1,1036 @@
+{
+  "document_type": "furniture",
+  "data": {
+    "schema_version": 2,
+    "id": "rangement-30-cases",
+    "name": "Rangement 30 cases",
+    "template": {
+      "schema_version": 2,
+      "id": "caisson-osb",
+      "name": "Caisson OSB FabLab",
+      "revision": 1,
+      "construction": "cabinet",
+      "defaults": {
+        "width": 600.0,
+        "depth": 600.0,
+        "height": 800.0,
+        "thickness": 20.0,
+        "back": true,
+        "shelves": 1
+      },
+      "limits": {
+        "width": {
+          "min": 100.0,
+          "max": 5000.0
+        },
+        "depth": {
+          "min": 100.0,
+          "max": 5000.0
+        },
+        "height": {
+          "min": 100.0,
+          "max": 5000.0
+        },
+        "thickness": {
+          "min": 3.0,
+          "max": 80.0
+        },
+        "max_shelves": 30
+      }
+    },
+    "dimensions": {
+      "width": 1000.0,
+      "depth": 350.0,
+      "height": 1200.0,
+      "thickness": 18.0,
+      "back": false,
+      "shelves": 1,
+      "composition": {
+        "root": {
+          "id": "f-18e4cf2334ad4e30-79fc-2",
+          "name": "Grille de rangement",
+          "division": {
+            "axis": "horizontal",
+            "mode": "equal",
+            "dividers": [
+              {
+                "id": "f-18e4cf2334ad80f8-79fc-3",
+                "name": "Tablette 1",
+                "offset": 0.0,
+                "thickness": null,
+                "depth": null
+              },
+              {
+                "id": "f-18e4cf2334ad8cb0-79fc-4",
+                "name": "Tablette 2",
+                "offset": 0.0,
+                "thickness": null,
+                "depth": null
+              },
+              {
+                "id": "f-18e4cf2334ad9098-79fc-5",
+                "name": "Tablette 3",
+                "offset": 0.0,
+                "thickness": null,
+                "depth": null
+              },
+              {
+                "id": "f-18e4cf2334ad9480-79fc-6",
+                "name": "Tablette 4",
+                "offset": 0.0,
+                "thickness": null,
+                "depth": null
+              },
+              {
+                "id": "f-18e4cf2334ad9868-79fc-7",
+                "name": "Tablette 5",
+                "offset": 0.0,
+                "thickness": null,
+                "depth": null
+              }
+            ],
+            "children": [
+              {
+                "id": "f-18e4cf2334adafd8-79fc-8",
+                "name": "Case 1",
+                "division": {
+                  "axis": "vertical",
+                  "mode": "equal",
+                  "dividers": [
+                    {
+                      "id": "f-18e4cf2334adcf18-79fc-e",
+                      "name": "Séparation 1",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334add300-79fc-f",
+                      "name": "Séparation 2",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334addad0-79fc-10",
+                      "name": "Séparation 3",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334addeb8-79fc-11",
+                      "name": "Séparation 4",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "f-18e4cf2334ade688-79fc-12",
+                      "name": "Case 1",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf26ca0ab028-79fc-44",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334adea70-79fc-13",
+                      "name": "Case 2",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf591299a088-851c-1",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334adee58-79fc-14",
+                      "name": "Case 3",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5912ac0b60-851c-3",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334adf240-79fc-15",
+                      "name": "Case 4",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5912b7b3c0-851c-5",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334adf628-79fc-16",
+                      "name": "Case 5",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5912c1c5e0-851c-7",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    }
+                  ]
+                },
+                "bin": null
+              },
+              {
+                "id": "f-18e4cf2334adb7a8-79fc-9",
+                "name": "Case 2",
+                "division": {
+                  "axis": "vertical",
+                  "mode": "equal",
+                  "dividers": [
+                    {
+                      "id": "f-18e4cf2334adfa10-79fc-17",
+                      "name": "Séparation 1",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334adfdf8-79fc-18",
+                      "name": "Séparation 2",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae05c8-79fc-19",
+                      "name": "Séparation 3",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae09b0-79fc-1a",
+                      "name": "Séparation 4",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "f-18e4cf2334ae0d98-79fc-1b",
+                      "name": "Case 1",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5912ce3960-851c-9",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae1180-79fc-1c",
+                      "name": "Case 2",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5912da4f20-851c-b",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae1568-79fc-1d",
+                      "name": "Case 3",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5912e6af18-851c-d",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae1950-79fc-1e",
+                      "name": "Case 4",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5912f370b8-851c-f",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae1950-79fc-1f",
+                      "name": "Case 5",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5913002a88-851c-11",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    }
+                  ]
+                },
+                "bin": null
+              },
+              {
+                "id": "f-18e4cf2334adbb90-79fc-a",
+                "name": "Case 3",
+                "division": {
+                  "axis": "vertical",
+                  "mode": "equal",
+                  "dividers": [
+                    {
+                      "id": "f-18e4cf2334ae1d38-79fc-20",
+                      "name": "Séparation 1",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae2120-79fc-21",
+                      "name": "Séparation 2",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae2508-79fc-22",
+                      "name": "Séparation 3",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae2cd8-79fc-23",
+                      "name": "Séparation 4",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "f-18e4cf2334ae30c0-79fc-24",
+                      "name": "Case 1",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf59130dd688-851c-13",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae34a8-79fc-25",
+                      "name": "Case 2",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf59131bf7b8-851c-15",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae3890-79fc-26",
+                      "name": "Case 3",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf59132ae7f0-851c-17",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae3c78-79fc-27",
+                      "name": "Case 4",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf591348c090-851c-19",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae3c78-79fc-28",
+                      "name": "Case 5",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf591379c758-851c-1b",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    }
+                  ]
+                },
+                "bin": null
+              },
+              {
+                "id": "f-18e4cf2334adbf78-79fc-b",
+                "name": "Case 4",
+                "division": {
+                  "axis": "vertical",
+                  "mode": "equal",
+                  "dividers": [
+                    {
+                      "id": "f-18e4cf2334ae4060-79fc-29",
+                      "name": "Séparation 1",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae4448-79fc-2a",
+                      "name": "Séparation 2",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae4830-79fc-2b",
+                      "name": "Séparation 3",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae4c18-79fc-2c",
+                      "name": "Séparation 4",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "f-18e4cf2334ae53e8-79fc-2d",
+                      "name": "Case 1",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf59138b5388-851c-1d",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae53e8-79fc-2e",
+                      "name": "Case 2",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf59139fb260-851c-1f",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae57d0-79fc-2f",
+                      "name": "Case 3",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5913b3a3d8-851c-21",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae5bb8-79fc-30",
+                      "name": "Case 4",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5913eaa9c8-851c-23",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae5fa0-79fc-31",
+                      "name": "Case 5",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf59141422f8-851c-25",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    }
+                  ]
+                },
+                "bin": null
+              },
+              {
+                "id": "f-18e4cf2334adc360-79fc-c",
+                "name": "Case 5",
+                "division": {
+                  "axis": "vertical",
+                  "mode": "equal",
+                  "dividers": [
+                    {
+                      "id": "f-18e4cf2334ae6388-79fc-32",
+                      "name": "Séparation 1",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae6388-79fc-33",
+                      "name": "Séparation 2",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae6770-79fc-34",
+                      "name": "Séparation 3",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae6b58-79fc-35",
+                      "name": "Séparation 4",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "f-18e4cf2334ae7328-79fc-36",
+                      "name": "Case 1",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf591429be38-851c-27",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae7328-79fc-37",
+                      "name": "Case 2",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf59145b5d58-851c-29",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae7710-79fc-38",
+                      "name": "Case 3",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf59148a6468-851c-2b",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae7af8-79fc-39",
+                      "name": "Case 4",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5914a3bcb0-851c-2d",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae7ee0-79fc-3a",
+                      "name": "Case 5",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5914be4990-851c-2f",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    }
+                  ]
+                },
+                "bin": null
+              },
+              {
+                "id": "f-18e4cf2334adc748-79fc-d",
+                "name": "Case 6",
+                "division": {
+                  "axis": "vertical",
+                  "mode": "equal",
+                  "dividers": [
+                    {
+                      "id": "f-18e4cf2334ae82c8-79fc-3b",
+                      "name": "Séparation 1",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae86b0-79fc-3c",
+                      "name": "Séparation 2",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae8a98-79fc-3d",
+                      "name": "Séparation 3",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    },
+                    {
+                      "id": "f-18e4cf2334ae8e80-79fc-3e",
+                      "name": "Séparation 4",
+                      "offset": 0.0,
+                      "thickness": null,
+                      "depth": null
+                    }
+                  ],
+                  "children": [
+                    {
+                      "id": "f-18e4cf2334ae9650-79fc-3f",
+                      "name": "Case 1",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5914e53a50-851c-31",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae9a38-79fc-40",
+                      "name": "Case 2",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf59150414c0-851c-33",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae9a38-79fc-41",
+                      "name": "Case 3",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf591521ce20-851c-35",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334ae9e20-79fc-42",
+                      "name": "Case 4",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5915478278-851c-37",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    },
+                    {
+                      "id": "f-18e4cf2334aea208-79fc-43",
+                      "name": "Case 5",
+                      "division": null,
+                      "bin": {
+                        "id": "f-18e4cf5915684918-851c-39",
+                        "name": "Bac amovible",
+                        "depth": 200.0,
+                        "thickness": 12.0,
+                        "side_gap": 2.0,
+                        "top_gap": 3.0,
+                        "back_gap": 2.0,
+                        "bottom_covers_sides": true
+                      }
+                    }
+                  ]
+                },
+                "bin": null
+              }
+            ]
+          },
+          "bin": null
+        },
+        "joint_default": {
+          "kind": "butt",
+          "clearance": 0.2,
+          "engagement": 8.0,
+          "width": 20.0,
+          "count": 3,
+          "blind": false,
+          "relief": "dogbone"
+        },
+        "joints": {
+          "INF--C1-0-lo": {
+            "kind": "tabs",
+            "clearance": 0.2,
+            "engagement": 8.0,
+            "width": 20.0,
+            "count": 4,
+            "blind": false,
+            "relief": "dogbone"
+          }
+        },
+        "panel_names": {},
+        "panel_thickness": {},
+        "top_covers_sides": false,
+        "bottom_covers_sides": false
+      }
+    },
+    "setup": {
+      "material": "OSB",
+      "machine": {
+        "schema_version": 1,
+        "id": "id-cnc-pro-1500x800",
+        "name": "ID CNC PRO - Mach3",
+        "description": "ID CNC PRO, modèle 1500 x 800 retenu dans l’issue #9, piloté par Mach3 via une carte Xulifeng Mach3 USB Motion Card (03eb:6201). Fiche constructeur : courses X 800 mm, Y 1500 mm, Z 165 mm ; vitesse annoncée 5000 mm/min. Option broche HF 1500 W : 3000–24000 tr/min, refroidissement par air, changement manuel. Dimensions, option de broche et paramètres de l’installation à confirmer. Ces indications nominales ne définissent pas les bornes du repère machine ni ses réglages Mach3. Compléter limites, avances, broche, origines et Z de sécurité avant une analyse complète. Aucun réglage n’a été relevé sur la machine.",
+        "location": "LOV — Laboratoire Ouvert Villeurbannais",
+        "machine_kind": "mill-3axis",
+        "semantics": "mach3_mill",
+        "controller": {
+          "name": "Mach3",
+          "version": null,
+          "dialect": "mach3-mill",
+          "postprocessor": "Mach3Mill"
+        },
+        "sources": [
+          "https://www.machsupport.com/wp-content/uploads/2013/02/Mach3Mill_1.84.pdf#page=110",
+          "https://github.com/FabLabCAM/core/issues/9#issuecomment-6608555828",
+          "https://id-conception.fr/cnc/pro",
+          "https://labovilleurbanne.fr/dokuwiki/equipement:cnc:idcncpro",
+          "https://labovilleurbanne.fr/dokuwiki/equipement:cnc:kiri-moto"
+        ],
+        "axes": {
+          "X": {
+            "kind": "linear",
+            "min": null,
+            "max": null,
+            "max_feed": null
+          },
+          "Y": {
+            "kind": "linear",
+            "min": null,
+            "max": null,
+            "max_feed": null
+          },
+          "Z": {
+            "kind": "linear",
+            "min": null,
+            "max": null,
+            "max_feed": null
+          }
+        },
+        "max_feed_mm_min": null,
+        "rapid_mm_min": null,
+        "acceleration_mm_s2": null,
+        "initial_position_mm": null,
+        "positive_directions": "Affectation et sens XYZ, homing et origine machine à confirmer sur l’installation. Les courses nominales ne sont pas des coordonnées min/max.",
+        "work_offsets_mm": {},
+        "spindle": {
+          "min_rpm": null,
+          "max_rpm": null,
+          "directions": [
+            "cw",
+            "ccw"
+          ]
+        },
+        "defaults": {
+          "units": "G21",
+          "plane": "G17",
+          "distance": "G90",
+          "arc_distance": "G91.1",
+          "feed_mode": "G94",
+          "work_offset": "G54"
+        },
+        "gcodes": {
+          "allow": [
+            "G0",
+            "G1",
+            "G2",
+            "G3",
+            "G4",
+            "G10",
+            "G12",
+            "G13",
+            "G15",
+            "G16",
+            "G17",
+            "G18",
+            "G19",
+            "G20",
+            "G21",
+            "G28",
+            "G28.1",
+            "G30",
+            "G31",
+            "G40",
+            "G41",
+            "G42",
+            "G43",
+            "G49",
+            "G50",
+            "G51",
+            "G52",
+            "G53",
+            "G54",
+            "G55",
+            "G56",
+            "G57",
+            "G58",
+            "G59",
+            "G61",
+            "G61.1",
+            "G64",
+            "G68",
+            "G69",
+            "G70",
+            "G71",
+            "G73",
+            "G80",
+            "G81",
+            "G82",
+            "G83",
+            "G84",
+            "G85",
+            "G86",
+            "G87",
+            "G88",
+            "G89",
+            "G90",
+            "G90.1",
+            "G91",
+            "G91.1",
+            "G92",
+            "G92.1",
+            "G92.2",
+            "G92.3",
+            "G93",
+            "G94",
+            "G95",
+            "G98",
+            "G99"
+          ],
+          "deny": []
+        },
+        "mcodes": {
+          "allow": [
+            "M0",
+            "M1",
+            "M2",
+            "M3",
+            "M4",
+            "M5",
+            "M6",
+            "M7",
+            "M8",
+            "M9",
+            "M30",
+            "M47",
+            "M48",
+            "M49",
+            "M98",
+            "M99"
+          ],
+          "deny": []
+        },
+        "format": {
+          "line_numbers": "optional",
+          "max_decimals": 6,
+          "comments": [
+            "()",
+            "//",
+            "%"
+          ],
+          "ascii_only": true,
+          "uppercase": false,
+          "max_line_length": 256,
+          "header": null,
+          "end_codes": [
+            "M2",
+            "M30"
+          ]
+        },
+        "safety": {
+          "safe_z_mm": null,
+          "park_position_mm": null,
+          "tool_change_position_mm": null,
+          "required_preamble": [
+            "G21",
+            "G90",
+            "G17",
+            "G40",
+            "G49",
+            "G80",
+            "G94",
+            "G91.1"
+          ],
+          "allow_helical_arcs": true,
+          "forbid_rapid_below_safe_z": false
+        },
+        "tools": {
+          "changer": "manual",
+          "positions": null,
+          "m6_behavior": "Changement manuel prévu pour la broche HF 1500 W ; macros M6Start/M6End, arrêt et retrait à confirmer sur la machine.",
+          "m6_preserves_state": false,
+          "coolant": [
+            "M7",
+            "M8",
+            "M9"
+          ],
+          "table": {}
+        }
+      },
+      "working_size": [
+        1500.0,
+        800.0
+      ],
+      "sheet_size": [
+        1500.0,
+        800.0
+      ],
+      "margin": 10.0,
+      "cutter": 6.0,
+      "spacing": 8.0,
+      "rotate": true
+    }
+  }
+}

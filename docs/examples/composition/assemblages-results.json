@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "butt",
+    "native_valid": true,
+    "files": 17,
+    "reverse_setups": 0
+  },
+  {
+    "kind": "tabs",
+    "native_valid": true,
+    "files": 17,
+    "reverse_setups": 0
+  },
+  {
+    "kind": "box",
+    "native_valid": true,
+    "files": 17,
+    "reverse_setups": 0
+  },
+  {
+    "kind": "dado",
+    "native_valid": true,
+    "files": 20,
+    "reverse_setups": 1
+  },
+  {
+    "kind": "rabbet",
+    "native_valid": true,
+    "files": 20,
+    "reverse_setups": 1
+  },
+  {
+    "kind": "half_lap",
+    "native_valid": true,
+    "files": 23,
+    "reverse_setups": 2
+  },
+  {
+    "kind": "mortise_tenon",
+    "native_valid": true,
+    "files": 20,
+    "reverse_setups": 1
+  },
+  {
+    "kind": "tongue_groove",
+    "native_valid": true,
+    "files": 23,
+    "reverse_setups": 2
+  }
+]

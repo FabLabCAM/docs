@@ -1,0 +1,1188 @@
+[
+  {
+    "back_transform": "X = sheet_width - X; Y unchanged",
+    "face": "front",
+    "requirements": [
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "C1",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "C2",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334adcf18-79fc-e",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334add300-79fc-f",
+        "pocket": false
+      }
+    ],
+    "sheet": 1,
+    "thickness": 18.0
+  },
+  {
+    "back_transform": "X = sheet_width - X; Y unchanged",
+    "face": "front",
+    "requirements": [
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "INF",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "SUP",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334addad0-79fc-10",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334addeb8-79fc-11",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334adfa10-79fc-17",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334adfdf8-79fc-18",
+        "pocket": false
+      }
+    ],
+    "sheet": 2,
+    "thickness": 18.0
+  },
+  {
+    "back_transform": "X = sheet_width - X; Y unchanged",
+    "face": "front",
+    "requirements": [
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ad80f8-79fc-3",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ad8cb0-79fc-4",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae05c8-79fc-19",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae09b0-79fc-1a",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae1d38-79fc-20",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae2120-79fc-21",
+        "pocket": false
+      }
+    ],
+    "sheet": 3,
+    "thickness": 18.0
+  },
+  {
+    "back_transform": "X = sheet_width - X; Y unchanged",
+    "face": "front",
+    "requirements": [
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ad9098-79fc-5",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ad9480-79fc-6",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae2508-79fc-22",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae2cd8-79fc-23",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae4060-79fc-29",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae4448-79fc-2a",
+        "pocket": false
+      }
+    ],
+    "sheet": 4,
+    "thickness": 18.0
+  },
+  {
+    "back_transform": "X = sheet_width - X; Y unchanged",
+    "face": "front",
+    "requirements": [
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ad9868-79fc-7",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae4830-79fc-2b",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae4c18-79fc-2c",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae6388-79fc-32",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae6388-79fc-33",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae6770-79fc-34",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae6b58-79fc-35",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae82c8-79fc-3b",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae86b0-79fc-3c",
+        "pocket": false
+      },
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae8a98-79fc-3d",
+        "pocket": false
+      }
+    ],
+    "sheet": 5,
+    "thickness": 18.0
+  },
+  {
+    "back_transform": "X = sheet_width - X; Y unchanged",
+    "face": "front",
+    "requirements": [
+      {
+        "depth": 18.0,
+        "inside": false,
+        "layer": "f-18e4cf2334ae8e80-79fc-3e",
+        "pocket": false
+      }
+    ],
+    "sheet": 6,
+    "thickness": 18.0
+  },
+  {
+    "back_transform": "X = sheet_width - X; Y unchanged",
+    "face": "front",
+    "requirements": [
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912ac0b60-851c-3-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912e6af18-851c-d-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59132ae7f0-851c-17-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913b3a3d8-851c-21-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59148a6468-851c-2b-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591521ce20-851c-35-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf26ca0ab028-79fc-44-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591299a088-851c-1-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912ce3960-851c-9-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912da4f20-851c-b-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59130dd688-851c-13-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59131bf7b8-851c-15-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59138b5388-851c-1d-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59139fb260-851c-1f-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591429be38-851c-27-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59145b5d58-851c-29-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914e53a50-851c-31-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59150414c0-851c-33-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912b7b3c0-851c-5-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912c1c5e0-851c-7-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912f370b8-851c-f-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913002a88-851c-11-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591348c090-851c-19-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591379c758-851c-1b-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912ac0b60-851c-3-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912ac0b60-851c-3-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912e6af18-851c-d-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912e6af18-851c-d-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59132ae7f0-851c-17-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59132ae7f0-851c-17-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913b3a3d8-851c-21-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913b3a3d8-851c-21-F",
+        "pocket": false
+      }
+    ],
+    "sheet": 7,
+    "thickness": 12.0
+  },
+  {
+    "back_transform": "X = sheet_width - X; Y unchanged",
+    "face": "front",
+    "requirements": [
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913eaa9c8-851c-23-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59141422f8-851c-25-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914a3bcb0-851c-2d-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914be4990-851c-2f-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5915478278-851c-37-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5915684918-851c-39-B",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf26ca0ab028-79fc-44-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf26ca0ab028-79fc-44-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591299a088-851c-1-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591299a088-851c-1-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912ac0b60-851c-3-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912ac0b60-851c-3-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912b7b3c0-851c-5-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912b7b3c0-851c-5-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912c1c5e0-851c-7-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912c1c5e0-851c-7-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912ce3960-851c-9-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912ce3960-851c-9-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912da4f20-851c-b-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912da4f20-851c-b-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912e6af18-851c-d-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912e6af18-851c-d-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912f370b8-851c-f-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912f370b8-851c-f-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59148a6468-851c-2b-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59148a6468-851c-2b-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591521ce20-851c-35-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591521ce20-851c-35-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf26ca0ab028-79fc-44-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf26ca0ab028-79fc-44-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591299a088-851c-1-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591299a088-851c-1-F",
+        "pocket": false
+      }
+    ],
+    "sheet": 8,
+    "thickness": 12.0
+  },
+  {
+    "back_transform": "X = sheet_width - X; Y unchanged",
+    "face": "front",
+    "requirements": [
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913002a88-851c-11-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913002a88-851c-11-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59130dd688-851c-13-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59130dd688-851c-13-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59131bf7b8-851c-15-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59131bf7b8-851c-15-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59132ae7f0-851c-17-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59132ae7f0-851c-17-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591348c090-851c-19-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591348c090-851c-19-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591379c758-851c-1b-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591379c758-851c-1b-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59138b5388-851c-1d-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59138b5388-851c-1d-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59139fb260-851c-1f-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59139fb260-851c-1f-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913b3a3d8-851c-21-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913b3a3d8-851c-21-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913eaa9c8-851c-23-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913eaa9c8-851c-23-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59141422f8-851c-25-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59141422f8-851c-25-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591429be38-851c-27-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591429be38-851c-27-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912ce3960-851c-9-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912ce3960-851c-9-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912da4f20-851c-b-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912da4f20-851c-b-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59130dd688-851c-13-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59130dd688-851c-13-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59131bf7b8-851c-15-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59131bf7b8-851c-15-F",
+        "pocket": false
+      }
+    ],
+    "sheet": 9,
+    "thickness": 12.0
+  },
+  {
+    "back_transform": "X = sheet_width - X; Y unchanged",
+    "face": "front",
+    "requirements": [
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59145b5d58-851c-29-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59145b5d58-851c-29-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59148a6468-851c-2b-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59148a6468-851c-2b-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914a3bcb0-851c-2d-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914a3bcb0-851c-2d-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914be4990-851c-2f-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914be4990-851c-2f-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914e53a50-851c-31-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914e53a50-851c-31-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59150414c0-851c-33-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59150414c0-851c-33-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591521ce20-851c-35-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591521ce20-851c-35-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5915478278-851c-37-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5915478278-851c-37-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5915684918-851c-39-L",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5915684918-851c-39-R",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59138b5388-851c-1d-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59138b5388-851c-1d-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59139fb260-851c-1f-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59139fb260-851c-1f-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591429be38-851c-27-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591429be38-851c-27-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59145b5d58-851c-29-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59145b5d58-851c-29-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914e53a50-851c-31-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914e53a50-851c-31-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59150414c0-851c-33-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59150414c0-851c-33-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912b7b3c0-851c-5-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912b7b3c0-851c-5-F",
+        "pocket": false
+      }
+    ],
+    "sheet": 10,
+    "thickness": 12.0
+  },
+  {
+    "back_transform": "X = sheet_width - X; Y unchanged",
+    "face": "front",
+    "requirements": [
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912c1c5e0-851c-7-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912c1c5e0-851c-7-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912f370b8-851c-f-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5912f370b8-851c-f-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913002a88-851c-11-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913002a88-851c-11-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591348c090-851c-19-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591348c090-851c-19-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591379c758-851c-1b-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf591379c758-851c-1b-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913eaa9c8-851c-23-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5913eaa9c8-851c-23-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59141422f8-851c-25-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf59141422f8-851c-25-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914a3bcb0-851c-2d-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914a3bcb0-851c-2d-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914be4990-851c-2f-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5914be4990-851c-2f-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5915478278-851c-37-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5915478278-851c-37-F",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5915684918-851c-39-A",
+        "pocket": false
+      },
+      {
+        "depth": 12.0,
+        "inside": false,
+        "layer": "f-18e4cf5915684918-851c-39-F",
+        "pocket": false
+      }
+    ],
+    "sheet": 11,
+    "thickness": 12.0
+  }
+]

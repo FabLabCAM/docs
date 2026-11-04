@@ -1,12 +1,13 @@
 # Index des fonctionnalités et captures
 
-Ce catalogue couvre les commandes exposées par le Studio 0.5.0 et les outils
+Ce catalogue couvre les commandes exposées par le Studio 0.6.0 et les outils
 complémentaires. Chaque lien ouvre une procédure ; la capture montre le panneau
 réel de la famille concernée. Les capacités uniquement CLI sont documentées
 par leur commande reproductible, sans inventer un écran qui n’existe pas.
 
 | Famille | Fonctions documentées | Capture |
 |---|---|---|
+| [Composition et assemblages](../guide/composer-meubles.md) | Arbre et vue de face, cases, bacs, épaisseurs, positions fixes/égales, huit familles, surcharges, schéma 2 et montages recto/verso | [Voir](../assets/screenshots/42-composition-structure.png) |
 | [Meubles](../guide/meubles.md) | Modèles et projets, assistant, création/édition/duplication, historique, imports/exports JSON, placement, ZIP CB/DXF/SVG/CSV/PDF, passage en FAO | [Voir](../assets/screenshots/37-meubles-assistant.png) |
 | [Fichiers](../guide/fichiers.md) | Nouveau, ouvrir, récents, enregistrer, enregistrer sous, import DXF/SVG, export CB/DXF/SVG, glisser-déposer, saisie par chemin | [Voir](../assets/screenshots/02-fichiers.png) |
 | [Interface](../guide/interface.md) | Calques, visibilité, calque courant, sélection, propriétés, console, unités, magnétisme, cadrage et navigation | [Voir](../assets/screenshots/01-interface.png) |
@@ -72,3 +73,6 @@ et des [limites de version](depannage.md).
 d’une bibliothèque vide, dans la création guidée et par `machine profile init`.
 Les profils existants restent conservés. Exemple JSON, sources et paramètres
 à confirmer sont décrits dans le guide dédié.
+
+Les captures 42 à 47 documentent le compositeur du Studio 0.6.0, depuis le paquet
+macOS Apple Silicon de cette release ; voir la [provenance et les limites](../guide/composer-meubles.md#validation-et-limites).

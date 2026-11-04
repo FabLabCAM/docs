@@ -63,3 +63,26 @@ que sa configuration et son analyse sont incomplètes.
 Lorsqu'un document a été modifié ailleurs, rechargez-le ou importez une copie ;
 les données récentes ne sont pas écrasées. Un export exige un nouveau nom de
 fichier. Voir les [formats et limites du module](../guide/meubles.md).
+
+
+## Composition et assemblages
+
+- Pour ajouter un élément, activez **Composer le meuble**, puis sélectionnez une
+  case dans **Structure et cases**. Le nombre de tablettes du gabarit historique
+  ne pilote plus une composition déjà activée.
+- Une valeur temporairement invalide conserve le formulaire. Corrigez le champ
+  indiqué ; l'ancien aperçu affiché pendant la frappe ne peut pas être exporté.
+- Un dos de 1 000 × 1 200 mm ne rentre pas sur 1 500 × 800 mm. Retirez-le
+  explicitement ou utilisez une machine et une dalle adaptées ; aucun raccord
+  automatique n'est généré.
+- Des tenons opposés dans une paroi partagée peuvent entrer en collision.
+  Corrigez la liaison concernée, son type ou sa profondeur ; le moteur n'efface
+  pas silencieusement une mortaise.
+- Une rainure trop étroite demande une fraise plus petite ou une géométrie adaptée.
+  Vérifiez aussi la matière restante et les montages verso.
+- Un CB de meuble conserve les opérations requises : créez les poches/profils
+  avec leurs faces, profondeurs et côtés attendus avant le G-code. Le profil
+  machine doit lui aussi être complet et l'analyse valide.
+
+Voir le [guide du compositeur](../guide/composer-meubles.md) pour les conventions,
+les huit familles disponibles et les limites de fabrication.
