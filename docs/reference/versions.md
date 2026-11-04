@@ -1,5 +1,13 @@
 # Versions et licences
 
+## Correctif fournisseurs — non publié
+
+Suivi dans [#20](https://github.com/FabLabCAM/core/issues/20) : compatibilité
+GPT-4.1/GPT-4o, budget de raisonnement Ollama et diagnostic des réponses vides.
+Voir le [guide](../guide/assistant.md#correctif-de-compatibilite-en-preparation).
+Les paquets disponibles restent ceux de 0.7.0 ; aucune nouvelle distribution
+n’est annoncée par cette note.
+
 ## 0.7.0 — Assistant natif
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.0) · [Issue #20](https://github.com/FabLabCAM/core/issues/20)
@@ -15,7 +23,7 @@
 
 387 tests locaux réussis sur macOS Apple Silicon et Clippy strict ; compilation vérifiée avec Rust 1.89. Mistral Small
 a été testé réellement ; les trois autres fournisseurs ont des tests de protocole
-locaux et restent à qualifier en conditions réelles. L’issue #20 reste ouverte
+locaux à cette date ; les essais ultérieurs sont décrits dans le correctif ci-dessus. L’issue #20 reste ouverte
 pour ce suivi. La simulation et les valeurs d’outils ne qualifient aucune CNC.
 
 Distribution validée : tests workspace et Clippy réussis sur les trois OS,

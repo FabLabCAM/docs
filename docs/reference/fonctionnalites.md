@@ -81,3 +81,6 @@ macOS Apple Silicon de cette release ; voir la [provenance et les limites](../gu
 Les captures 49 à 54 documentent l’assistant du Studio 0.7.0 sur macOS Apple Silicon,
 avec Mistral et des exemples synthétiques publics ; voir la
 [provenance et la couverture réelle](../guide/assistant.md#validation-et-provenance).
+
+Le [correctif de compatibilité des fournisseurs](../guide/assistant.md#correctif-de-compatibilite-en-preparation)
+est suivi séparément de la distribution 0.7.0.

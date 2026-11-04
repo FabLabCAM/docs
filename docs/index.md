@@ -57,3 +57,7 @@ avec des exemples publics créés pour ce guide. Les dialogues système et polic
     [Composez vos meubles](guide/composer-meubles.md) : tablettes, séparations,
     grilles, bacs et huit familles d'assemblages. Enregistrez toute la structure
     comme modèle, partagez les fichiers natifs et préparez les dalles CNC.
+
+Les essais après 0.7.0 et les limites des modèles sont suivis dans le
+[correctif de compatibilité de l’assistant](guide/assistant.md#correctif-de-compatibilite-en-preparation),
+non inclus dans les installateurs actuels.
