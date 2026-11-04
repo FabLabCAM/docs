@@ -54,8 +54,8 @@ Les captures 01 à 23 sont réalisées sur macOS Apple Silicon avec la version
 plateforme, avec des profils fictifs publics ; la capture 32 est recadrée sur le
 dialogue de doublon. Les captures 33 et 34 montrent le modèle ID CNC PRO dans
 le Studio 0.4.1 sur macOS Apple Silicon. Les captures 35 à 41 montrent le module
-Meubles du build de développement 0.5.0 sur la même plateforme (sources d’interface
-identiques au tag livré), avec le caisson synthétique
+Meubles du Studio 0.5.0 installé depuis le DMG publié sur la même plateforme,
+avec le caisson synthétique
 du [guide meubles](../guide/meubles.md). Le projet de base, son script et ses exports sont disponibles dans le
 [tutoriel](../guide/premier-projet.md). Les vues de ponts, de brut et de simulation
 illustrent des modifications décrites dans le tutoriel. Les images sont des
