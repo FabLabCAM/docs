@@ -11,7 +11,8 @@ un rayon final nul après arrondi dans trois KO. Le gabarit CBPP permet seulemen
 de comparer les modes sur 0.7.0 ; il ne corrige pas les arcs. Le quatrième KO
 présente une dépendance IJ reproduite dès son premier arc en mode absolu hérité.
 Le 4 novembre 2026, l'utilisateur confirme que sa copie ajoutant G91.1 fonctionne
-sur Mach3. Le retour sur les trois autres KO et la livraison restent à terminer.
+sur Mach3. Le retour sur les trois autres KO reste attendu ; la préversion 0.7.1-rc.1
+est en préparation pour cette validation.
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|

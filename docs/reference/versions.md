@@ -1,11 +1,12 @@
 # Versions et licences
 
-## Correctif en cours — issue #23
+## Préversion 0.7.1-rc.1 — validation Mach3
 
 [Diagnostic Mach3](../guide/gcode.md#mach3-fichier-charge-lancement-bloque) :
 subdivision des arcs dégénérés après arrondi, contrôle du rayon final nul,
 préambules explicites, tolérance d'arc en pouces et distinction de G91.1/G91
-dans le backplot. Ces corrections ne sont pas publiées. Le
+dans le backplot. Une préversion est en préparation pour les essais Mach3 ;
+la version stable reste 0.7.0. Le
 [gabarit CBPP](../examples/mach3-explicit-modes.cbpp) permet déjà de comparer
 les modes des exports en 0.7.0, dont le backplot reste incorrect pour G91.1 ;
 il ne corrige pas les micro-arcs dégénérés.

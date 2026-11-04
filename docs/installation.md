@@ -1,5 +1,18 @@
 # Installation
 
+## Préversion pour les essais Mach3
+
+La **0.7.1-rc.1** est en préparation pour valider les correctifs de
+[l'issue #23](https://github.com/FabLabCAM/core/issues/23). Elle corrige le mode
+IJ des exports, les arcs dégénérés après arrondi et leur prévisualisation.
+Le fonctionnement de la copie de test de `lyon3.v1` est confirmé ; les autres
+exports restent à vérifier dans Mach3. La version stable ci-dessous reste 0.7.0.
+
+Pour les essais, sauvegarder le projet, régénérer le NC avec la préversion et
+le recharger dans Mach3 ; relever le message et la ligne si une erreur apparaît.
+
+## Version stable
+
 La [release 0.7.0](https://github.com/FabLabCAM/core/releases/tag/v0.7.0)
 contient Studio, la CLI et le viewer dans chaque distribution. Aucun compte
 n’est nécessaire pour utiliser le logiciel localement.
