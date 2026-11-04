@@ -1,6 +1,6 @@
 # FabLabCAM — du dessin au parcours d’outil
 
-**FabLabCAM 0.6.0** est un atelier de CAO/FAO 2.5D, libre sous licence
+**FabLabCAM 0.6.1** est un atelier de CAO/FAO 2.5D, libre sous licence
 Apache-2.0. Dessinez une pièce, définissez vos outils, préparez les opérations,
 inspectez le résultat et exportez le G-code. Le module **Meubles** prépare aussi
 des caissons et étagères paramétriques avec leurs plans de découpe.
@@ -35,10 +35,17 @@ n’est pas un modeleur de solides ni une FAO multiaxe.
 
 L’[index des fonctionnalités](reference/fonctionnalites.md) relie chaque famille
 fonctionnelle à sa procédure et à une capture. Les captures du dessin proviennent de la version 0.2.0 ; celles de l’Atelier
-proviennent des versions 0.4.0 et 0.4.1 ; celles du module Meubles des versions 0.5.0 et 0.6.0. Elles sont prises sur macOS Apple Silicon
+proviennent des versions 0.4.0 et 0.4.1 ; celles du module Meubles des versions 0.5.0 et 0.6.0.
+La capture du contrôle des identifiants Rhai provient du paquet installé 0.6.1.
+Elles sont prises sur macOS Apple Silicon
 avec des exemples publics créés pour ce guide. Les dialogues système et polices peuvent varier selon l’OS.
 
-!!! info "Nouveau dans la v0.6.0"
+!!! info "Correctif v0.6.1"
+    Les [scripts Rhai](reference/rhai.md#identifiants-des-formes) refusent désormais
+    les identifiants négatifs ou trop grands, seuls ou dans un tableau. Une valeur
+    erronée ne peut plus sélectionner une autre forme par troncature.
+
+!!! info "Depuis la v0.6.0"
     [Composez vos meubles](guide/composer-meubles.md) : tablettes, séparations,
     grilles, bacs et huit familles d'assemblages. Enregistrez toute la structure
     comme modèle, partagez les fichiers natifs et préparez les dalles CNC.

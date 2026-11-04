@@ -5,8 +5,11 @@
 Ouvrez **Script → Éditeur de script**, saisissez votre programme puis **Exécuter**.
 **Ouvrir un script** charge un fichier `.rhai`. Les sorties de `print` sont
 écrites dans le journal. L’exécution travaille sur une copie du projet : une
- erreur annule les changements du script. Une exécution réussie est une
-modification du projet que vous devez ensuite enregistrer.
+erreur annule les changements du script. Une exécution réussie est une
+modification du projet que vous devez ensuite enregistrer. **Annuler** restaure
+le projet en une seule étape. Le script prérempli dessine une plaque et quatre
+trous sans créer d’opérations d’usinage ; utilisez les fonctions `tool`, `profile`,
+`pocket`, `drill` ou `engrave` pour en ajouter, comme dans les exemples ci-dessous.
 
 ## Premier exemple
 
@@ -31,6 +34,42 @@ longueurs de l’API en millimètres. `ids` accepte un identifiant ou un tableau
 Le nom d’un outil doit exister avant de créer une opération qui l’utilise.
 Exécuter deux fois un script ajoute à nouveau ses objets : commencez sur un
 projet vide pour reproduire un exemple de création.
+
+## Identifiants des formes
+
+Depuis **0.6.1**, les références doivent être des entiers compris dans la plage
+numérique **0 à 4 294 967 295** et désigner une forme existante. Utilisez de
+préférence les identifiants renvoyés par les fonctions de création ou `shapes()`.
+Un nombre décimal comme `1.0`, une chaîne et un booléen ne sont pas acceptés.
+La plage numérique seule ne garantit pas l’existence de la forme.
+
+La même vérification s’applique à chaque élément d’un tableau. Une valeur négative
+ou trop grande est refusée avant utilisation, sans conversion modulo : par exemple
+`4294967297` ne désigne plus la forme `1`. Le diagnostic conserve la valeur fautive
+et la ligne du script. Cela concerne transformations, copies, offset, suppression
+et références des opérations d’usinage.
+
+Téléchargez le [script de vérification](../examples/scripts/identifiant-invalide.rhai)
+et exécutez-le avec **0.6.1 ou plus récent** dans un dossier de test :
+
+```sh
+fablabcam script identifiant-invalide.rhai -o sortie.cb
+```
+
+Résultat attendu : échec avec `identifiant de forme hors plage (0..=4294967295) : 4294967297`.
+Aucun fichier `sortie.cb` n’est créé ; une sortie préexistante reste inchangée.
+Dans le Studio, le dessin et l’historique Annuler/Rétablir restent inchangés même
+si des instructions valides précèdent l’erreur. Corrigez la référence et relancez.
+
+La version 0.6.0 et les versions antérieures pouvaient tronquer ces valeurs et
+modifier une autre forme. Ce correctif est décrit dans l’[issue #19](https://github.com/FabLabCAM/core/issues/19).
+
+[![Identifiant hors plage refusé sans déplacer le cercle](../assets/screenshots/48-script-identifiants.png)](../assets/screenshots/48-script-identifiants.png)
+
+Capture du **Studio 0.6.1 installé depuis le DMG macOS ARM64** : le cercle `#1`
+reste à X = 0 malgré le `move` précédant l’erreur ligne 2. Le refus d’un tableau
+contenant une valeur négative, l’exécution d’un déplacement valide et son
+annulation en une étape ont aussi été vérifiés dans ce paquet.
 
 ## Référence complète de l’API exposée
 
@@ -60,7 +99,8 @@ projet vide pour reproduire un exemple de création.
 
 L’API n’expose pas toutes les propriétés du Studio. Ajustez les paramètres
 complémentaires dans l’interface après génération, ou utilisez les options CLI
-appropriées pour une génération directe.
+appropriées pour une génération directe. Le compositeur de meubles n’est pas
+exposé par cette API Rhai.
 
 ## Exécution sans interface
 
