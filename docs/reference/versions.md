@@ -10,8 +10,10 @@ dans le backplot. Ces corrections ne sont pas publiées. Le
 les modes des exports en 0.7.0, dont le backplot reste incorrect pour G91.1 ;
 il ne corrige pas les micro-arcs dégénérés.
 Le cas `lyon3.v1` est reproduit en mode IJ initial absolu et couvert par le
-préambule explicite. La confirmation sur l'installation reste attendue ;
-[#23](https://github.com/FabLabCAM/core/issues/23) reste ouverte.
+préambule explicite. L'utilisateur confirme le 4 novembre 2026 que la copie
+ajoutant G91.1 fonctionne dans Mach3. Les trois autres KO restent à confirmer ;
+la correction n'est pas encore publiée et [#23](https://github.com/FabLabCAM/core/issues/23)
+reste ouverte.
 
 ## 0.7.0 — Assistant natif
 

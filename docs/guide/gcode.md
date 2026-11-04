@@ -86,10 +86,11 @@ pas ce mode : le programme utilise des centres incrémentaux et doit déclarer
 G91.1. L'ajout de cette seule commande permet d'analyser les 1 072 arcs sans
 erreur, depuis les deux modes IJ initiaux, avec les mouvements inchangés.
 Le correctif d'initialisation de la PR couvre ce cas dans les trois exports.
-L'utilisateur signale la même erreur d'arc, mais n'a pas indiqué la ligne :
-la correspondance avec cette cause reste à confirmer dans Mach3. La copie
-`lyon3.v1.IJ_INCREMENTAL_A_TESTER.nc` permet d'isoler ce changement au chargement.
-Si elle reste refusée, conserver le bloc et le numéro de ligne exacts.
+Le 4 novembre 2026, l'utilisateur confirme que
+`lyon3.v1.IJ_INCREMENTAL_A_TESTER.nc` fonctionne dans Mach3. Comme cette copie
+ajoute seulement G91.1, le retour confirme l'efficacité du mode IJ explicite
+pour ce fichier. Le détail de l'essai n'est pas précisé ; les trois autres
+copies corrigeant les arcs dégénérés restent à confirmer.
 
 **Limite de la 0.7.0 :** son backplot confond G91.1 avec G91, ce qui déforme
 l'aperçu et la simulation d'un fichier contenant ce mode explicite. Le gabarit

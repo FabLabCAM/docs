@@ -9,8 +9,9 @@ En cours : [#23 — lancement dans Mach3](https://github.com/FabLabCAM/core/issu
 Le [diagnostic](../guide/gcode.md#mach3-fichier-charge-lancement-bloque) identifie
 un rayon final nul après arrondi dans trois KO. Le gabarit CBPP permet seulement
 de comparer les modes sur 0.7.0 ; il ne corrige pas les arcs. Le quatrième KO
-présente une dépendance IJ reproduite dès son premier arc en mode absolu hérité. La correction intégrée et la validation
-sur l'installation du signalement ne sont pas encore livrées.
+présente une dépendance IJ reproduite dès son premier arc en mode absolu hérité.
+Le 4 novembre 2026, l'utilisateur confirme que sa copie ajoutant G91.1 fonctionne
+sur Mach3. Le retour sur les trois autres KO et la livraison restent à terminer.
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
