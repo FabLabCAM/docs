@@ -1,5 +1,16 @@
 # Versions et licences
 
+## Correctif en cours — issue #23
+
+[Diagnostic Mach3](../guide/gcode.md#mach3-fichier-charge-lancement-bloque) :
+préambules explicites, tolérance d'arc en pouces et distinction de G91.1/G91
+dans le backplot. Ces corrections ne sont pas publiées. Le
+[gabarit CBPP](../examples/mach3-explicit-modes.cbpp) permet déjà de comparer
+les exports en 0.7.0, dont le backplot reste incorrect pour G91.1.
+Le lancement sur l'installation
+du signalement reste à confirmer ; [#23](https://github.com/FabLabCAM/core/issues/23)
+reste ouverte.
+
 ## 0.7.0 — Assistant natif
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.0) · [Issue #20](https://github.com/FabLabCAM/core/issues/20)

@@ -5,6 +5,11 @@ notes de version. Les demandes en cours restent visibles dans les
 [issues GitHub de core](https://github.com/FabLabCAM/core/issues) ; une demande
 ouverte n'est pas une fonction disponible.
 
+En cours : [#23 — lancement dans Mach3](https://github.com/FabLabCAM/core/issues/23).
+Le [diagnostic et le gabarit CBPP](../guide/gcode.md#mach3-fichier-charge-lancement-bloque)
+permettent une comparaison sur 0.7.0. La correction intégrée et la validation
+sur l'installation du signalement ne sont pas encore livrées.
+
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
 | [0.7.0](versions.md#070-assistant-natif) | [#20 — assistant](https://github.com/FabLabCAM/core/issues/20) | Panneau natif, modes et actions validées ; qualification réelle des autres fournisseurs encore ouverte | [Guide illustré](../guide/assistant.md), [index](fonctionnalites.md) |
