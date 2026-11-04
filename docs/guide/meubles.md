@@ -173,7 +173,10 @@ périmètre. Vis, avant-trous, ancrages, stabilité et charges admissibles ne so
 pas dimensionnés. Les projets natifs conservent les noms Unicode ; la notice
 PDF utilise des libellés fixes en français et des repères.
 
-Les captures 35 à 41 proviennent du Studio **0.5.0 sur macOS Apple Silicon** avec
-un exemple synthétique. Les dialogues système peuvent différer selon l'OS.
+Les captures 35 à 41 proviennent du build de développement du Studio **0.5.0
+sur macOS Apple Silicon**, avec un exemple synthétique. Les sources d'interface
+sont identiques à celles du tag livré. La CLI installée depuis le DMG final
+reproduit les quinze fichiers du dossier d'exemple octet pour octet. Les dialogues
+système peuvent différer selon l'OS.
 [Issue #14](https://github.com/FabLabCAM/core/issues/14) ·
 [Release 0.5.0](https://github.com/FabLabCAM/core/releases/tag/v0.5.0).
