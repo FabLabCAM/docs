@@ -1,6 +1,6 @@
 # FabLabCAM — du dessin au parcours d’outil
 
-**FabLabCAM 0.6.1** est un atelier de CAO/FAO 2.5D, libre sous licence
+**FabLabCAM 0.7.0** est un atelier de CAO/FAO 2.5D, libre sous licence
 Apache-2.0. Dessinez une pièce, définissez vos outils, préparez les opérations,
 inspectez le résultat et exportez le G-code. Le module **Meubles** prépare aussi
 des caissons et étagères paramétriques avec leurs plans de découpe.
@@ -25,6 +25,8 @@ n’est pas un modeleur de solides ni une FAO multiaxe.
 
 [Fabriquer un meuble pour le FabLab](guide/meubles.md){ .md-button }
 
+[Utiliser l’assistant Ask, Plan et Agent](guide/assistant.md){ .md-button }
+
 ## Un parcours guidé
 
 1. [Installer](installation.md) la version adaptée à votre ordinateur.
@@ -37,8 +39,14 @@ L’[index des fonctionnalités](reference/fonctionnalites.md) relie chaque fami
 fonctionnelle à sa procédure et à une capture. Les captures du dessin proviennent de la version 0.2.0 ; celles de l’Atelier
 proviennent des versions 0.4.0 et 0.4.1 ; celles du module Meubles des versions 0.5.0 et 0.6.0.
 La capture du contrôle des identifiants Rhai provient du paquet installé 0.6.1.
+Les captures de l’assistant proviennent de la compilation de validation 0.7.0.
 Elles sont prises sur macOS Apple Silicon
 avec des exemples publics créés pour ce guide. Les dialogues système et polices peuvent varier selon l’OS.
+
+!!! info "Nouveau en v0.7.0"
+    Un [assistant natif](guide/assistant.md) accompagne chaque page : Ask pour
+    comprendre, Plan pour préparer et Agent pour appliquer chaque lot validé.
+    Mistral testé réellement ; qualification des autres services encore suivie.
 
 !!! info "Correctif v0.6.1"
     Les [scripts Rhai](reference/rhai.md#identifiants-des-formes) refusent désormais

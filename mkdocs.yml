@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 strict: true
 copyright: FabLabCAM contributors · Apache-2.0
 extra:
-  product_version: 0.6.1
+  product_version: 0.7.0
 theme:
   name: material
   language: fr
@@ -76,6 +76,7 @@ nav:
       - Profils machine dans le Studio: guide/profils-studio.md
       - Validation et archives G-code: guide/machines.md
   - Automatiser et comprendre:
+      - Assistant Ask, Plan et Agent: guide/assistant.md
       - Scripts Rhai: reference/rhai.md
       - Ligne de commande: reference/cli.md
       - Post-processeurs: reference/postprocesseurs.md

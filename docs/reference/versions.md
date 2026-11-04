@@ -1,5 +1,23 @@
 # Versions et licences
 
+## 0.7.0 — Assistant natif
+
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.0) · [Issue #20](https://github.com/FabLabCAM/core/issues/20)
+
+- Panneau Rust/egui commun aux pages, Markdown, contexte choisi et historique local.
+- Ask en lecture seule, Plan sur copie et Agent avec aperçu puis validation par lot.
+- Actions dessin, Rhai, meubles, assemblages, outils, opérations et exports natifs.
+- Streaming OpenAI Responses, Claude Messages, Mistral et Ollama ; coffre système,
+  annulation, limites, diagnostics et refus des propositions obsolètes.
+- Scripts manuels et préparation des dossiers ZIP hors du rendu graphique.
+- [Guide illustré](../guide/assistant.md), mémoire, architecture et
+  [QA sources](https://github.com/FabLabCAM/core/blob/v0.7.0/docs/qa/0.7.0.md).
+
+387 tests locaux réussis sur macOS Apple Silicon et Clippy strict ; compilation vérifiée avec Rust 1.89. Mistral Small
+a été testé réellement ; les trois autres fournisseurs ont des tests de protocole
+locaux et restent à qualifier en conditions réelles. L’issue #20 reste ouverte
+pour ce suivi. La simulation et les valeurs d’outils ne qualifient aucune CNC.
+
 ## 0.6.1 — Identifiants Rhai
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.6.1) · [Issue #19](https://github.com/FabLabCAM/core/issues/19)

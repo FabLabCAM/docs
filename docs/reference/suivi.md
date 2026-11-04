@@ -7,6 +7,7 @@ ouverte n'est pas une fonction disponible.
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
+| [0.7.0](versions.md#070-assistant-natif) | [#20 — assistant](https://github.com/FabLabCAM/core/issues/20) | Panneau natif, modes et actions validées ; qualification réelle des autres fournisseurs encore ouverte | [Guide illustré](../guide/assistant.md), [index](fonctionnalites.md) |
 | [0.6.1](versions.md#061-identifiants-rhai) | [#19 — identifiants Rhai](https://github.com/FabLabCAM/core/issues/19) | Refus des références hors plage, atomicité et régressions | [Scripts](rhai.md#identifiants-des-formes), [index](fonctionnalites.md) |
 | [0.6.0](versions.md#060-composition-et-assemblages) | [#17 — compositeur et assemblages](https://github.com/FabLabCAM/core/issues/17) | Éléments, cases, bacs, huit familles d’assemblages et modèles complets | [Guide](../guide/composer-meubles.md), [CLI](cli.md), [index](fonctionnalites.md) |
 | [0.5.0](versions.md#050-meubles-parametriques) | [#14 — mobilier de FabLab](https://github.com/FabLabCAM/core/issues/14) | Modèles, meubles, assistant, découpe et dossiers de fabrication | [Guide illustré](../guide/meubles.md), [CLI](cli.md), [index](fonctionnalites.md) |
@@ -44,5 +45,5 @@ rapports JSON et références de téléchargement avec `scripts/check_site.py`.
 
 Avant publication : vérification des paquets,
 contrôles CI, puis déploiement GitHub Pages depuis `main`. Les notes anciennes
-restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.6.1/docs/releasing.md)
+restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.7.0/docs/releasing.md)
 détaille l'ordre des vérifications et la clôture des issues après publication.
