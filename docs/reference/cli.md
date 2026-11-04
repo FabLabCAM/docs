@@ -45,8 +45,8 @@ fablabcam — FAO 2,5D en Rust (dessins XML .cb, DXF et SVG)
 
 USAGE
   fablabcam version                              version du produit
-  fablabcam furniture help                       modèles, meubles et dossiers de fabrication
   fablabcam machine help                         profils, validation et archives G-code
+  fablabcam furniture help                       modèles, meubles et dossiers de fabrication
   fablabcam info   <fichier.cb>
   fablabcam styles <styles.xml>
   fablabcam gcode  <fichier.cb> --op <profile-outside|profile-inside|profile-on|pocket|drill> [options]
