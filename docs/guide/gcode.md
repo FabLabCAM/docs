@@ -53,7 +53,7 @@ Les photos de l'[issue #23](https://github.com/FabLabCAM/core/issues/23) montren
 « Arc de rayon nul » et « Le rayon de fin d'arc diffère de celui de début d'arc ».
 L'arrivée d'un micro-arc coïncide avec son centre après arrondi à trois décimales.
 Ce défaut apparaît 38 fois dans chacun de trois fichiers KO ; il est absent des
-trois références et du quatrième KO, dont le blocage reste à expliquer.
+trois références et du quatrième KO, qui dépend en revanche du mode IJ initial.
 
 Le correctif en cours vérifie les coordonnées après formatage : les arcs qui
 deviennent dégénérés sont subdivisés en G1 depuis la trajectoire non arrondie,
@@ -79,6 +79,17 @@ des valeurs intégrées est en cours dans #23 ; il n'est pas livré en 0.7.0.
 **Ce gabarit ne corrige pas les arcs dégénérés** : une copie ne changeant que
 le préambule conserve l'erreur photographiée. Il sert uniquement à isoler
 l'effet des modes.
+
+Pour `lyon3.v1`, l'analyse dédiée reproduit un refus du premier arc (ligne
+physique 145) si Mach3 interprète les centres IJ en mode absolu. G90 ne règle
+pas ce mode : le programme utilise des centres incrémentaux et doit déclarer
+G91.1. L'ajout de cette seule commande permet d'analyser les 1 072 arcs sans
+erreur, depuis les deux modes IJ initiaux, avec les mouvements inchangés.
+Le correctif d'initialisation de la PR couvre ce cas dans les trois exports.
+L'utilisateur signale la même erreur d'arc, mais n'a pas indiqué la ligne :
+la correspondance avec cette cause reste à confirmer dans Mach3. La copie
+`lyon3.v1.IJ_INCREMENTAL_A_TESTER.nc` permet d'isoler ce changement au chargement.
+Si elle reste refusée, conserver le bloc et le numéro de ligne exacts.
 
 **Limite de la 0.7.0 :** son backplot confond G91.1 avec G91, ce qui déforme
 l'aperçu et la simulation d'un fichier contenant ce mode explicite. Le gabarit

@@ -8,7 +8,8 @@ ouverte n'est pas une fonction disponible.
 En cours : [#23 — lancement dans Mach3](https://github.com/FabLabCAM/core/issues/23).
 Le [diagnostic](../guide/gcode.md#mach3-fichier-charge-lancement-bloque) identifie
 un rayon final nul après arrondi dans trois KO. Le gabarit CBPP permet seulement
-de comparer les modes sur 0.7.0 ; il ne corrige pas les arcs. La correction intégrée et la validation
+de comparer les modes sur 0.7.0 ; il ne corrige pas les arcs. Le quatrième KO
+présente une dépendance IJ reproduite dès son premier arc en mode absolu hérité. La correction intégrée et la validation
 sur l'installation du signalement ne sont pas encore livrées.
 
 | Version | Issue | Livraison | Documentation |

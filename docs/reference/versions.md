@@ -9,9 +9,9 @@ dans le backplot. Ces corrections ne sont pas publiées. Le
 [gabarit CBPP](../examples/mach3-explicit-modes.cbpp) permet déjà de comparer
 les modes des exports en 0.7.0, dont le backplot reste incorrect pour G91.1 ;
 il ne corrige pas les micro-arcs dégénérés.
-Le lancement sur l'installation
-du signalement reste à confirmer ; [#23](https://github.com/FabLabCAM/core/issues/23)
-reste ouverte.
+Le cas `lyon3.v1` est reproduit en mode IJ initial absolu et couvert par le
+préambule explicite. La confirmation sur l'installation reste attendue ;
+[#23](https://github.com/FabLabCAM/core/issues/23) reste ouverte.
 
 ## 0.7.0 — Assistant natif
 
