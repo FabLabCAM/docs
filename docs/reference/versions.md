@@ -18,6 +18,15 @@ a été testé réellement ; les trois autres fournisseurs ont des tests de prot
 locaux et restent à qualifier en conditions réelles. L’issue #20 reste ouverte
 pour ce suivi. La simulation et les valeurs d’outils ne qualifient aucune CNC.
 
+Distribution en validation : les huit paquets Windows/Linux (ARM64 et x64)
+ont passé les tests et installations CI ; leurs SHA-256, notices et architectures
+des douze exécutables ont été contrôlés. Un DMG macOS ARM64 construit localement
+a été installé et vérifié : signature ad hoc, CLI 0.7.0, script public de la plaque,
+GUI et test de connexion/appel d’outil Mistral. La publication attend encore les
+exécuteurs macOS de GitHub, indisponibles lors de cette validation.
+[CI](https://github.com/FabLabCAM/core/actions/runs/41858524147) ·
+[Paquets](https://github.com/FabLabCAM/core/actions/runs/41858524071).
+
 ## 0.6.1 — Identifiants Rhai
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.6.1) · [Issue #19](https://github.com/FabLabCAM/core/issues/19)
