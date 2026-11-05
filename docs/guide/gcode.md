@@ -89,8 +89,9 @@ Le correctif d'initialisation de la PR couvre ce cas dans les trois exports.
 Le 4 novembre 2026, l'utilisateur confirme que
 `lyon3.v1.IJ_INCREMENTAL_A_TESTER.nc` fonctionne dans Mach3. Comme cette copie
 ajoute seulement G91.1, le retour confirme l'efficacité du mode IJ explicite
-pour ce fichier. Le détail de l'essai n'est pas précisé ; les trois autres
-copies corrigeant les arcs dégénérés restent à confirmer.
+pour ce fichier. Le 6 novembre 2026, l'utilisateur confirme que les fichiers
+régénérés avec 0.7.1-rc.1 fonctionnent sur Mach3. Le blocage de #23 est résolu ;
+ces correctifs sont inclus dans la stable 0.7.1.
 
 **Limite de la 0.7.0 :** son backplot confond G91.1 avec G91, ce qui déforme
 l'aperçu et la simulation d'un fichier contenant ce mode explicite. Le gabarit
@@ -103,7 +104,8 @@ Pour vérifier le correctif sur cette installation, recharger la copie
 sans lancer l'usinage. Ces copies remplacent uniquement les micro-arcs invalides
 par un G1 à la même arrivée et complètent le préambule ; elles ne reconstituent
 pas la géométrie perdue par l'ancien arrondi. Un manifeste décrit les changements.
-Elles restent à confirmer dans Mach3. L'absence d'erreur au chargement et la
+Le retour final porte sur les exports régénérés avec 0.7.1-rc.1, pas sur ces
+copies de diagnostic. L'absence d'erreur au chargement et la
 validation des paramètres d'usinage sont deux vérifications distinctes.
 
 Le [manuel Mach3 Mill](https://www.machsupport.com/wp-content/uploads/2013/02/Mach3Mill_1.84.pdf)

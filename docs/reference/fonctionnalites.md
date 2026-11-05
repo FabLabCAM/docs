@@ -85,3 +85,10 @@ macOS Apple Silicon de cette release ; voir la [provenance et les limites](../gu
 Les captures 49 à 54 documentent l’assistant du Studio 0.7.0 sur macOS Apple Silicon,
 avec Mistral et des exemples synthétiques publics ; voir la
 [provenance et la couverture réelle](../guide/assistant.md#validation-et-provenance).
+
+## Correctifs Mach3 validés — 0.7.1
+
+Mode IJ explicite et traitement des arcs dégénérés après arrondi : les fichiers
+régénérés avec 0.7.1-rc.1 sont confirmés fonctionnels sur Mach3 par l’utilisateur
+le 6 novembre 2026. Correctifs inclus dans la stable 0.7.1 ;
+[diagnostic et limites](../guide/gcode.md#mach3-fichier-charge-lancement-bloque).
