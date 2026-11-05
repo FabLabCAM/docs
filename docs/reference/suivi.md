@@ -16,6 +16,7 @@ sur Mach3. Le retour sur les trois autres KO reste attendu ; le correctif est
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
+| [0.7.2](versions.md#072-compatibilite-des-fournisseurs) | [#20 — assistant](https://github.com/FabLabCAM/core/issues/20) | GPT-4.1 mini corrigé ; Ollama partiellement qualifié, issue ouverte | [Guide](../guide/assistant.md#compatibilite-des-fournisseurs-en-072) |
 | [0.7.1](versions.md#071-import-svg) | [#26 — import SVG](https://github.com/FabLabCAM/core/issues/26) | Transformations, ressources et nombres scientifiques corrigés ; logo vérifié | [Guide](../guide/fichiers.md#import-svg-corrige-en-071), [versions](versions.md#071-import-svg) |
 | [0.7.0](versions.md#070-assistant-natif) | [#20 — assistant](https://github.com/FabLabCAM/core/issues/20) | Panneau natif, modes et actions validées ; qualification réelle des autres fournisseurs encore ouverte | [Guide illustré](../guide/assistant.md), [index](fonctionnalites.md) |
 | [0.6.1](versions.md#061-identifiants-rhai) | [#19 — identifiants Rhai](https://github.com/FabLabCAM/core/issues/19) | Refus des références hors plage, atomicité et régressions | [Scripts](rhai.md#identifiants-des-formes), [index](fonctionnalites.md) |
@@ -28,8 +29,8 @@ sur Mach3. Le retour sur les trois autres KO reste attendu ; le correctif est
 
 ## Complément assistant #20
 
-Le correctif de compatibilité des fournisseurs est en préparation après 0.7.0 ;
-voir les [résultats et limites](../guide/assistant.md#correctif-de-compatibilite-en-preparation).
+Le correctif de compatibilité des fournisseurs est inclus dans 0.7.2 ;
+voir les [résultats et limites](../guide/assistant.md#compatibilite-des-fournisseurs-en-072).
 L’issue reste ouverte jusqu’à validation des critères restants.
 
 ## Limites de la livraison #9

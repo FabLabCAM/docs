@@ -155,11 +155,12 @@ restaient à qualifier avec leurs services réels** ; [l’issue #20](https://gi
 reste ouverte pour ce suivi. Voir le
 [rapport QA](https://github.com/FabLabCAM/core/blob/v0.7.0/docs/qa/0.7.0.md).
 
-## Correctif de compatibilité en préparation
+## Compatibilité des fournisseurs en 0.7.2
 
-Le correctif suivi dans [l’issue #20](https://github.com/FabLabCAM/core/issues/20)
-concerne GPT-4.1/GPT-4o et Ollama. **Il n’est pas inclus dans les installateurs
-0.7.0/0.7.1** : il faut compiler la branche de correction pour ces essais.
+La version 0.7.2, suivie dans [l’issue #20](https://github.com/FabLabCAM/core/issues/20)
+corrige la compatibilité GPT-4.1/GPT-4o et améliore les requêtes Ollama.
+Utiliser les [installateurs 0.7.2](../installation.md) ; les versions 0.7.0/0.7.1
+ne contiennent pas ce correctif.
 
 GPT-4.1 mini ne prend pas en charge le paramètre de résumé de raisonnement envoyé
 par 0.7.0. Le correctif le supprime pour cette famille tout en conservant les

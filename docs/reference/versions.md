@@ -1,12 +1,27 @@
 # Versions et licences
 
-## Correctif fournisseurs — non publié
+## 0.7.2 — Compatibilité des fournisseurs
 
-Suivi dans [#20](https://github.com/FabLabCAM/core/issues/20) : compatibilité
-GPT-4.1/GPT-4o, budget de raisonnement Ollama et diagnostic des réponses vides.
-Voir le [guide](../guide/assistant.md#correctif-de-compatibilite-en-preparation).
-Les paquets disponibles restent ceux de 0.7.1 ; aucune nouvelle distribution
-n’est annoncée par cette note.
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.2) ·
+[Issue #20](https://github.com/FabLabCAM/core/issues/20) ·
+[PR core #29](https://github.com/FabLabCAM/core/pull/29)
+
+- GPT-4.1/GPT-4o : suppression du paramètre de raisonnement non pris en charge,
+  conservation des métadonnées nécessaires à la continuation GPT-5.
+- Ollama : options et enveloppe d’outil explicites, diagnostic des réponses vides,
+  configuration d’un modèle avec 16k de contexte pour éviter la troncature observée.
+- Parcours réels complets réussis avec GPT-4.1 mini, GPT-5 mini et Claude Haiku 4.5.
+  Les petits modèles Ollama restent en échec sur la division du meuble, même à 16k :
+  **#20 reste ouverte**. [Guide et limites](../guide/assistant.md#compatibilite-des-fournisseurs-en-072).
+- Correctifs SVG/Mach3 de 0.7.1 conservés.
+
+420 tests locaux et Clippy strict réussis après intégration. Le parcours réel
+GPT-4.1 mini est de nouveau réussi le 6 novembre ; les essais GPT-5/Claude du
+5 novembre restent les preuves de qualification correspondantes.
+[Rapport QA](https://github.com/FabLabCAM/core/blob/v0.7.2/docs/qa/0.7.2.md).
+
+La distribution et ses six cibles natives sont en cours de validation ; cette
+note sera complétée avec les preuves finales avant publication du guide.
 
 ## 0.7.1 — Import SVG
 
