@@ -82,11 +82,11 @@ Les profils existants restent conservés. Exemple JSON, sources et paramètres
 Les captures 42 à 47 documentent le compositeur du Studio 0.6.0, depuis le paquet
 macOS Apple Silicon de cette release ; voir la [provenance et les limites](../guide/composer-meubles.md#validation-et-limites).
 
-Les captures 49 à 54 documentent l’assistant du Studio 0.7.2 sur macOS Apple Silicon,
+Les captures 49 à 54 documentent l’assistant du Studio 0.7.0 sur macOS Apple Silicon,
 avec Mistral et des exemples synthétiques publics ; voir la
 [provenance et la couverture réelle](../guide/assistant.md#validation-et-provenance).
 
-## Diagnostics 0.7.1
+## Diagnostics 0.7.2
 
 [Procédure](diagnostics.md) · [Issue #24](https://github.com/FabLabCAM/core/issues/24)
 

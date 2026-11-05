@@ -142,4 +142,4 @@ une copie redistribuée du logiciel.
 Ouvrez la [plaque d’exemple](guide/premier-projet.md). Le résultat attendu est
 un projet comportant quatre opérations. Pour mettre à jour, sauvegardez vos
 projets `.cb`, installez le nouveau paquet et consultez ses notes de version.
-Il n’existe pas de mise à jour automatique dans 0.7.1.
+Il n’existe pas de mise à jour automatique dans 0.7.2.

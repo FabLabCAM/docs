@@ -64,7 +64,7 @@ avec des exemples publics créés pour ce guide. Les dialogues système et polic
 
 ## Corriger et diagnostiquer les profils DXF
 
-La version 0.7.1 corrige le crash du profil sur les lettres avec sommets répétés.
+La version 0.7.2 protège le calcul des profils et couvre le crash sur les lettres avec sommets répétés.
 Les [préférences de diagnostic](reference/diagnostics.md) donnent accès aux journaux,
 aux piles complètes et à l'export des rapports. Elle reprend aussi les corrections
 [Mach3](guide/gcode.md#mach3-fichier-charge-lancement-bloque) de la préversion.
