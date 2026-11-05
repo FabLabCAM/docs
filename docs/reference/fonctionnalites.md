@@ -88,3 +88,10 @@ avec Mistral et des exemples synthétiques publics ; voir la
 
 Le [correctif de compatibilité des fournisseurs](../guide/assistant.md#compatibilite-des-fournisseurs-en-072)
 est suivi séparément de la distribution 0.7.0.
+
+## Correctifs Mach3 validés — 0.7.1
+
+Mode IJ explicite et traitement des arcs dégénérés après arrondi : les fichiers
+régénérés avec 0.7.1-rc.1 sont confirmés fonctionnels sur Mach3 par l’utilisateur
+le 6 novembre 2026. Correctifs inclus dans la stable 0.7.1 ;
+[diagnostic et limites](../guide/gcode.md#mach3-fichier-charge-lancement-bloque).

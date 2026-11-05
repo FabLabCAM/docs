@@ -42,9 +42,9 @@ sont décrits dans le [rapport QA](https://github.com/FabLabCAM/core/blob/v0.7.1
 La validation des paquets est consignée dans les notes de release.
 
 Cette version reprend aussi les correctifs Mach3 de 0.7.1-rc.1 détaillés ci-dessous.
-Le retour sur les trois autres fichiers KO reste attendu :
-[#23](https://github.com/FabLabCAM/core/issues/23) reste ouverte. La publication
-ne vaut pas qualification d'une machine réelle.
+Le 6 novembre 2026, l'utilisateur confirme que les fichiers régénérés avec
+0.7.1-rc.1 fonctionnent sur Mach3 : [#23](https://github.com/FabLabCAM/core/issues/23)
+est résolue. Ce retour ne vaut pas qualification générale de la machine.
 
 ## Préversion 0.7.1-rc.1 — validation Mach3
 
@@ -58,9 +58,8 @@ les modes des exports en 0.7.0, dont le backplot reste incorrect pour G91.1 ;
 il ne corrige pas les micro-arcs dégénérés.
 Le cas `lyon3.v1` est reproduit en mode IJ initial absolu et couvert par le
 préambule explicite. L'utilisateur confirme le 4 novembre 2026 que la copie
-ajoutant G91.1 fonctionne dans Mach3. Les trois autres KO restent à confirmer ;
-la qualification reste partielle et [#23](https://github.com/FabLabCAM/core/issues/23)
-reste ouverte.
+ajoutant G91.1 fonctionne dans Mach3. Le 6 novembre, il confirme également le fonctionnement
+des fichiers régénérés avec cette préversion ; les correctifs sont livrés dans 0.7.1.
 
 ## 0.7.0 — Assistant natif
 
