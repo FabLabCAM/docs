@@ -5,8 +5,8 @@ des calculs de profil. Elle conserve le correctif de l’import SVG et les modes
 Mach3 de 0.7.1.
 
 La version 0.7.1 corrige l'[import SVG](guide/fichiers.md#import-svg-corrige-en-071)
-et reprend les corrections Mach3 de 0.7.1-rc.1. Les essais des trois autres
-fichiers KO restent suivis dans [#23](https://github.com/FabLabCAM/core/issues/23).
+et reprend les corrections Mach3 de 0.7.1-rc.1, confirmées fonctionnelles par
+l’utilisateur sur les fichiers régénérés ([#23 résolue](https://github.com/FabLabCAM/core/issues/23)).
 
 ## Version stable
 

@@ -5,14 +5,11 @@ notes de version. Les demandes en cours restent visibles dans les
 [issues GitHub de core](https://github.com/FabLabCAM/core/issues) ; une demande
 ouverte n'est pas une fonction disponible.
 
-En cours : [#23 — lancement dans Mach3](https://github.com/FabLabCAM/core/issues/23).
-Le [diagnostic](../guide/gcode.md#mach3-fichier-charge-lancement-bloque) identifie
-un rayon final nul après arrondi dans trois KO. Le gabarit CBPP permet seulement
-de comparer les modes sur 0.7.0 ; il ne corrige pas les arcs. Le quatrième KO
-présente une dépendance IJ reproduite dès son premier arc en mode absolu hérité.
-Le 4 novembre 2026, l'utilisateur confirme que sa copie ajoutant G91.1 fonctionne
-sur Mach3. Le retour sur les trois autres KO reste attendu ; le correctif est
-[inclus dans 0.7.1](https://github.com/FabLabCAM/core/releases/tag/v0.7.1).
+Résolu : [#23 — lancement dans Mach3](https://github.com/FabLabCAM/core/issues/23).
+Le 6 novembre 2026, l'utilisateur confirme que les fichiers régénérés avec
+0.7.1-rc.1 fonctionnent sur Mach3. Les correctifs de mode IJ et d'arcs dégénérés
+sont [inclus dans la stable 0.7.1](https://github.com/FabLabCAM/core/releases/tag/v0.7.1).
+Voir le [diagnostic et ses limites](../guide/gcode.md#mach3-fichier-charge-lancement-bloque).
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|

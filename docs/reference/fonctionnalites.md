@@ -95,3 +95,10 @@ core par session dans une compilation macOS de diagnostic. La
 [capture 54](../assets/screenshots/54-diagnostics.png) provient du binaire local
 0.7.1 sur macOS Apple Silicon avec la plaque synthétique. Les paquets publiés
 conservent la signature normale ; la capture montre un bundle de diagnostic.
+
+## Correctifs Mach3 validés — 0.7.1
+
+Mode IJ explicite et traitement des arcs dégénérés après arrondi : les fichiers
+régénérés avec 0.7.1-rc.1 sont confirmés fonctionnels sur Mach3 par l’utilisateur
+le 6 novembre 2026. Correctifs inclus dans la stable 0.7.1 ;
+[diagnostic et limites](../guide/gcode.md#mach3-fichier-charge-lancement-bloque).
