@@ -62,4 +62,4 @@ ouvre le résumé intégré. Pour un problème reproductible, conservez le messa
 exact, la version, l’OS et un petit fichier d’exemple partageable.
 
 Les [journaux, piles et options de core dump](diagnostics.md) sont ajoutés aux
-préférences depuis la version 0.7.1.
+préférences depuis la version 0.7.2.

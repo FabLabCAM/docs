@@ -90,4 +90,4 @@ les huit familles disponibles et les limites de fabrication.
 ## Diagnostics
 
 Le correctif de profil et les [options de diagnostic de la version 0.7.1](diagnostics.md)
-sont disponibles depuis la version 0.7.1.
+sont disponibles depuis la version 0.7.2.

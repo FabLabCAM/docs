@@ -1,6 +1,6 @@
 # Journaux et rapports de panne
 
-Disponible depuis [FabLabCAM 0.7.1](https://github.com/FabLabCAM/core/releases/tag/v0.7.1),
+Disponible depuis [FabLabCAM 0.7.2](https://github.com/FabLabCAM/core/releases/tag/v0.7.2),
 avec le correctif de l'[issue #24](https://github.com/FabLabCAM/core/issues/24).
 
 ## Activer les diagnostics dans l’interface

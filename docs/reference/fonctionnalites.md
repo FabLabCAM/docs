@@ -1,9 +1,13 @@
 # Index des fonctionnalités et captures
 
-Ce catalogue couvre les commandes exposées par le Studio 0.7.1 et les outils
+Ce catalogue couvre les commandes exposées par le Studio 0.7.2 et les outils
 complémentaires. Chaque lien ouvre une procédure ; la capture montre le panneau
 réel de la famille concernée. Les capacités uniquement CLI sont documentées
 par leur commande reproductible, sans inventer un écran qui n’existe pas.
+
+Depuis 0.7.1 : [import SVG #26](../guide/fichiers.md#import-svg-corrige-en-071)
+(transformations imbriquées, définitions exclues, nombres scientifiques). Cette
+correction est incluse dans les installateurs 0.7.1.
 
 | Famille | Fonctions documentées | Capture |
 |---|---|---|
@@ -78,7 +82,7 @@ Les profils existants restent conservés. Exemple JSON, sources et paramètres
 Les captures 42 à 47 documentent le compositeur du Studio 0.6.0, depuis le paquet
 macOS Apple Silicon de cette release ; voir la [provenance et les limites](../guide/composer-meubles.md#validation-et-limites).
 
-Les captures 49 à 54 documentent l’assistant du Studio 0.7.1 sur macOS Apple Silicon,
+Les captures 49 à 54 documentent l’assistant du Studio 0.7.2 sur macOS Apple Silicon,
 avec Mistral et des exemples synthétiques publics ; voir la
 [provenance et la couverture réelle](../guide/assistant.md#validation-et-provenance).
 
