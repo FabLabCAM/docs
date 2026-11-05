@@ -1,8 +1,8 @@
 # Versions et licences
 
-## 0.7.1 — en préparation : profils et diagnostics
+## 0.7.1 — Profils, diagnostics et Mach3
 
-[Issue #24](https://github.com/FabLabCAM/core/issues/24) · [Guide](diagnostics.md)
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.1) · [Issue #24](https://github.com/FabLabCAM/core/issues/24) · [Guide](diagnostics.md)
 
 Correction de l'offset des contours DXF avec fermeture répétée, protection du
 calcul et refus d'export d'un parcours obsolète. Préférences de diagnostic avec
@@ -12,8 +12,10 @@ permission de débogage. Les autres OS conservent les rapports texte.
 
 Le DXF réel et les tests synthétiques passent localement ; le profil des 19
 formes affiche 32 415 mouvements dans l'interface. Une panique contrôlée a produit
-un core ouvert dans LLDB avec ses lignes source. La distribution et la publication
-restent à valider ; les installateurs 0.7.0 ne contiennent pas ces changements.
+un core ouvert dans LLDB avec ses lignes source. La version reprend aussi les
+correctifs d'arcs et de modes IJ de la préversion ci-dessous ; #23 reste ouverte
+pour les trois essais Mach3 encore attendus. Les contrôles de distribution sont
+consignés dans les notes de release. Les anciens paquets 0.7.0 restent inchangés.
 
 
 ## Préversion 0.7.1-rc.1 — validation Mach3
@@ -22,14 +24,14 @@ restent à valider ; les installateurs 0.7.0 ne contiennent pas ces changements.
 subdivision des arcs dégénérés après arrondi, contrôle du rayon final nul,
 préambules explicites, tolérance d'arc en pouces et distinction de G91.1/G91
 dans le backplot. La [préversion est disponible](https://github.com/FabLabCAM/core/releases/tag/v0.7.1-rc.1) pour les essais Mach3 ;
-la version stable reste 0.7.0. Le
+la version stable était alors 0.7.0. Le
 [gabarit CBPP](../examples/mach3-explicit-modes.cbpp) permet déjà de comparer
 les modes des exports en 0.7.0, dont le backplot reste incorrect pour G91.1 ;
 il ne corrige pas les micro-arcs dégénérés.
 Le cas `lyon3.v1` est reproduit en mode IJ initial absolu et couvert par le
 préambule explicite. L'utilisateur confirme le 4 novembre 2026 que la copie
 ajoutant G91.1 fonctionne dans Mach3. Les trois autres KO restent à confirmer ;
-la correction n'est pas encore publiée et [#23](https://github.com/FabLabCAM/core/issues/23)
+la validation reste partielle et [#23](https://github.com/FabLabCAM/core/issues/23)
 reste ouverte.
 
 ## 0.7.0 — Assistant natif

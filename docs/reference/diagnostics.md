@@ -1,9 +1,7 @@
 # Journaux et rapports de panne
 
-!!! info "Version 0.7.1 en préparation"
-    Cette page décrit le correctif et les options de la branche de l’[issue #24](https://github.com/FabLabCAM/core/issues/24).
-    Ils ne sont pas présents dans les installateurs 0.7.0. La publication du guide
-    et des nouveaux paquets doit suivre leur validation.
+Disponible depuis [FabLabCAM 0.7.1](https://github.com/FabLabCAM/core/releases/tag/v0.7.1),
+avec le correctif de l'[issue #24](https://github.com/FabLabCAM/core/issues/24).
 
 ## Activer les diagnostics dans l’interface
 

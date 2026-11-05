@@ -11,11 +11,12 @@ un rayon final nul après arrondi dans trois KO. Le gabarit CBPP permet seulemen
 de comparer les modes sur 0.7.0 ; il ne corrige pas les arcs. Le quatrième KO
 présente une dépendance IJ reproduite dès son premier arc en mode absolu hérité.
 Le 4 novembre 2026, l'utilisateur confirme que sa copie ajoutant G91.1 fonctionne
-sur Mach3. Le retour sur les trois autres KO reste attendu ; la préversion 0.7.1-rc.1
-est [disponible pour cette validation](https://github.com/FabLabCAM/core/releases/tag/v0.7.1-rc.1).
+sur Mach3. Le retour sur les trois autres KO reste attendu ; les correctifs sont
+inclus dans la [version 0.7.1](https://github.com/FabLabCAM/core/releases/tag/v0.7.1).
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
+| [0.7.1](versions.md#071-profils-diagnostics-et-mach3) | [#24 — profil et diagnostics](https://github.com/FabLabCAM/core/issues/24) | Correction des sommets répétés, rapports persistants, export texte et core macOS sur demande ; correctifs #23 conservés, validation Mach3 encore partielle | [Diagnostics](diagnostics.md), [index](fonctionnalites.md) |
 | [0.7.0](versions.md#070-assistant-natif) | [#20 — assistant](https://github.com/FabLabCAM/core/issues/20) | Panneau natif, modes et actions validées ; qualification réelle des autres fournisseurs encore ouverte | [Guide illustré](../guide/assistant.md), [index](fonctionnalites.md) |
 | [0.6.1](versions.md#061-identifiants-rhai) | [#19 — identifiants Rhai](https://github.com/FabLabCAM/core/issues/19) | Refus des références hors plage, atomicité et régressions | [Scripts](rhai.md#identifiants-des-formes), [index](fonctionnalites.md) |
 | [0.6.0](versions.md#060-composition-et-assemblages) | [#17 — compositeur et assemblages](https://github.com/FabLabCAM/core/issues/17) | Éléments, cases, bacs, huit familles d’assemblages et modèles complets | [Guide](../guide/composer-meubles.md), [CLI](cli.md), [index](fonctionnalites.md) |
@@ -24,13 +25,6 @@ est [disponible pour cette validation](https://github.com/FabLabCAM/core/release
 | [0.4.0](versions.md#040-atelier-des-profils-machine) | [#11 — Atelier et création guidée](https://github.com/FabLabCAM/core/issues/11) | Création, édition, duplication et import/export JSON dans le Studio | [Guide illustré](../guide/profils-studio.md), [raccourcis](raccourcis.md), [index](fonctionnalites.md) |
 | [0.3.0](versions.md#030-profils-de-machine-et-g-code) | [#9 — gestion du G-code par machine](https://github.com/FabLabCAM/core/issues/9) | Profils JSON, validation, statistiques, conversion compatible, archives | [Guide machine](../guide/machines.md), [CLI](cli.md), [architecture](developpement.md) |
 | [0.2.0](versions.md#020-premiere-release-publique) | Première publication | Studio, CLI, viewer et six cibles OS/architecture | [Installation](../installation.md), [index complet](fonctionnalites.md) |
-
-## En préparation
-
-[#24 — crash du profil et diagnostics](https://github.com/FabLabCAM/core/issues/24) :
-correctif et UI 0.7.1 vérifiés localement, [guide de diagnostic](diagnostics.md)
-et [notes](versions.md#071-en-preparation-profils-et-diagnostics).
-L'issue reste ouverte jusqu'à la validation des paquets et à leur publication.
 
 ## Limites de la livraison #9
 
@@ -61,5 +55,5 @@ rapports JSON et références de téléchargement avec `scripts/check_site.py`.
 
 Avant publication : vérification des paquets,
 contrôles CI, puis déploiement GitHub Pages depuis `main`. Les notes anciennes
-restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.7.0/docs/releasing.md)
+restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.7.1/docs/releasing.md)
 détaille l'ordre des vérifications et la clôture des issues après publication.
