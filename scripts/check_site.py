@@ -44,14 +44,19 @@ for path, page in pages.items():
             errors.append(f'{path.relative_to(site)}: missing {link}')
         elif url.fragment and target in pages and unquote(url.fragment) not in pages[target].ids:
             errors.append(f'{path.relative_to(site)}: missing anchor {link}')
-version = str(yaml.safe_load((root / 'mkdocs.yml').read_text())['extra']['product_version'])
+extra = yaml.safe_load((root / 'mkdocs.yml').read_text())['extra']
+version = str(extra['product_version'])
+# A named preview may coexist with the stable downloads and example reports.
+release_versions = {version}
+if extra.get('preview_version'):
+    release_versions.add(str(extra['preview_version']))
 for path in (root / 'docs/examples/machines').glob('*-report.json'):
     if json.loads(path.read_text())['analyzer_version'] != version:
         errors.append(f'{path.name}: analyzer version differs from {version}')
 installation = (root / 'docs/installation.md').read_text()
-for found in re.findall(r'releases/(?:tag|download)/v([\d.]+)', installation):
-    if found != version:
-        errors.append(f'installation: stale release {found}, expected {version}')
+for found in re.findall(r'releases/(?:tag|download)/v([0-9A-Za-z.+-]+)', installation):
+    if found not in release_versions:
+        errors.append(f'installation: stale release {found}, expected one of {sorted(release_versions)}')
 if f'**FabLabCAM {version}**' not in (root / 'docs/index.md').read_text():
     errors.append('index: version differs from mkdocs.yml')
 if errors:
