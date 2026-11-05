@@ -1,8 +1,8 @@
 # Versions et licences
 
-## 0.7.2 — Compatibilité des fournisseurs
+## 0.7.3 — Compatibilité des fournisseurs
 
-[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.2) ·
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.3) ·
 [Issue #20](https://github.com/FabLabCAM/core/issues/20) ·
 [PR core #29](https://github.com/FabLabCAM/core/pull/29)
 
@@ -12,13 +12,13 @@
   configuration d’un modèle avec 16k de contexte pour éviter la troncature observée.
 - Parcours réels complets réussis avec GPT-4.1 mini, GPT-5 mini et Claude Haiku 4.5.
   Les petits modèles Ollama restent en échec sur la division du meuble, même à 16k :
-  **#20 reste ouverte**. [Guide et limites](../guide/assistant.md#compatibilite-des-fournisseurs-en-072).
+  **#20 reste ouverte**. [Guide et limites](../guide/assistant.md#compatibilite-des-fournisseurs-en-073).
 - Correctifs SVG/Mach3 de 0.7.1 conservés.
 
 420 tests locaux et Clippy strict réussis après intégration. Le parcours réel
 GPT-4.1 mini est de nouveau réussi le 6 novembre ; les essais GPT-5/Claude du
 5 novembre restent les preuves de qualification correspondantes.
-[Rapport QA](https://github.com/FabLabCAM/core/blob/v0.7.2/docs/qa/0.7.2.md).
+[Rapport QA](https://github.com/FabLabCAM/core/blob/v0.7.3/docs/qa/0.7.3.md).
 
 La distribution et ses six cibles natives sont en cours de validation ; cette
 note sera complétée avec les preuves finales avant publication du guide.
