@@ -1,15 +1,27 @@
 # Versions et licences
 
-## Correctif en préparation — SVG #26
+## 0.7.1 — Import SVG
 
-La branche `fix/26-svg-import` corrige les transformations SVG imbriquées, les
-définitions importées à tort et les nombres scientifiques. Elle ajoute des
-régressions moteur/CLI et conserve les arcs circulaires lorsque la transformation
-le permet. Voir le [guide et ses limites](../guide/fichiers.md#correctif-svg-26-en-preparation)
-et [l'issue #26](https://github.com/FabLabCAM/core/issues/26).
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.1) ·
+[Issue #26](https://github.com/FabLabCAM/core/issues/26) ·
+[PR core #28](https://github.com/FabLabCAM/core/pull/28)
 
-Ce correctif n'est pas encore distribué ; les installateurs publiés restent ceux
-de 0.7.0. La vérification locale ne vaut pas validation des paquets des trois OS.
+- Transformations imbriquées et locales appliquées avant l'inversion Y.
+- Définitions et ressources inutilisées exclues du dessin importé.
+- Nombres scientifiques et commandes implicites lus correctement ; erreurs
+  explicites pour les chemins ou transformations invalides.
+- Arcs circulaires préservés sous similitude et approximés sous transformation
+  non uniforme. [Guide et limites](../guide/fichiers.md#import-svg-corrige-en-071).
+
+Le logo signalé retrouve ses 10 contours et un encombrement de 39,5 × 39,5 mm,
+sans avertissement d'import. Les régressions moteur/CLI et le contrôle visuel
+sont décrits dans le [rapport QA](https://github.com/FabLabCAM/core/blob/v0.7.1/docs/qa/issue-26.md).
+La validation des paquets est consignée dans les notes de release.
+
+Cette version reprend aussi les correctifs Mach3 de 0.7.1-rc.1 détaillés ci-dessous.
+Le retour sur les trois autres fichiers KO reste attendu :
+[#23](https://github.com/FabLabCAM/core/issues/23) reste ouverte. La publication
+ne vaut pas qualification d'une machine réelle.
 
 ## Préversion 0.7.1-rc.1 — validation Mach3
 
@@ -17,14 +29,14 @@ de 0.7.0. La vérification locale ne vaut pas validation des paquets des trois O
 subdivision des arcs dégénérés après arrondi, contrôle du rayon final nul,
 préambules explicites, tolérance d'arc en pouces et distinction de G91.1/G91
 dans le backplot. La [préversion est disponible](https://github.com/FabLabCAM/core/releases/tag/v0.7.1-rc.1) pour les essais Mach3 ;
-la version stable reste 0.7.0. Le
+ces changements sont également inclus dans la stable 0.7.1. Le
 [gabarit CBPP](../examples/mach3-explicit-modes.cbpp) permet déjà de comparer
 les modes des exports en 0.7.0, dont le backplot reste incorrect pour G91.1 ;
 il ne corrige pas les micro-arcs dégénérés.
 Le cas `lyon3.v1` est reproduit en mode IJ initial absolu et couvert par le
 préambule explicite. L'utilisateur confirme le 4 novembre 2026 que la copie
 ajoutant G91.1 fonctionne dans Mach3. Les trois autres KO restent à confirmer ;
-la correction n'est pas encore publiée et [#23](https://github.com/FabLabCAM/core/issues/23)
+la qualification reste partielle et [#23](https://github.com/FabLabCAM/core/issues/23)
 reste ouverte.
 
 ## 0.7.0 — Assistant natif

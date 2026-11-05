@@ -55,13 +55,13 @@ L'arrivée d'un micro-arc coïncide avec son centre après arrondi à trois déc
 Ce défaut apparaît 38 fois dans chacun de trois fichiers KO ; il est absent des
 trois références et du quatrième KO, qui dépend en revanche du mode IJ initial.
 
-Le correctif en cours vérifie les coordonnées après formatage : les arcs qui
+Depuis 0.7.1, l’exporteur vérifie les coordonnées après formatage : les arcs qui
 deviennent dégénérés sont subdivisés en G1 depuis la trajectoire non arrondie,
 selon la précision de sortie. Les cercles représentables, les arcs majeurs,
 l'avance et la profondeur hélicoïdale sont conservés. Le validateur rejette
 également un rayon final nul même si l'écart des rayons est sous la tolérance.
 Ces changements sont dans la [PR #25](https://github.com/FabLabCAM/core/pull/25),
-disponibles dans la préversion 0.7.1-rc.1 ; ils sont absents de la version stable 0.7.0.
+inclus dans la version stable 0.7.1 après la préversion 0.7.1-rc.1.
 
 Dans la version 0.7.0, le préambule intégré ne déclare pas le mode des centres IJ
 et n'annule pas les compensations et cycles précédents. Pour rendre ces modes
@@ -75,7 +75,7 @@ fablabcam build plaque.cb --post mach3-explicit-modes.cbpp -o plaque-modes.nc
 Il conserve les réglages d'usinage et écrit avant mouvement
 `G21 G90 G17 G94 G40 G49 G80 G91.1` (G20 en pouces). Il ne change ni l'origine
 de travail, ni le numéro d'outil, ni la demande de changement M6. Le correctif
-des valeurs intégrées est en cours dans #23 ; il n'est pas livré en 0.7.0.
+des valeurs intégrées est livré en 0.7.1 ; il est absent de 0.7.0.
 **Ce gabarit ne corrige pas les arcs dégénérés** : une copie ne changeant que
 le préambule conserve l'erreur photographiée. Il sert uniquement à isoler
 l'effet des modes.
@@ -96,7 +96,7 @@ copies corrigeant les arcs dégénérés restent à confirmer.
 l'aperçu et la simulation d'un fichier contenant ce mode explicite. Le gabarit
 ci-dessus est destiné au diagnostic de l'export ; la relecture doit être faite
 dans un interpréteur qui distingue ces modes. La correction du backplot est
-incluse dans le travail de #23 et n'est pas encore publiée.
+incluse dans la version 0.7.1.
 
 Pour vérifier le correctif sur cette installation, recharger la copie
 `ARCS_A_TESTER` du fichier concerné et relever la barre d'état pendant sa lecture,

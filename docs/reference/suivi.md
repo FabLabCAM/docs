@@ -11,12 +11,12 @@ un rayon final nul après arrondi dans trois KO. Le gabarit CBPP permet seulemen
 de comparer les modes sur 0.7.0 ; il ne corrige pas les arcs. Le quatrième KO
 présente une dépendance IJ reproduite dès son premier arc en mode absolu hérité.
 Le 4 novembre 2026, l'utilisateur confirme que sa copie ajoutant G91.1 fonctionne
-sur Mach3. Le retour sur les trois autres KO reste attendu ; la préversion 0.7.1-rc.1
-est [disponible pour cette validation](https://github.com/FabLabCAM/core/releases/tag/v0.7.1-rc.1).
+sur Mach3. Le retour sur les trois autres KO reste attendu ; le correctif est
+[inclus dans 0.7.1](https://github.com/FabLabCAM/core/releases/tag/v0.7.1).
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
-| Non publié | [#26 — import SVG](https://github.com/FabLabCAM/core/issues/26) | Correctif et régressions sur branche dédiée ; distribution à valider | [Guide](../guide/fichiers.md#correctif-svg-26-en-preparation), [versions](versions.md#correctif-en-preparation-svg-26) |
+| [0.7.1](versions.md#071-import-svg) | [#26 — import SVG](https://github.com/FabLabCAM/core/issues/26) | Transformations, ressources et nombres scientifiques corrigés ; logo vérifié | [Guide](../guide/fichiers.md#import-svg-corrige-en-071), [versions](versions.md#071-import-svg) |
 | [0.7.0](versions.md#070-assistant-natif) | [#20 — assistant](https://github.com/FabLabCAM/core/issues/20) | Panneau natif, modes et actions validées ; qualification réelle des autres fournisseurs encore ouverte | [Guide illustré](../guide/assistant.md), [index](fonctionnalites.md) |
 | [0.6.1](versions.md#061-identifiants-rhai) | [#19 — identifiants Rhai](https://github.com/FabLabCAM/core/issues/19) | Refus des références hors plage, atomicité et régressions | [Scripts](rhai.md#identifiants-des-formes), [index](fonctionnalites.md) |
 | [0.6.0](versions.md#060-composition-et-assemblages) | [#17 — compositeur et assemblages](https://github.com/FabLabCAM/core/issues/17) | Éléments, cases, bacs, huit familles d’assemblages et modèles complets | [Guide](../guide/composer-meubles.md), [CLI](cli.md), [index](fonctionnalites.md) |
@@ -55,5 +55,5 @@ rapports JSON et références de téléchargement avec `scripts/check_site.py`.
 
 Avant publication : vérification des paquets,
 contrôles CI, puis déploiement GitHub Pages depuis `main`. Les notes anciennes
-restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.7.0/docs/releasing.md)
+restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.7.1/docs/releasing.md)
 détaille l'ordre des vérifications et la clôture des issues après publication.

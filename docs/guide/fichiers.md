@@ -27,14 +27,14 @@ formes et les contours après import. Exportez les textes en contours depuis vot
 éditeur d’origine si nécessaire. Ne supposez pas une conservation intégrale d’un
 fichier tiers complexe.
 
-### Correctif SVG #26 en préparation
+### Import SVG corrigé en 0.7.1
 
-La version publiée 0.7.0 peut désassembler un SVG qui contient des transformations
+La version 0.7.0 pouvait désassembler un SVG qui contient des transformations
 de groupes, importer des formes de `defs` qui ne sont pas visibles et perdre des
 segments utilisant des coordonnées scientifiques. Le suivi est dans
 [#26](https://github.com/FabLabCAM/core/issues/26).
 
-Le correctif de la branche `fix/26-svg-import`, non encore distribué, compose les
+Depuis la version 0.7.1, le lecteur compose les
 transformations des parents et des formes, exclut les ressources inutilisées et
 lit les exposants. Les arcs restent circulaires sous rotation, échelle uniforme
 et miroir ; une échelle différente en X et Y ou un biais produit une polyligne.

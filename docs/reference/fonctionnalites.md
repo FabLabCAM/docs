@@ -1,13 +1,13 @@
 # Index des fonctionnalités et captures
 
-Ce catalogue couvre les commandes exposées par le Studio 0.7.0 et les outils
+Ce catalogue couvre les commandes exposées par le Studio 0.7.1 et les outils
 complémentaires. Chaque lien ouvre une procédure ; la capture montre le panneau
 réel de la famille concernée. Les capacités uniquement CLI sont documentées
 par leur commande reproductible, sans inventer un écran qui n’existe pas.
 
-Correctif en préparation : [import SVG #26](../guide/fichiers.md#correctif-svg-26-en-preparation)
+Depuis 0.7.1 : [import SVG #26](../guide/fichiers.md#import-svg-corrige-en-071)
 (transformations imbriquées, définitions exclues, nombres scientifiques). Cette
-correction n'est pas encore incluse dans les installateurs 0.7.0.
+correction est incluse dans les installateurs 0.7.1.
 
 | Famille | Fonctions documentées | Capture |
 |---|---|---|
