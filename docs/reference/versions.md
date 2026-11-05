@@ -11,6 +11,22 @@ et [l'issue #26](https://github.com/FabLabCAM/core/issues/26).
 Ce correctif n'est pas encore distribué ; les installateurs publiés restent ceux
 de 0.7.0. La vérification locale ne vaut pas validation des paquets des trois OS.
 
+## Préversion 0.7.1-rc.1 — validation Mach3
+
+[Diagnostic Mach3](../guide/gcode.md#mach3-fichier-charge-lancement-bloque) :
+subdivision des arcs dégénérés après arrondi, contrôle du rayon final nul,
+préambules explicites, tolérance d'arc en pouces et distinction de G91.1/G91
+dans le backplot. La [préversion est disponible](https://github.com/FabLabCAM/core/releases/tag/v0.7.1-rc.1) pour les essais Mach3 ;
+la version stable reste 0.7.0. Le
+[gabarit CBPP](../examples/mach3-explicit-modes.cbpp) permet déjà de comparer
+les modes des exports en 0.7.0, dont le backplot reste incorrect pour G91.1 ;
+il ne corrige pas les micro-arcs dégénérés.
+Le cas `lyon3.v1` est reproduit en mode IJ initial absolu et couvert par le
+préambule explicite. L'utilisateur confirme le 4 novembre 2026 que la copie
+ajoutant G91.1 fonctionne dans Mach3. Les trois autres KO restent à confirmer ;
+la correction n'est pas encore publiée et [#23](https://github.com/FabLabCAM/core/issues/23)
+reste ouverte.
+
 ## 0.7.0 — Assistant natif
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.0) · [Issue #20](https://github.com/FabLabCAM/core/issues/20)

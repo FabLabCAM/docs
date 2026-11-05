@@ -68,6 +68,10 @@ fablabcam build plaque.cb --post machine.cbpp --macros '$atelier=FabLabCAM' -o p
 
 Le champ **Changement d’outil** d’un outil remplace son gabarit par défaut.
 Les en-têtes et pieds d’opération sont également accessibles au post-traitement.
+Pour Mach3, un [gabarit de diagnostic avec modes explicites](../examples/mach3-explicit-modes.cbpp)
+et la [procédure de comparaison](../guide/gcode.md#mach3-fichier-charge-lancement-bloque)
+sont disponibles. Un `Header` personnalisé reste prioritaire ; incluez
+`{$arccentermode}` pour déclarer la convention configurée des centres d'arc.
 Pour une référence exacte des macros de mouvement et de leurs conditions,
 consultez [le moteur de la version 0.2.0](https://github.com/FabLabCAM/core/blob/v0.2.0/crates/fablabcam-cam/src/post.rs).
 
