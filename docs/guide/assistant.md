@@ -159,7 +159,7 @@ reste ouverte pour ce suivi. Voir le
 
 Le correctif suivi dans [l’issue #20](https://github.com/FabLabCAM/core/issues/20)
 concerne GPT-4.1/GPT-4o et Ollama. **Il n’est pas inclus dans les installateurs
-0.7.0** : il faut compiler la branche de correction pour ces essais.
+0.7.0/0.7.1** : il faut compiler la branche de correction pour ces essais.
 
 GPT-4.1 mini ne prend pas en charge le paramètre de résumé de raisonnement envoyé
 par 0.7.0. Le correctif le supprime pour cette famille tout en conservant les

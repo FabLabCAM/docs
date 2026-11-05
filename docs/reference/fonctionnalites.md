@@ -1,9 +1,13 @@
 # Index des fonctionnalités et captures
 
-Ce catalogue couvre les commandes exposées par le Studio 0.6.1 et les outils
+Ce catalogue couvre les commandes exposées par le Studio 0.7.1 et les outils
 complémentaires. Chaque lien ouvre une procédure ; la capture montre le panneau
 réel de la famille concernée. Les capacités uniquement CLI sont documentées
 par leur commande reproductible, sans inventer un écran qui n’existe pas.
+
+Depuis 0.7.1 : [import SVG #26](../guide/fichiers.md#import-svg-corrige-en-071)
+(transformations imbriquées, définitions exclues, nombres scientifiques). Cette
+correction est incluse dans les installateurs 0.7.1.
 
 | Famille | Fonctions documentées | Capture |
 |---|---|---|
@@ -30,7 +34,7 @@ par leur commande reproductible, sans inventer un écran qui n’existe pas.
 | [Brut](../guide/simulation.md) | Automatique, limites manuelles et ajustement au trajet | [Voir](../assets/screenshots/18-brut.png) |
 | [Vue 3D](../guide/simulation.md) | Matière usinée, trajectoires, rotation, zoom et cadrage | [Voir](../assets/screenshots/16-vue-3d.png) |
 | [Simulation](../guide/simulation.md) | Lecture, pause, début, fin, curseur, maillage, volume et gouges | [Voir](../assets/screenshots/17-simulation.png) |
-| [G-code et post-traitement](../guide/gcode.md) | Export NC, post-processeur intégré ou CBPP, contrôle et backplot | [Voir](../assets/screenshots/18-brut.png) |
+| [G-code et post-traitement](../guide/gcode.md) | Export NC, post-processeur intégré ou CBPP, contrôle, backplot et diagnostic Mach3 (mode IJ initial confirmé pour lyon3.v1, arcs dégénérés) | [Voir](../assets/screenshots/18-brut.png) |
 | [Profils machine · Atelier](../guide/profils-studio.md) | Bibliothèque, création guidée, édition, duplication, import/export JSON, contrôles de configuration et protection des brouillons | [Voir](../assets/screenshots/29-profils-atelier.png) |
 | [ID CNC PRO - Mach3](../guide/id-cnc-pro.md) | Modèle par défaut, initialisation d’une bibliothèque vide et création guidée préremplie | [Voir](../assets/screenshots/33-id-cnc-pro.png) |
 | [Scripts](../reference/rhai.md) | Éditeur, ouverture, exécution, journal et API de projet | [Voir](../assets/screenshots/19-script.png) |
