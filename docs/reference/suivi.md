@@ -31,6 +31,16 @@ Le correctif de compatibilité des fournisseurs est inclus dans 0.7.3 ;
 voir les [résultats et limites](../guide/assistant.md#compatibilite-des-fournisseurs-en-073).
 L’issue reste ouverte jusqu’à validation des critères restants.
 
+## Complément diagnostics #24
+
+Le 6 novembre 2026, l’utilisateur ne reproduit plus le crash des profils après
+les derniers correctifs. L’issue #24 reste résolue. Le
+[guide core dump](diagnostics.md#core-dump-sur-macos) précise le parcours dans
+**FabLabCAM Diagnostic 0.7.3**, les préconditions, l’armement par session,
+la récupération du fichier et la conservation du binaire avec son `dSYM`.
+Un calcul réussi ne produit pas de core ; cette vérification de la compilation
+et de l’interface n’est pas une nouvelle capture de panne.
+
 ## Limites de la livraison #9
 
 L'analyse distingue les programmes valides, invalides et incomplets. Les cycles,
