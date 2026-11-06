@@ -18,6 +18,19 @@ confirmé les fichiers régénérés fonctionnels dans Mach3 le 6 novembre (#23 
 consignés dans les notes de release. Les correctifs SVG de 0.7.1 sont conservés ; ses paquets restent inchangés.
 
 
+Distribution validée : 432 tests locaux et Clippy strict, tests/Clippy sur les
+trois OS et six constructions natives ARM64/x64. Les douze paquets sont vérifiés
+par SHA-256, licences et architectures des dix-huit exécutables. Les installateurs
+Debian/Windows sont contrôlés en CI ; le DMG macOS ARM64, la CLI, la plaque publique
+et le profil des 19 lettres sont contrôlés localement. La session graphique isolée
+conserve l’exécutable du DMG inchangé. Le dialogue système d’export du paquet a été
+annulé dans cette campagne ; le service d’export est couvert automatiquement et
+son parcours graphique a été testé pendant le développement.
+[CI](https://github.com/FabLabCAM/core/actions/runs/42133484109) ·
+[Paquets](https://github.com/FabLabCAM/core/actions/runs/42133484054) ·
+[QA](https://github.com/FabLabCAM/core/blob/v0.7.2/docs/qa/0.7.2.md).
+
+
 ## 0.7.1 — Import SVG
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.1) ·
