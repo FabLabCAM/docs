@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "analyzer_version": "0.7.2",
+  "analyzer_version": "0.7.3",
   "profile_id": "mach3-mill-demo",
   "status": "invalid",
   "limits_checked": true,

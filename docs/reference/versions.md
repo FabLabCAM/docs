@@ -15,7 +15,7 @@
   **#20 reste ouverte**. [Guide et limites](../guide/assistant.md#compatibilite-des-fournisseurs-en-073).
 - Diagnostics de 0.7.2 et correctifs SVG/Mach3 de 0.7.1 conservés.
 
-420 tests locaux et Clippy strict réussis après intégration. Le parcours réel
+434 tests locaux et Clippy strict réussis après intégration. Le parcours réel
 GPT-4.1 mini est de nouveau réussi le 6 novembre ; les essais GPT-5/Claude du
 5 novembre restent les preuves de qualification correspondantes.
 [Rapport QA](https://github.com/FabLabCAM/core/blob/v0.7.3/docs/qa/0.7.3.md).
