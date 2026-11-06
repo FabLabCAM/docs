@@ -235,3 +235,20 @@ Essais réels du correctif réussis : **GPT-4.1 mini**, **GPT-5 mini** et
 **Claude Haiku 4.5**, avec création/division de meuble, Plan, exécution Rhai,
 outillage, simulation partielle et retour d’outil natif. Mistral avait été qualifié
 lors de 0.7.0 ; il n’a pas été retesté dans cette campagne.
+
+## Clé de session — correctif en préparation
+
+Non inclus dans les installateurs 0.8.0. La clé lue dans le coffre système sera
+conservée en mémoire pendant la session pour la connexion courante : les envois
+et retours d’outil ne redemanderont pas chaque fois l’accès au trousseau.
+Le bouton **Oublier la clé de cette session** la retire de la mémoire, sans supprimer
+la clé du coffre. Le prochain envoi relira le coffre ou l’environnement.
+Changer de fournisseur, d’adresse ou de modèle, modifier la clé ou la retirer du
+coffre invalide également cette mémoire. Fermer l’application la détruit.
+
+Sur macOS, une demande initiale d’autorisation reste possible. « Always Allow »
+autorise cette application à accéder à l’entrée ; « Allow » ne donne qu’une
+autorisation ponctuelle. La signature ad hoc des paquets actuels peut entraîner
+une nouvelle demande après une mise à jour. Le certificat Developer ID et la signature d’une copie QA sont désormais
+vérifiés. L’activation dans la CI, la notarisation et la conservation des
+autorisations entre deux releases restent à qualifier.

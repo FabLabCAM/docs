@@ -110,3 +110,5 @@ Mode IJ explicite et traitement des arcs dégénérés après arrondi : les fich
 régénérés avec 0.7.1-rc.1 sont confirmés fonctionnels sur Mach3 par l’utilisateur
 le 6 novembre 2026. Correctifs inclus dans la stable 0.7.1 ;
 [diagnostic et limites](../guide/gcode.md#mach3-fichier-charge-lancement-bloque).
+
+En préparation, hors 0.8.0 : [cache de clé de session et trousseau](../guide/assistant.md#cle-de-session-correctif-en-preparation), suivi dans l’[issue #20](https://github.com/FabLabCAM/core/issues/20). La signature Developer ID est vérifiée sur une copie QA ; CI et notarisation restent à qualifier.
