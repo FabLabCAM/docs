@@ -11,7 +11,7 @@ correction est incluse dans les installateurs 0.7.1.
 
 | Famille | Fonctions documentées | Capture |
 |---|---|---|
-| [Assistant natif](../guide/assistant.md) | Ask, Plan, Agent, contexte choisi, aperçu, validation, annulation, quatre fournisseurs, copie des messages et ajout au prompt | [Voir](../assets/screenshots/50-assistant-meubles.png) |
+| [Assistant natif](../guide/assistant.md) | Ask, Plan, Agent, contexte choisi, aperçu, validation, annulation, quatre fournisseurs, copie des messages et ajout au prompt | [Copie](../assets/screenshots/55-assistant-copie.png) · [Meubles](../assets/screenshots/50-assistant-meubles.png) |
 | [Composition et assemblages](../guide/composer-meubles.md) | Arbre et vue de face, cases, bacs, épaisseurs, positions fixes/égales, huit familles, surcharges, schéma 2 et montages recto/verso | [Voir](../assets/screenshots/42-composition-structure.png) |
 | [Meubles](../guide/meubles.md) | Modèles et projets, assistant, création/édition/duplication, historique, imports/exports JSON, placement, ZIP CB/DXF/SVG/CSV/PDF, passage en FAO | [Voir](../assets/screenshots/37-meubles-assistant.png) |
 | [Fichiers](../guide/fichiers.md) | Nouveau, ouvrir, récents, enregistrer, enregistrer sous, import DXF/SVG, export CB/DXF/SVG, glisser-déposer, saisie par chemin | [Voir](../assets/screenshots/02-fichiers.png) |

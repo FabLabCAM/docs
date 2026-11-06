@@ -24,6 +24,12 @@ Le message d’origine reste inchangé ; seul le prompt est éditable. La sélec
 d’un extrait se fait dans **Texte sélectionnable**, pas dans le rendu Markdown.
 Le collage depuis une autre application utilise les mêmes raccourcis.
 
+![Copier ou ajouter une réponse au brouillon](../assets/screenshots/55-assistant-copie.png)
+
+Capture 55 : exécutable du paquet macOS ARM64 **0.8.0**, lancé dans une instance
+isolée avec la plaque publique et une conversation synthétique. Le brouillon
+« Mon brouillon : » est conservé après ajout. Aucun échange fournisseur n’a eu lieu.
+
 ## Connecter un modèle
 
 1. Choisissez **OpenAI**, **Claude**, **Mistral** ou **Ollama**.
