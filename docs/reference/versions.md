@@ -14,6 +14,12 @@
 
 [Validation et limites](https://github.com/FabLabCAM/core/blob/v0.8.0/docs/qa/0.8.0.md).
 
+437 tests locaux réussis (un test ignoré), Clippy strict et contrôle des 37 pages
+du guide. Dans l’interface macOS Apple Silicon, conversation synthétique : ajout
+au brouillon conservé, copie complète, copie d’un extrait et collage multiligne
+externe vérifiés. Aucun appel à un fournisseur nécessaire pour ces actions.
+
+
 
 ## 0.7.3 — Compatibilité des fournisseurs
 

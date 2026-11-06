@@ -177,7 +177,7 @@ reste ouverte pour ce suivi. Voir le
 
 La version 0.7.3, suivie dans [l’issue #20](https://github.com/FabLabCAM/core/issues/20)
 corrige la compatibilité GPT-4.1/GPT-4o et améliore les requêtes Ollama.
-Utiliser les [installateurs 0.7.3](../installation.md) ; les versions 0.7.0/0.7.1/0.7.2
+Utiliser les [installateurs 0.8.0, incluant ce correctif](../installation.md) ; les versions 0.7.0/0.7.1/0.7.2
 ne contiennent pas ce correctif.
 
 GPT-4.1 mini ne prend pas en charge le paramètre de résumé de raisonnement envoyé
