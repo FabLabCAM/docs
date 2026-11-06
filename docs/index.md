@@ -70,3 +70,10 @@ avec des exemples publics créés pour ce guide. Les dialogues système et polic
 Les essais après 0.7.0 et les limites des modèles sont suivis dans le
 [correctif de compatibilité de l’assistant](guide/assistant.md#compatibilite-des-fournisseurs-en-073),
 inclus dans la version 0.7.3, avec les limites Ollama indiquées.
+
+## Corriger et diagnostiquer les profils DXF
+
+La version 0.7.2 protège le calcul des profils et couvre le crash sur les lettres avec sommets répétés.
+Les [préférences de diagnostic](reference/diagnostics.md) donnent accès aux journaux,
+aux piles complètes et à l'export des rapports. Elle reprend aussi les corrections
+[Mach3](guide/gcode.md#mach3-fichier-charge-lancement-bloque) de la préversion.

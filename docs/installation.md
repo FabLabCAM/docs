@@ -1,7 +1,8 @@
 # Installation
 
 La version 0.7.3 corrige la compatibilité de l’[assistant](guide/assistant.md#compatibilite-des-fournisseurs-en-073)
-et conserve les corrections SVG/Mach3 de 0.7.1. Les limites Ollama restent suivies
+et conserve les [diagnostics](reference/diagnostics.md) de 0.7.2 ainsi que les
+corrections SVG/Mach3 de 0.7.1. Les limites Ollama restent suivies
 dans [#20](https://github.com/FabLabCAM/core/issues/20).
 
 ## Version stable

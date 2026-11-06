@@ -89,6 +89,16 @@ avec Mistral et des exemples synthétiques publics ; voir la
 Le [correctif de compatibilité des fournisseurs](../guide/assistant.md#compatibilite-des-fournisseurs-en-073)
 est suivi séparément de la distribution 0.7.0.
 
+## Diagnostics 0.7.2
+
+[Procédure](diagnostics.md) · [Issue #24](https://github.com/FabLabCAM/core/issues/24)
+
+Niveau du journal, piles complètes, ouverture du dossier, export texte et armement
+core par session dans une compilation macOS de diagnostic. La
+[capture 54](../assets/screenshots/54-diagnostics.png) provient du binaire local
+0.7.1 sur macOS Apple Silicon avec la plaque synthétique. Les paquets publiés
+conservent la signature normale ; la capture montre un bundle de diagnostic.
+
 ## Correctifs Mach3 validés — 0.7.1
 
 Mode IJ explicite et traitement des arcs dégénérés après arrondi : les fichiers
