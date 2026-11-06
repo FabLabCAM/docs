@@ -39,6 +39,7 @@ correction est incluse dans les installateurs 0.7.1.
 | [ID CNC PRO - Mach3](../guide/id-cnc-pro.md) | Modèle par défaut, initialisation d’une bibliothèque vide et création guidée préremplie | [Voir](../assets/screenshots/33-id-cnc-pro.png) |
 | [Scripts](../reference/rhai.md) | Éditeur, ouverture, exécution, journal et API de projet | [Voir](../assets/screenshots/19-script.png) |
 | [Préférences](../reference/raccourcis.md) | Magnétisme, pas, résolution, post-processeur et fichiers récents | [Voir](../assets/screenshots/20-preferences.png) |
+| [Diagnostics](diagnostics.md) | Journaux Normal/Détaillé, piles, export texte et core dump macOS : préconditions, armement par session, récupération et symboles | [Voir](../assets/screenshots/54-diagnostics.png) |
 | [Aide et raccourcis](../reference/raccourcis.md) | Aide intégrée, commandes clavier et console | [Voir](../assets/screenshots/22-aide.png) |
 
 ## Outils complémentaires
@@ -98,6 +99,10 @@ core par session dans une compilation macOS de diagnostic. La
 [capture 54](../assets/screenshots/54-diagnostics.png) provient du binaire local
 0.7.1 sur macOS Apple Silicon avec la plaque synthétique. Les paquets publiés
 conservent la signature normale ; la capture montre un bundle de diagnostic.
+
+La [procédure core dump](diagnostics.md#core-dump-sur-macos) détaille l’installation
+de **FabLabCAM Diagnostic 0.7.3**, les boutons grisés, l’absence de core après
+un calcul réussi et la conservation du `dSYM` correspondant au binaire utilisé.
 
 ## Correctifs Mach3 validés — 0.7.1
 

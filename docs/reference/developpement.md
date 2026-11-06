@@ -48,6 +48,12 @@ Les exécutables résultants sont `fablabcam`, `fablabcam-view` et
 `fablabcam-studio-ui` (`.exe` sur Windows). Les tests ne doivent pas être
 remplacés par la seule ouverture du Studio.
 
+Pour une panne macOS nécessitant une image mémoire, suivez la
+[compilation de FabLabCAM Diagnostic](diagnostics.md#preparer-une-compilation-de-diagnostic)
+depuis le tag de la version examinée. Ce profil optimisé conserve les symboles
+et produit un bundle signé pour diagnostic avec son `dSYM` ; gardez ce couple
+exact pour l’[analyse du core dans LLDB](diagnostics.md#analyser-avec-les-symboles-correspondants).
+
 ## Reproduire les paquets
 
 Le workflow construit nativement les six architectures, exécute les tests,

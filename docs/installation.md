@@ -53,6 +53,13 @@ Les exécutables supplémentaires sont dans le bundle :
 Pour désinstaller, retirez l’application d’Applications. Vos projets et
 préférences sont séparés de l’application.
 
+Pour capturer un **core dump**, utilisez la compilation distincte
+**FabLabCAM Diagnostic**, avec son fichier de symboles `dSYM`. Le
+[guide de préparation et d’installation](reference/diagnostics.md#preparer-une-compilation-de-diagnostic)
+explique comment la compiler depuis le tag 0.7.3 et la conserver à côté du
+Studio standard. Les journaux et rapports texte sont déjà disponibles dans
+les paquets standards.
+
 ## Windows
 
 1. Lancez le fichier **Setup.exe** de votre architecture.

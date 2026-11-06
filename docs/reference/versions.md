@@ -15,6 +15,14 @@
   **#20 reste ouverte**. [Guide et limites](../guide/assistant.md#compatibilite-des-fournisseurs-en-073).
 - Diagnostics de 0.7.2 et correctifs SVG/Mach3 de 0.7.1 conservés.
 
+Complément du guide le 6 novembre 2026 : [core dump macOS](diagnostics.md#core-dump-sur-macos),
+installation de la version Diagnostic, armement/désarmement, préconditions,
+récupération et symboles `dSYM`. La compilation Diagnostic 0.7.3, sa signature,
+ses symboles et les préconditions dans l’interface sont vérifiés sur Apple Silicon.
+Le crash des profils n’est plus reproduit par l’utilisateur après les correctifs ;
+aucun nouveau core n’a été produit lors de cet essai. Il s’agit d’un complément
+de documentation, sans nouvelle version du produit.
+
 434 tests locaux et Clippy strict réussis après intégration. Le parcours réel
 GPT-4.1 mini est de nouveau réussi le 6 novembre ; les essais GPT-5/Claude du
 5 novembre restent les preuves de qualification correspondantes.

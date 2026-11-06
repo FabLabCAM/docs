@@ -89,5 +89,14 @@ les huit familles disponibles et les limites de fabrication.
 
 ## Diagnostics
 
-Le correctif de profil et les [options de diagnostic de la version 0.7.2](diagnostics.md)
-sont disponibles depuis la version 0.7.2.
+Les [options de diagnostic](diagnostics.md) sont disponibles depuis 0.7.2 et
+conservées dans 0.7.3 : **Outils → Préférences → Diagnostics**.
+
+- Pour les journaux et rapports texte, le Studio standard suffit.
+- Pour un core dump macOS, ouvrez **FabLabCAM Diagnostic**, vérifiez les
+  préconditions puis armez la capture pour la session. Voir la
+  [procédure complète](diagnostics.md#armer-reproduire-et-terminer-le-test).
+- Si le bouton est grisé ou si le fichier manque, consultez les
+  [causes et vérifications](diagnostics.md#si-le-bouton-est-grise-ou-si-aucun-core-napparait).
+- Si le crash ne se reproduit plus après une mise à jour, aucun core n’est
+  attendu. Désarmez le mode core et reprenez l’usage habituel du Studio.
