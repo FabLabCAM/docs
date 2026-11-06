@@ -110,3 +110,10 @@ Mode IJ explicite et traitement des arcs dégénérés après arrondi : les fich
 régénérés avec 0.7.1-rc.1 sont confirmés fonctionnels sur Mach3 par l’utilisateur
 le 6 novembre 2026. Correctifs inclus dans la stable 0.7.1 ;
 [diagnostic et limites](../guide/gcode.md#mach3-fichier-charge-lancement-bloque).
+
+### En préparation : division Ollama
+
+L’[issue #20](https://github.com/FabLabCAM/core/issues/20) suit un outil de proposition
+simplifié pour diviser la case d’un meuble avec un petit modèle local.
+[Parcours et limites](../guide/assistant.md#division-ollama-correctif-en-preparation).
+Ce complément ne fait pas partie des installateurs 0.8.0.

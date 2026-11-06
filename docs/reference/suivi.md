@@ -28,6 +28,10 @@ Voir le [diagnostic et ses limites](../guide/gcode.md#mach3-fichier-charge-lance
 
 ## Complément assistant #20
 
+En préparation : [division Ollama](../guide/assistant.md#division-ollama-correctif-en-preparation)
+par outil natif simplifié, sans changement des paquets 0.8.0. La qualification
+du catalogue complet reste ouverte.
+
 Le correctif de compatibilité des fournisseurs est inclus dans 0.7.3 ;
 voir les [résultats et limites](../guide/assistant.md#compatibilite-des-fournisseurs-en-073).
 L’issue reste ouverte jusqu’à validation des critères restants.
