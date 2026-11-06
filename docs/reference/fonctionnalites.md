@@ -1,6 +1,6 @@
 # Index des fonctionnalités et captures
 
-Ce catalogue couvre les commandes exposées par le Studio 0.7.1 et les outils
+Ce catalogue couvre les commandes exposées par le Studio 0.7.2 et les outils
 complémentaires. Chaque lien ouvre une procédure ; la capture montre le panneau
 réel de la famille concernée. Les capacités uniquement CLI sont documentées
 par leur commande reproductible, sans inventer un écran qui n’existe pas.
@@ -85,6 +85,16 @@ macOS Apple Silicon de cette release ; voir la [provenance et les limites](../gu
 Les captures 49 à 54 documentent l’assistant du Studio 0.7.0 sur macOS Apple Silicon,
 avec Mistral et des exemples synthétiques publics ; voir la
 [provenance et la couverture réelle](../guide/assistant.md#validation-et-provenance).
+
+## Diagnostics 0.7.2
+
+[Procédure](diagnostics.md) · [Issue #24](https://github.com/FabLabCAM/core/issues/24)
+
+Niveau du journal, piles complètes, ouverture du dossier, export texte et armement
+core par session dans une compilation macOS de diagnostic. La
+[capture 54](../assets/screenshots/54-diagnostics.png) provient du binaire local
+0.7.1 sur macOS Apple Silicon avec la plaque synthétique. Les paquets publiés
+conservent la signature normale ; la capture montre un bundle de diagnostic.
 
 ## Correctifs Mach3 validés — 0.7.1
 

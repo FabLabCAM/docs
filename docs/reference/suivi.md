@@ -13,6 +13,7 @@ Voir le [diagnostic et ses limites](../guide/gcode.md#mach3-fichier-charge-lance
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
+| [0.7.2](versions.md#072-profils-et-diagnostics) | [#24 — profil et diagnostics](https://github.com/FabLabCAM/core/issues/24) | Régressions DXF, protection des calculs, rapports persistants, export texte et core macOS sur demande | [Diagnostics](diagnostics.md), [index](fonctionnalites.md) |
 | [0.7.1](versions.md#071-import-svg) | [#26 — import SVG](https://github.com/FabLabCAM/core/issues/26) | Transformations, ressources et nombres scientifiques corrigés ; logo vérifié | [Guide](../guide/fichiers.md#import-svg-corrige-en-071), [versions](versions.md#071-import-svg) |
 | [0.7.0](versions.md#070-assistant-natif) | [#20 — assistant](https://github.com/FabLabCAM/core/issues/20) | Panneau natif, modes et actions validées ; qualification réelle des autres fournisseurs encore ouverte | [Guide illustré](../guide/assistant.md), [index](fonctionnalites.md) |
 | [0.6.1](versions.md#061-identifiants-rhai) | [#19 — identifiants Rhai](https://github.com/FabLabCAM/core/issues/19) | Refus des références hors plage, atomicité et régressions | [Scripts](rhai.md#identifiants-des-formes), [index](fonctionnalites.md) |
@@ -52,5 +53,5 @@ rapports JSON et références de téléchargement avec `scripts/check_site.py`.
 
 Avant publication : vérification des paquets,
 contrôles CI, puis déploiement GitHub Pages depuis `main`. Les notes anciennes
-restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.7.1/docs/releasing.md)
+restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.7.2/docs/releasing.md)
 détaille l'ordre des vérifications et la clôture des issues après publication.

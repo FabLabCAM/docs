@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 strict: true
 copyright: FabLabCAM contributors · Apache-2.0
 extra:
-  product_version: 0.7.1
+  product_version: 0.7.2
 theme:
   name: material
   language: fr
@@ -83,6 +83,7 @@ nav:
       - Raccourcis et préférences: reference/raccourcis.md
       - Index des fonctionnalités: reference/fonctionnalites.md
       - Dépannage et limites: reference/depannage.md
+      - Journaux et diagnostics: reference/diagnostics.md
   - Projet open source:
       - Architecture et compilation: reference/developpement.md
       - Versions et licences: reference/versions.md

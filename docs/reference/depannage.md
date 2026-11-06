@@ -86,3 +86,8 @@ fichier. Voir les [formats et limites du module](../guide/meubles.md).
 
 Voir le [guide du compositeur](../guide/composer-meubles.md) pour les conventions,
 les huit familles disponibles et les limites de fabrication.
+
+## Diagnostics
+
+Le correctif de profil et les [options de diagnostic de la version 0.7.2](diagnostics.md)
+sont disponibles depuis la version 0.7.2.

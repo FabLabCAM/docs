@@ -1,6 +1,6 @@
 # FabLabCAM — du dessin au parcours d’outil
 
-**FabLabCAM 0.7.1** est un atelier de CAO/FAO 2.5D, libre sous licence
+**FabLabCAM 0.7.2** est un atelier de CAO/FAO 2.5D, libre sous licence
 Apache-2.0. Dessinez une pièce, définissez vos outils, préparez les opérations,
 inspectez le résultat et exportez le G-code. Le module **Meubles** prépare aussi
 des caissons et étagères paramétriques avec leurs plans de découpe.
@@ -61,3 +61,10 @@ avec des exemples publics créés pour ce guide. Les dialogues système et polic
     [Composez vos meubles](guide/composer-meubles.md) : tablettes, séparations,
     grilles, bacs et huit familles d'assemblages. Enregistrez toute la structure
     comme modèle, partagez les fichiers natifs et préparez les dalles CNC.
+
+## Corriger et diagnostiquer les profils DXF
+
+La version 0.7.2 protège le calcul des profils et couvre le crash sur les lettres avec sommets répétés.
+Les [préférences de diagnostic](reference/diagnostics.md) donnent accès aux journaux,
+aux piles complètes et à l'export des rapports. Elle reprend aussi les corrections
+[Mach3](guide/gcode.md#mach3-fichier-charge-lancement-bloque) de la préversion.
