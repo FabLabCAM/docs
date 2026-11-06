@@ -13,6 +13,7 @@ Voir le [diagnostic et ses limites](../guide/gcode.md#mach3-fichier-charge-lance
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
+| [0.8.0](versions.md#080-copier-les-messages-de-lassistant) | [#31 — copie des messages](https://github.com/FabLabCAM/core/issues/31) | Copier, sélection en lecture seule, ajout au prompt sans perte du brouillon | [Guide](../guide/assistant.md#copier-et-reutiliser-un-message) |
 | [0.7.3](versions.md#073-compatibilite-des-fournisseurs) | [#20 — assistant](https://github.com/FabLabCAM/core/issues/20) | GPT-4.1 mini corrigé ; Ollama partiellement qualifié, issue ouverte | [Guide](../guide/assistant.md#compatibilite-des-fournisseurs-en-073) |
 | [0.7.2](versions.md#072-profils-et-diagnostics) | [#24 — profil et diagnostics](https://github.com/FabLabCAM/core/issues/24) | Régressions DXF, protection des calculs, rapports persistants, export texte et core macOS sur demande | [Diagnostics](diagnostics.md), [index](fonctionnalites.md) |
 | [0.7.1](versions.md#071-import-svg) | [#26 — import SVG](https://github.com/FabLabCAM/core/issues/26) | Transformations, ressources et nombres scientifiques corrigés ; logo vérifié | [Guide](../guide/fichiers.md#import-svg-corrige-en-071), [versions](versions.md#071-import-svg) |
@@ -28,7 +29,7 @@ Voir le [diagnostic et ses limites](../guide/gcode.md#mach3-fichier-charge-lance
 ## Complément assistant #20
 
 En préparation : [division Ollama](../guide/assistant.md#division-ollama-correctif-en-preparation)
-par outil natif simplifié, sans changement des paquets 0.7.3. La qualification
+par outil natif simplifié, sans changement des paquets 0.8.0. La qualification
 du catalogue complet reste ouverte.
 
 Le correctif de compatibilité des fournisseurs est inclus dans 0.7.3 ;

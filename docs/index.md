@@ -1,6 +1,6 @@
 # FabLabCAM — du dessin au parcours d’outil
 
-**FabLabCAM 0.7.3** est un atelier de CAO/FAO 2.5D, libre sous licence
+**FabLabCAM 0.8.0** est un atelier de CAO/FAO 2.5D, libre sous licence
 Apache-2.0. Dessinez une pièce, définissez vos outils, préparez les opérations,
 inspectez le résultat et exportez le G-code. Le module **Meubles** prépare aussi
 des caissons et étagères paramétriques avec leurs plans de découpe.
@@ -43,6 +43,10 @@ Les captures de l’assistant proviennent de la compilation de validation 0.7.0.
 Elles sont prises sur macOS Apple Silicon
 avec des exemples publics créés pour ce guide. Les dialogues système et polices peuvent varier selon l’OS.
 
+!!! info "Nouveau en v0.8.0"
+    [Copiez et réutilisez les messages](guide/assistant.md#copier-et-reutiliser-un-message)
+    de l’Assistant : message complet, extrait sélectionné ou ajout au prompt sans perdre le brouillon.
+
 !!! info "Correctif v0.7.3"
     [Compatibilité de l’assistant](guide/assistant.md#compatibilite-des-fournisseurs-en-073) :
     GPT-4.1 mini corrigé, essais OpenAI/Claude réussis et configuration Ollama documentée.
@@ -79,4 +83,4 @@ aux piles complètes et à l'export des rapports. Elle reprend aussi les correct
 [Mach3](guide/gcode.md#mach3-fichier-charge-lancement-bloque) de la préversion.
 
 Le correctif ciblé de [division Ollama](guide/assistant.md#division-ollama-correctif-en-preparation)
-est en préparation dans l’issue #20 ; les installateurs publiés restent en 0.7.3.
+est en préparation dans l’issue #20 ; les installateurs publiés restent en 0.8.0.
