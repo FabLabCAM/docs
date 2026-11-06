@@ -74,4 +74,4 @@ contrôles CI, puis déploiement GitHub Pages depuis `main`. Les notes anciennes
 restent accessibles. Le [processus de release](https://github.com/FabLabCAM/core/blob/v0.7.2/docs/releasing.md)
 détaille l'ordre des vérifications et la clôture des issues après publication.
 
-En préparation, hors 0.8.0 : [cache de clé de session et trousseau](../guide/assistant.md#cle-de-session-correctif-en-preparation), suivi dans l’[issue #20](https://github.com/FabLabCAM/core/issues/20). La signature Developer ID reste à activer et qualifier.
+En préparation, hors 0.8.0 : [cache de clé de session et trousseau](../guide/assistant.md#cle-de-session-correctif-en-preparation), suivi dans l’[issue #20](https://github.com/FabLabCAM/core/issues/20). La signature Developer ID est vérifiée sur une copie QA ; CI et notarisation restent à qualifier.

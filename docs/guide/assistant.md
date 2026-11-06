@@ -249,5 +249,6 @@ coffre invalide également cette mémoire. Fermer l’application la détruit.
 Sur macOS, une demande initiale d’autorisation reste possible. « Always Allow »
 autorise cette application à accéder à l’entrée ; « Allow » ne donne qu’une
 autorisation ponctuelle. La signature ad hoc des paquets actuels peut entraîner
-une nouvelle demande après une mise à jour. Le support Developer ID est en
-préparation, mais son activation et la notarisation ne sont pas encore validées.
+une nouvelle demande après une mise à jour. Le certificat Developer ID et la signature d’une copie QA sont désormais
+vérifiés. L’activation dans la CI, la notarisation et la conservation des
+autorisations entre deux releases restent à qualifier.

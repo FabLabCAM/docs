@@ -82,4 +82,4 @@ Les [préférences de diagnostic](reference/diagnostics.md) donnent accès aux j
 aux piles complètes et à l'export des rapports. Elle reprend aussi les corrections
 [Mach3](guide/gcode.md#mach3-fichier-charge-lancement-bloque) de la préversion.
 
-En préparation, hors 0.8.0 : [cache de clé de session et trousseau](guide/assistant.md#cle-de-session-correctif-en-preparation), suivi dans l’[issue #20](https://github.com/FabLabCAM/core/issues/20). La signature Developer ID reste à activer et qualifier.
+En préparation, hors 0.8.0 : [cache de clé de session et trousseau](guide/assistant.md#cle-de-session-correctif-en-preparation), suivi dans l’[issue #20](https://github.com/FabLabCAM/core/issues/20). La signature Developer ID est vérifiée sur une copie QA ; CI et notarisation restent à qualifier.
