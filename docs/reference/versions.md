@@ -1,5 +1,14 @@
 # Versions et licences
 
+## En préparation — trousseau et clés de session
+
+[Issue #20](https://github.com/FabLabCAM/core/issues/20) : cache temporaire de clé,
+oubli explicite et préparation de la signature Developer ID. Non inclus dans 0.8.0.
+Voir le [guide](../guide/assistant.md#cle-de-session-correctif-en-preparation).
+La signature de distribution exige encore un certificat créé par le titulaire du
+compte Apple Developer ; aucune notarisation nouvelle n’est annoncée.
+
+
 ## 0.8.0 — Copier les messages de l’assistant
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.8.0) ·
