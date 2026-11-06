@@ -1,5 +1,35 @@
 # Versions et licences
 
+## 0.7.3 — Compatibilité des fournisseurs
+
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.3) ·
+[Issue #20](https://github.com/FabLabCAM/core/issues/20) ·
+[PR core #29](https://github.com/FabLabCAM/core/pull/29)
+
+- GPT-4.1/GPT-4o : suppression du paramètre de raisonnement non pris en charge,
+  conservation des métadonnées nécessaires à la continuation GPT-5.
+- Ollama : options et enveloppe d’outil explicites, diagnostic des réponses vides,
+  configuration d’un modèle avec 16k de contexte pour éviter la troncature observée.
+- Parcours réels complets réussis avec GPT-4.1 mini, GPT-5 mini et Claude Haiku 4.5.
+  Les petits modèles Ollama restent en échec sur la division du meuble, même à 16k :
+  **#20 reste ouverte**. [Guide et limites](../guide/assistant.md#compatibilite-des-fournisseurs-en-073).
+- Diagnostics de 0.7.2 et correctifs SVG/Mach3 de 0.7.1 conservés.
+
+434 tests locaux et Clippy strict réussis après intégration. Le parcours réel
+GPT-4.1 mini est de nouveau réussi le 6 novembre ; les essais GPT-5/Claude du
+5 novembre restent les preuves de qualification correspondantes.
+[Rapport QA](https://github.com/FabLabCAM/core/blob/v0.7.3/docs/qa/0.7.3.md).
+
+Distribution validée : [tests et Clippy sur trois OS](https://github.com/FabLabCAM/core/actions/runs/42134224970)
+et [six constructions natives ARM64/x64](https://github.com/FabLabCAM/core/actions/runs/42134224888).
+Les douze paquets ont été contrôlés par SHA-256, licences/sources et architectures
+des dix-huit exécutables. DMG macOS ARM64 installé, signature et CLI vérifiées
+avec la plaque publique (21 formes, quatre opérations). L’interface réelle,
+le panneau assistant et le prérequis Ollama 16k ont été inspectés dans une
+instance isolée conservant l’exécutable du DMG inchangé. Les installateurs
+Debian/Windows sont contrôlés en CI ; cette revue graphique macOS ne remplace
+pas celles des autres OS et ne constitue pas une qualification de CNC.
+
 ## 0.7.2 — Profils et diagnostics
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.2) · [Issue #24](https://github.com/FabLabCAM/core/issues/24) · [Guide](diagnostics.md)
@@ -84,7 +114,7 @@ des fichiers régénérés avec cette préversion ; les correctifs sont livrés 
 
 387 tests locaux réussis sur macOS Apple Silicon et Clippy strict ; compilation vérifiée avec Rust 1.89. Mistral Small
 a été testé réellement ; les trois autres fournisseurs ont des tests de protocole
-locaux et restent à qualifier en conditions réelles. L’issue #20 reste ouverte
+locaux à cette date ; les essais ultérieurs sont décrits dans le correctif ci-dessus. L’issue #20 reste ouverte
 pour ce suivi. La simulation et les valeurs d’outils ne qualifient aucune CNC.
 
 Distribution validée : tests workspace et Clippy réussis sur les trois OS,

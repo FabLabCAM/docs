@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 strict: true
 copyright: FabLabCAM contributors · Apache-2.0
 extra:
-  product_version: 0.7.2
+  product_version: 0.7.3
 theme:
   name: material
   language: fr

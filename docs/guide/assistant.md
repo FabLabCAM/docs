@@ -150,7 +150,64 @@ Ce sont des captures du logiciel, pas les maquettes de conception de l’issue.
 
 Les tests automatisés couvrent les quatre protocoles. Les essais réels de cette
 version couvrent **Mistral** : caisson, séparation, scripts, outillage, retour
-d’outil et simulation partielle. **OpenAI, Claude et Ollama restent à qualifier
-avec leurs services réels** ; [l’issue #20](https://github.com/FabLabCAM/core/issues/20)
+d’outil et simulation partielle. À la publication de 0.7.0, **OpenAI, Claude et Ollama
+restaient à qualifier avec leurs services réels** ; [l’issue #20](https://github.com/FabLabCAM/core/issues/20)
 reste ouverte pour ce suivi. Voir le
 [rapport QA](https://github.com/FabLabCAM/core/blob/v0.7.0/docs/qa/0.7.0.md).
+
+## Compatibilité des fournisseurs en 0.7.3
+
+La version 0.7.3, suivie dans [l’issue #20](https://github.com/FabLabCAM/core/issues/20)
+corrige la compatibilité GPT-4.1/GPT-4o et améliore les requêtes Ollama.
+Utiliser les [installateurs 0.7.3](../installation.md) ; les versions 0.7.0/0.7.1/0.7.2
+ne contiennent pas ce correctif.
+
+GPT-4.1 mini ne prend pas en charge le paramètre de résumé de raisonnement envoyé
+par 0.7.0. Le correctif le supprime pour cette famille tout en conservant les
+métadonnées de continuation de GPT-5. Ollama reçoit une demande sans phase de
+raisonnement (`think:false`), une température de 0 en Plan/Agent et des consignes
+explicites sur l’enveloppe `submit_plan`. Une réponse finale vide est signalée.
+
+Le contexte Ollama par défaut de 4 096 tokens tronque les requêtes contenant le
+meuble et le catalogue. Dans ces conditions, Qwen3 1.7B, Qwen3 4B et Qwen2.5 3B
+échouent après la création du caisson et son retour d’outil. Configurer un modèle
+dédié avec un contexte plus grand, sans modifier le réglage global du serveur :
+
+```sh
+ollama pull qwen2.5:3b
+```
+
+Créer un fichier `Modelfile` contenant :
+
+```text
+FROM qwen2.5:3b
+PARAMETER num_ctx 16384
+```
+
+Puis créer le modèle local :
+
+```sh
+ollama create fablabcam-qwen2.5:3b -f Modelfile
+```
+
+Dans **Connexion**, choisir Ollama, `http://127.0.0.1:11434` et le modèle
+`fablabcam-qwen2.5:3b`, puis tester la connexion et les outils. Le modèle conserve
+les mêmes poids ; seul son réglage de contexte est différent. La bibliothèque
+actuelle ne transmet pas ce paramètre par les options du Studio. Un contexte
+plus grand consomme plus de mémoire ; les conversations longues peuvent dépasser
+16 384 tokens. Réduire les éléments transmis et l’historique si nécessaire.
+
+**Limite constatée après ce réglage :** Qwen2.5 3B et Qwen3 1.7B passent le
+caisson et le retour d’outil, mais pas la division suivante. Le contexte agrandi
+est nécessaire pour ces essais, mais ne suffit pas à qualifier ces modèles pour
+le parcours Agent complet. L’exemple ci-dessus décrit la configuration testée,
+pas un modèle validé pour toutes les actions.
+
+Aucune action n’est reconstruite depuis le texte libre. Les essais sont synthétiques ;
+ils ne constituent pas une qualification de CNC ni une vérification graphique sur
+les trois systèmes, ni un essai avec Internet physiquement déconnecté.
+
+Essais réels du correctif réussis : **GPT-4.1 mini**, **GPT-5 mini** et
+**Claude Haiku 4.5**, avec création/division de meuble, Plan, exécution Rhai,
+outillage, simulation partielle et retour d’outil natif. Mistral avait été qualifié
+lors de 0.7.0 ; il n’a pas été retesté dans cette campagne.

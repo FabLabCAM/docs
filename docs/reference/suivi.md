@@ -13,6 +13,7 @@ Voir le [diagnostic et ses limites](../guide/gcode.md#mach3-fichier-charge-lance
 
 | Version | Issue | Livraison | Documentation |
 |---|---|---|---|
+| [0.7.3](versions.md#073-compatibilite-des-fournisseurs) | [#20 — assistant](https://github.com/FabLabCAM/core/issues/20) | GPT-4.1 mini corrigé ; Ollama partiellement qualifié, issue ouverte | [Guide](../guide/assistant.md#compatibilite-des-fournisseurs-en-073) |
 | [0.7.2](versions.md#072-profils-et-diagnostics) | [#24 — profil et diagnostics](https://github.com/FabLabCAM/core/issues/24) | Régressions DXF, protection des calculs, rapports persistants, export texte et core macOS sur demande | [Diagnostics](diagnostics.md), [index](fonctionnalites.md) |
 | [0.7.1](versions.md#071-import-svg) | [#26 — import SVG](https://github.com/FabLabCAM/core/issues/26) | Transformations, ressources et nombres scientifiques corrigés ; logo vérifié | [Guide](../guide/fichiers.md#import-svg-corrige-en-071), [versions](versions.md#071-import-svg) |
 | [0.7.0](versions.md#070-assistant-natif) | [#20 — assistant](https://github.com/FabLabCAM/core/issues/20) | Panneau natif, modes et actions validées ; qualification réelle des autres fournisseurs encore ouverte | [Guide illustré](../guide/assistant.md), [index](fonctionnalites.md) |
@@ -23,6 +24,12 @@ Voir le [diagnostic et ses limites](../guide/gcode.md#mach3-fichier-charge-lance
 | [0.4.0](versions.md#040-atelier-des-profils-machine) | [#11 — Atelier et création guidée](https://github.com/FabLabCAM/core/issues/11) | Création, édition, duplication et import/export JSON dans le Studio | [Guide illustré](../guide/profils-studio.md), [raccourcis](raccourcis.md), [index](fonctionnalites.md) |
 | [0.3.0](versions.md#030-profils-de-machine-et-g-code) | [#9 — gestion du G-code par machine](https://github.com/FabLabCAM/core/issues/9) | Profils JSON, validation, statistiques, conversion compatible, archives | [Guide machine](../guide/machines.md), [CLI](cli.md), [architecture](developpement.md) |
 | [0.2.0](versions.md#020-premiere-release-publique) | Première publication | Studio, CLI, viewer et six cibles OS/architecture | [Installation](../installation.md), [index complet](fonctionnalites.md) |
+
+## Complément assistant #20
+
+Le correctif de compatibilité des fournisseurs est inclus dans 0.7.3 ;
+voir les [résultats et limites](../guide/assistant.md#compatibilite-des-fournisseurs-en-073).
+L’issue reste ouverte jusqu’à validation des critères restants.
 
 ## Limites de la livraison #9
 

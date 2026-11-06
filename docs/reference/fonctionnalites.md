@@ -1,6 +1,6 @@
 # Index des fonctionnalités et captures
 
-Ce catalogue couvre les commandes exposées par le Studio 0.7.2 et les outils
+Ce catalogue couvre les commandes exposées par le Studio 0.7.3 et les outils
 complémentaires. Chaque lien ouvre une procédure ; la capture montre le panneau
 réel de la famille concernée. Les capacités uniquement CLI sont documentées
 par leur commande reproductible, sans inventer un écran qui n’existe pas.
@@ -85,6 +85,9 @@ macOS Apple Silicon de cette release ; voir la [provenance et les limites](../gu
 Les captures 49 à 54 documentent l’assistant du Studio 0.7.0 sur macOS Apple Silicon,
 avec Mistral et des exemples synthétiques publics ; voir la
 [provenance et la couverture réelle](../guide/assistant.md#validation-et-provenance).
+
+Le [correctif de compatibilité des fournisseurs](../guide/assistant.md#compatibilite-des-fournisseurs-en-073)
+est suivi séparément de la distribution 0.7.0.
 
 ## Diagnostics 0.7.2
 
