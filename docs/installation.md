@@ -1,13 +1,13 @@
 # Installation
 
-La version 0.7.3 corrige la compatibilité de l’[assistant](guide/assistant.md#compatibilite-des-fournisseurs-en-073)
-et conserve les [diagnostics](reference/diagnostics.md) de 0.7.2 ainsi que les
-corrections SVG/Mach3 de 0.7.1. Les limites Ollama restent suivies
-dans [#20](https://github.com/FabLabCAM/core/issues/20).
+La version 0.8.0 ajoute la [copie et la réutilisation des messages](guide/assistant.md#copier-et-reutiliser-un-message)
+de l’assistant. Elle conserve les correctifs de compatibilité de 0.7.3, les
+diagnostics de 0.7.2 et les corrections SVG/Mach3 de 0.7.1. Les limites Ollama
+restent suivies dans [#20](https://github.com/FabLabCAM/core/issues/20).
 
 ## Version stable
 
-La [release 0.7.3](https://github.com/FabLabCAM/core/releases/tag/v0.7.3)
+La [release 0.8.0](https://github.com/FabLabCAM/core/releases/tag/v0.8.0)
 contient Studio, la CLI et le viewer dans chaque distribution. Aucun compte
 n’est nécessaire pour utiliser le logiciel localement.
 
@@ -15,12 +15,12 @@ n’est nécessaire pour utiliser le logiciel localement.
 
 | Système et processeur | Installation | Archive portable |
 |---|---|---|
-| macOS Apple Silicon (M1 et suivants) | [DMG ARM64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-macos-arm64.dmg) | [ZIP ARM64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-macos-arm64.zip) |
-| macOS Intel | [DMG x64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-macos-x64.dmg) | [ZIP x64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-macos-x64.zip) |
-| Windows Intel/AMD 64 bits | [Setup x64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-windows-x64-Setup.exe) | [ZIP x64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-windows-x64.zip) |
-| Windows ARM64 | [Setup ARM64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-windows-arm64-Setup.exe) | [ZIP ARM64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-windows-arm64.zip) |
-| Linux Intel/AMD 64 bits | [DEB amd64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-linux-x64.deb) | [tar.gz x64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-linux-x64.tar.gz) |
-| Linux ARM64 | [DEB arm64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-linux-arm64.deb) | [tar.gz ARM64](https://github.com/FabLabCAM/core/releases/download/v0.7.3/FabLabCAM-0.7.3-linux-arm64.tar.gz) |
+| macOS Apple Silicon (M1 et suivants) | [DMG ARM64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-macos-arm64.dmg) | [ZIP ARM64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-macos-arm64.zip) |
+| macOS Intel | [DMG x64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-macos-x64.dmg) | [ZIP x64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-macos-x64.zip) |
+| Windows Intel/AMD 64 bits | [Setup x64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-windows-x64-Setup.exe) | [ZIP x64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-windows-x64.zip) |
+| Windows ARM64 | [Setup ARM64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-windows-arm64-Setup.exe) | [ZIP ARM64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-windows-arm64.zip) |
+| Linux Intel/AMD 64 bits | [DEB amd64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-linux-x64.deb) | [tar.gz x64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-linux-x64.tar.gz) |
+| Linux ARM64 | [DEB arm64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-linux-arm64.deb) | [tar.gz ARM64](https://github.com/FabLabCAM/core/releases/download/v0.8.0/FabLabCAM-0.8.0-linux-arm64.tar.gz) |
 
 Les binaires macOS ciblent macOS 11 ou supérieur. La construction et les tests
 utilisent macOS 15. Windows x64 vise Windows 10/11 ; ARM64 vise Windows 11 ARM64.
@@ -88,7 +88,7 @@ personnelles ne sont pas effacés par l’installateur.
 Téléchargez le DEB approprié puis, dans le dossier de téléchargement :
 
 ```sh
-sudo apt install ./FabLabCAM-0.7.3-linux-x64.deb
+sudo apt install ./FabLabCAM-0.8.0-linux-x64.deb
 fablabcam-studio-ui
 fablabcam help
 ```
@@ -101,8 +101,8 @@ texte vectorisé. Pour désinstaller : `sudo apt remove fablabcam`.
 ## Linux — archive portable
 
 ```sh
-tar -xzf FabLabCAM-0.7.3-linux-x64.tar.gz
-cd FabLabCAM-0.7.3-linux-x64
+tar -xzf FabLabCAM-0.8.0-linux-x64.tar.gz
+cd FabLabCAM-0.8.0-linux-x64
 ./fablabcam-studio-ui
 ./fablabcam help
 ```
@@ -123,18 +123,18 @@ pas de paquet RPM, Flatpak ou AppImage dans cette release.
 
 ## Vérifier le téléchargement
 
-Récupérez [SHA256SUMS.txt](https://github.com/FabLabCAM/core/releases/download/v0.7.3/SHA256SUMS.txt)
+Récupérez [SHA256SUMS.txt](https://github.com/FabLabCAM/core/releases/download/v0.8.0/SHA256SUMS.txt)
 sur la même release et comparez la somme de votre fichier :
 
 ```sh
 # macOS
-shasum -a 256 FabLabCAM-0.7.3-macos-arm64.dmg
+shasum -a 256 FabLabCAM-0.8.0-macos-arm64.dmg
 # Linux
-sha256sum FabLabCAM-0.7.3-linux-x64.deb
+sha256sum FabLabCAM-0.8.0-linux-x64.deb
 ```
 
 ```powershell
-Get-FileHash .\FabLabCAM-0.7.3-windows-x64-Setup.exe -Algorithm SHA256
+Get-FileHash .\FabLabCAM-0.8.0-windows-x64-Setup.exe -Algorithm SHA256
 ```
 
 Une somme confirme l’intégrité du fichier par rapport à la release ; elle ne
@@ -146,4 +146,4 @@ une copie redistribuée du logiciel.
 Ouvrez la [plaque d’exemple](guide/premier-projet.md). Le résultat attendu est
 un projet comportant quatre opérations. Pour mettre à jour, sauvegardez vos
 projets `.cb`, installez le nouveau paquet et consultez ses notes de version.
-Il n’existe pas de mise à jour automatique dans 0.7.3.
+Il n’existe pas de mise à jour automatique dans 0.8.0.

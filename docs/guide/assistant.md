@@ -6,6 +6,24 @@ La conversation reste visible quand vous changez de page ; son contexte suit
 la page active. Redimensionnez le panneau par son bord gauche, ou repliez-le
 avec **×**. Les messages et diagnostics restent dans la console du Studio.
 
+## Copier et réutiliser un message
+
+Depuis **0.8.0**, chaque message, de l’utilisateur ou de l’assistant, propose :
+
+- **Copier** : place le message complet dans le presse-papiers, avec ses retours
+  à la ligne et sa syntaxe Markdown. Cliquez dans le prompt puis **Cmd+V** sur
+  macOS ou **Ctrl+V** sur Windows/Linux ; le texte peut aussi être collé ailleurs.
+- **Ajouter au prompt** : ajoute le message après votre brouillon, séparé par
+  une ligne vide. Le texte déjà saisi est conservé et rien n’est envoyé.
+- **Texte sélectionnable** : ouvre une vue du texte source en lecture seule.
+  Sélectionnez un passage, utilisez **Cmd+C** / **Ctrl+C**, puis collez-le dans le
+  champ « Demander à l’assistant… ». Listes, code et accents sont préservés.
+
+Ces actions sont locales, sans appel au modèle et sans changement du projet.
+Le message d’origine reste inchangé ; seul le prompt est éditable. La sélection
+d’un extrait se fait dans **Texte sélectionnable**, pas dans le rendu Markdown.
+Le collage depuis une autre application utilise les mêmes raccourcis.
+
 ## Connecter un modèle
 
 1. Choisissez **OpenAI**, **Claude**, **Mistral** ou **Ollama**.
