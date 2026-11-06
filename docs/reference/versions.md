@@ -1,5 +1,29 @@
 # Versions et licences
 
+## 0.8.0 — Copier les messages de l’assistant
+
+[Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.8.0) ·
+[Issue #31](https://github.com/FabLabCAM/core/issues/31) ·
+[Guide](../guide/assistant.md#copier-et-reutiliser-un-message)
+
+- Copier un message complet avec sa syntaxe Markdown.
+- Sélectionner un extrait dans une vue du texte source en lecture seule.
+- Ajouter un message au prompt sans écraser le brouillon et sans envoi automatique.
+- Presse-papiers natif, Unicode et textes multilignes conservés.
+- Correctifs et limites des versions précédentes conservés, notamment #20.
+
+[Validation et limites](https://github.com/FabLabCAM/core/blob/v0.8.0/docs/qa/0.8.0.md).
+
+[Tests/Clippy trois OS](https://github.com/FabLabCAM/core/actions/runs/42215821756) ·
+[Construction six cibles natives](https://github.com/FabLabCAM/core/actions/runs/42215821705).
+
+437 tests locaux réussis (un test ignoré), Clippy strict et contrôle des 37 pages
+du guide. Dans l’interface macOS Apple Silicon, conversation synthétique : ajout
+au brouillon conservé, copie complète, copie d’un extrait et collage multiligne
+externe vérifiés. Aucun appel à un fournisseur nécessaire pour ces actions.
+
+
+
 ## 0.7.3 — Compatibilité des fournisseurs
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.3) ·
