@@ -1,5 +1,12 @@
 # Versions et licences
 
+## En préparation — division Ollama
+
+[Issue #20](https://github.com/FabLabCAM/core/issues/20) : proposition native simplifiée
+pour la division d’une case en Plan/Agent, conservation de l’aperçu et des contrôles
+métier. Voir le [parcours et ses limites](../guide/assistant.md#division-ollama-correctif-en-preparation).
+Ce complément n’est pas encore distribué ; les téléchargements restent en 0.7.3.
+
 ## 0.7.3 — Compatibilité des fournisseurs
 
 [Release et installateurs](https://github.com/FabLabCAM/core/releases/tag/v0.7.3) ·

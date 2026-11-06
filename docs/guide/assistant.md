@@ -211,3 +211,35 @@ Essais réels du correctif réussis : **GPT-4.1 mini**, **GPT-5 mini** et
 **Claude Haiku 4.5**, avec création/division de meuble, Plan, exécution Rhai,
 outillage, simulation partielle et retour d’outil natif. Mistral avait été qualifié
 lors de 0.7.0 ; il n’a pas été retesté dans cette campagne.
+
+## Division Ollama — correctif en préparation
+
+Ce complément est en validation dans l’[issue #20](https://github.com/FabLabCAM/core/issues/20) ;
+il n’est pas inclus dans les installateurs **0.7.3**. Le petit modèle local dispose
+d’un outil de proposition simplifié pour diviser une seule case, sans devoir
+réécrire toute l’enveloppe du plan. La case sélectionnée et les identifiants
+transmis restent les références ; aucune case n’est inventée par le logiciel.
+
+Avec le meuble inclus dans **Éléments transmis**, sélectionnez une case vide
+puis demandez par exemple : « Divise la case sélectionnée en deux cases de même
+largeur, côte à côte. Ne modifie rien d’autre. » Pour des compartiments empilés :
+« Divise la case sélectionnée en trois cases de même hauteur, superposées. »
+Vérifiez la case, le sens et le nombre dans l’aperçu avant d’appliquer le lot.
+Une division ne remplace pas le contenu d’une case déjà occupée.
+
+Le réglage de contexte **16 384 tokens** reste nécessaire pour les modèles dédiés
+décrits ci-dessus. Cette amélioration ciblée ne qualifie pas tout le catalogue :
+les propositions Rhai et les autres actions nécessitent encore des essais
+complémentaires avec ces petits modèles. Le mode Ask reste en lecture seule,
+Plan n’applique rien et Agent exige toujours la confirmation de l’aperçu.
+
+Essais locaux ciblés du 6 novembre 2026 : **Qwen3 1.7B** et **Qwen2.5 3B**
+réussissent chacun ces deux divisions successives, avec la bonne case, le bon
+sens, le bon nombre de panneaux et les retours d’outil natifs. Ces tests traversent
+le fournisseur et le moteur métier ; ils ne qualifient pas toute l’interface ni
+l’ensemble des actions de l’assistant.
+
+Le parcours complet Qwen3 1.7B reste en échec : après la création et la division
+du meuble, la demande de remplacement du script Rhai répond sans plan typé.
+Le script n’est pas appliqué. L’issue #20 reste ouverte pour cette limite et la
+qualification des autres actions.

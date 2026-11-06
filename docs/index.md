@@ -77,3 +77,6 @@ La version 0.7.2 protège le calcul des profils et couvre le crash sur les lettr
 Les [préférences de diagnostic](reference/diagnostics.md) donnent accès aux journaux,
 aux piles complètes et à l'export des rapports. Elle reprend aussi les corrections
 [Mach3](guide/gcode.md#mach3-fichier-charge-lancement-bloque) de la préversion.
+
+Le correctif ciblé de [division Ollama](guide/assistant.md#division-ollama-correctif-en-preparation)
+est en préparation dans l’issue #20 ; les installateurs publiés restent en 0.7.3.
