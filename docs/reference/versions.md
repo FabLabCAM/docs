@@ -20,8 +20,15 @@ GPT-4.1 mini est de nouveau réussi le 6 novembre ; les essais GPT-5/Claude du
 5 novembre restent les preuves de qualification correspondantes.
 [Rapport QA](https://github.com/FabLabCAM/core/blob/v0.7.3/docs/qa/0.7.3.md).
 
-La distribution et ses six cibles natives sont en cours de validation ; cette
-note sera complétée avec les preuves finales avant publication du guide.
+Distribution validée : [tests et Clippy sur trois OS](https://github.com/FabLabCAM/core/actions/runs/42134224970)
+et [six constructions natives ARM64/x64](https://github.com/FabLabCAM/core/actions/runs/42134224888).
+Les douze paquets ont été contrôlés par SHA-256, licences/sources et architectures
+des dix-huit exécutables. DMG macOS ARM64 installé, signature et CLI vérifiées
+avec la plaque publique (21 formes, quatre opérations). L’interface réelle,
+le panneau assistant et le prérequis Ollama 16k ont été inspectés dans une
+instance isolée conservant l’exécutable du DMG inchangé. Les installateurs
+Debian/Windows sont contrôlés en CI ; cette revue graphique macOS ne remplace
+pas celles des autres OS et ne constitue pas une qualification de CNC.
 
 ## 0.7.2 — Profils et diagnostics
 
